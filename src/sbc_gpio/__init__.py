@@ -4,7 +4,6 @@
 
 import os
 from importlib import import_module
-import logging
 import re
 import sys
 from logging_handler import create_logger, INFO
@@ -116,6 +115,14 @@ class SBCPlatform:
     def convert_gpio_tuple(self, *args) -> tuple:
         ''' function placeholder - replaced with platform specific function, otherwise returns chip 0 and the first parameter as a tuple '''
         return 0, args[0]
+
+    def gpio_is_valid(self, gpio_id) -> bool:
+        ''' Checks if a passed value is a valid GPIO for the platform '''
+        if isinstance(gpio_id, int) and gpio_id in self.gpio_valid_values:
+            return True
+        if self.convert_gpio(gpio_id) in self.gpio_valid_values:
+            return True
+        return False
 
     def get_gpio_out(self, gpio_id, name=None, pull=PULL.NONE, log_level=INFO, initial_state=0) -> GpioOut:
         ''' Get a gpio out pin.  Gpio_id can be a string (passed to convert), an int, or a tuple (chip, pin) '''
