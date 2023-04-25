@@ -1,0 +1,1022 @@
+2023-04-24 16:15:01,622 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6639degC (88.995degF), Pressure: 96092.39Pa (13.9365psi) (0.948592atm)
+2023-04-24 16:15:02,468 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:02,755 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6788degC (89.0218degF), Pressure: 96088.83Pa (13.936psi) (0.948557atm)
+2023-04-24 16:15:03,858 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6738degC (89.0128degF), Pressure: 96088.16Pa (13.9359psi) (0.94855atm)
+2023-04-24 16:15:04,558 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:04,965 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6738degC (89.0128degF), Pressure: 96096.52Pa (13.9371psi) (0.948633atm)
+2023-04-24 16:15:06,071 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6788degC (89.0218degF), Pressure: 96091.62Pa (13.9364psi) (0.948585atm)
+2023-04-24 16:15:06,657 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:07,178 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6738degC (89.0128degF), Pressure: 96093.74Pa (13.9367psi) (0.948606atm)
+2023-04-24 16:15:08,286 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6689degC (89.004degF), Pressure: 96090.27Pa (13.9362psi) (0.948571atm)
+2023-04-24 16:15:08,807 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:09,396 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6639degC (88.995degF), Pressure: 96095.18Pa (13.9369psi) (0.94862atm)
+2023-04-24 16:15:10,504 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6689degC (89.004degF), Pressure: 96098.64Pa (13.9374psi) (0.948654atm)
+2023-04-24 16:15:10,941 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:11,609 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6689degC (89.004degF), Pressure: 96090.27Pa (13.9362psi) (0.948571atm)
+2023-04-24 16:15:12,714 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6689degC (89.004degF), Pressure: 96087.49Pa (13.9358psi) (0.948544atm)
+2023-04-24 16:15:13,026 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:13,818 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6589degC (88.986degF), Pressure: 96094.51Pa (13.9368psi) (0.948613atm)
+2023-04-24 16:15:14,922 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6589degC (88.986degF), Pressure: 96091.72Pa (13.9364psi) (0.948586atm)
+2023-04-24 16:15:15,151 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:16,029 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6639degC (88.995degF), Pressure: 96095.18Pa (13.9369psi) (0.94862atm)
+2023-04-24 16:15:17,137 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6589degC (88.986degF), Pressure: 96094.51Pa (13.9368psi) (0.948613atm)
+2023-04-24 16:15:17,282 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:18,242 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6539degC (88.977degF), Pressure: 96091.04Pa (13.9363psi) (0.948579atm)
+2023-04-24 16:15:19,349 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6539degC (88.977degF), Pressure: 96096.62Pa (13.9371psi) (0.948634atm)
+2023-04-24 16:15:19,418 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:20,510 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6539degC (88.977degF), Pressure: 96099.41Pa (13.9376psi) (0.948662atm)
+2023-04-24 16:15:21,548 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:21,623 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6589degC (88.986degF), Pressure: 96097.29Pa (13.9372psi) (0.948641atm)
+2023-04-24 16:15:22,727 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6539degC (88.977degF), Pressure: 96093.83Pa (13.9367psi) (0.948606atm)
+2023-04-24 16:15:23,668 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:23,832 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6689degC (89.004degF), Pressure: 96095.85Pa (13.937psi) (0.948626atm)
+2023-04-24 16:15:24,939 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6689degC (89.004degF), Pressure: 96087.49Pa (13.9358psi) (0.948544atm)
+2023-04-24 16:15:25,763 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:26,042 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6589degC (88.986degF), Pressure: 96091.72Pa (13.9364psi) (0.948586atm)
+2023-04-24 16:15:27,147 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6539degC (88.977degF), Pressure: 96096.62Pa (13.9371psi) (0.948634atm)
+2023-04-24 16:15:27,860 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:28,253 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6539degC (88.977degF), Pressure: 96091.04Pa (13.9363psi) (0.948579atm)
+2023-04-24 16:15:29,360 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6589degC (88.986degF), Pressure: 96091.72Pa (13.9364psi) (0.948586atm)
+2023-04-24 16:15:29,943 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:30,478 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6439degC (88.959degF), Pressure: 96089.7Pa (13.9361psi) (0.948566atm)
+2023-04-24 16:15:31,582 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6639degC (88.995degF), Pressure: 96089.6Pa (13.9361psi) (0.948565atm)
+2023-04-24 16:15:32,072 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:32,688 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6589degC (88.986degF), Pressure: 96088.93Pa (13.936psi) (0.948558atm)
+2023-04-24 16:15:33,793 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6639degC (88.995degF), Pressure: 96097.97Pa (13.9373psi) (0.948647atm)
+2023-04-24 16:15:34,202 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:34,899 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6589degC (88.986degF), Pressure: 96094.51Pa (13.9368psi) (0.948613atm)
+2023-04-24 16:15:36,005 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6489degC (88.968degF), Pressure: 96095.95Pa (13.937psi) (0.948627atm)
+2023-04-24 16:15:36,298 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:37,112 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6489degC (88.968degF), Pressure: 96095.95Pa (13.937psi) (0.948627atm)
+2023-04-24 16:15:38,218 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.634degC (88.9412degF), Pressure: 96093.93Pa (13.9368psi) (0.948607atm)
+2023-04-24 16:15:38,381 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:39,327 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.6389degC (88.95degF), Pressure: 96097.39Pa (13.9373psi) (0.948642atm)
+2023-04-24 16:15:40,433 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.634degC (88.9412degF), Pressure: 96099.5Pa (13.9376psi) (0.948662atm)
+2023-04-24 16:15:40,489 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.4degC (86.72degF), Humidity 18.7%
+2023-04-24 16:15:41,538 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.624degC (88.9232degF), Pressure: 96092.58Pa (13.9366psi) (0.948594atm)
+2023-04-24 16:15:42,616 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.5degC (86.9degF), Humidity 18.7%
+2023-04-24 16:15:42,646 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.619degC (88.9142degF), Pressure: 96094.7Pa (13.9369psi) (0.948615atm)
+2023-04-24 16:15:43,752 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.619degC (88.9142degF), Pressure: 96094.7Pa (13.9369psi) (0.948615atm)
+2023-04-24 16:15:44,698 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.4degC (86.72degF), Humidity 18.7%
+2023-04-24 16:15:44,855 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.614degC (88.9052degF), Pressure: 96094.02Pa (13.9368psi) (0.948608atm)
+2023-04-24 16:15:45,961 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.609degC (88.8962degF), Pressure: 96090.56Pa (13.9363psi) (0.948574atm)
+2023-04-24 16:15:46,827 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.4degC (86.72degF), Humidity 18.7%
+2023-04-24 16:15:47,066 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.614degC (88.9052degF), Pressure: 96091.24Pa (13.9364psi) (0.948581atm)
+2023-04-24 16:15:48,171 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.619degC (88.9142degF), Pressure: 96091.91Pa (13.9365psi) (0.948587atm)
+2023-04-24 16:15:48,927 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.4degC (86.72degF), Humidity 18.7%
+2023-04-24 16:15:49,278 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.599degC (88.8782degF), Pressure: 96092.0Pa (13.9365psi) (0.948588atm)
+2023-04-24 16:15:50,387 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.604degC (88.8872degF), Pressure: 96095.47Pa (13.937psi) (0.948623atm)
+2023-04-24 16:15:51,008 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.4degC (86.72degF), Humidity 18.7%
+2023-04-24 16:15:51,492 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.599degC (88.8782degF), Pressure: 96089.22Pa (13.9361psi) (0.948561atm)
+2023-04-24 16:15:52,597 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5941degC (88.8694degF), Pressure: 96094.12Pa (13.9368psi) (0.948609atm)
+2023-04-24 16:15:53,136 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.4degC (86.72degF), Humidity 18.7%
+2023-04-24 16:15:53,702 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5941degC (88.8694degF), Pressure: 96091.33Pa (13.9364psi) (0.948582atm)
+2023-04-24 16:15:54,809 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.599degC (88.8782degF), Pressure: 96097.58Pa (13.9373psi) (0.948643atm)
+2023-04-24 16:15:55,217 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.4degC (86.72degF), Humidity 18.7%
+2023-04-24 16:15:55,915 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5891degC (88.8604degF), Pressure: 96099.02Pa (13.9375psi) (0.948658atm)
+2023-04-24 16:15:57,021 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5891degC (88.8604degF), Pressure: 96090.66Pa (13.9363psi) (0.948575atm)
+2023-04-24 16:15:57,313 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:15:58,127 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5841degC (88.8514degF), Pressure: 96092.77Pa (13.9366psi) (0.948596atm)
+2023-04-24 16:15:59,232 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5741degC (88.8334degF), Pressure: 96097.0Pa (13.9372psi) (0.948638atm)
+2023-04-24 16:15:59,440 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:00,342 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5841degC (88.8514degF), Pressure: 96098.35Pa (13.9374psi) (0.948651atm)
+2023-04-24 16:16:01,449 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5741degC (88.8334degF), Pressure: 96094.21Pa (13.9368psi) (0.94861atm)
+2023-04-24 16:16:01,611 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:02,555 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5691degC (88.8244degF), Pressure: 96090.75Pa (13.9363psi) (0.948576atm)
+2023-04-24 16:16:03,661 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5641degC (88.8154degF), Pressure: 96095.66Pa (13.937psi) (0.948624atm)
+2023-04-24 16:16:03,695 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:04,789 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5641degC (88.8154degF), Pressure: 96092.87Pa (13.9366psi) (0.948597atm)
+2023-04-24 16:16:05,832 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:05,833 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5741degC (88.8334degF), Pressure: 96091.43Pa (13.9364psi) (0.948583atm)
+2023-04-24 16:16:06,961 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5542degC (88.7976degF), Pressure: 96088.73Pa (13.936psi) (0.948556atm)
+2023-04-24 16:16:07,970 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:08,073 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5492degC (88.7886degF), Pressure: 96088.06Pa (13.9359psi) (0.948549atm)
+2023-04-24 16:16:09,177 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5392degC (88.7706degF), Pressure: 96089.5Pa (13.9361psi) (0.948564atm)
+2023-04-24 16:16:10,110 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:10,283 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5442degC (88.7796degF), Pressure: 96092.96Pa (13.9366psi) (0.948598atm)
+2023-04-24 16:16:11,391 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5342degC (88.7616degF), Pressure: 96091.62Pa (13.9364psi) (0.948585atm)
+2023-04-24 16:16:12,192 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:12,495 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5292degC (88.7526degF), Pressure: 96090.94Pa (13.9363psi) (0.948578atm)
+2023-04-24 16:16:13,601 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5342degC (88.7616degF), Pressure: 96086.04Pa (13.9356psi) (0.94853atm)
+2023-04-24 16:16:14,287 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:14,704 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5392degC (88.7706degF), Pressure: 96097.87Pa (13.9373psi) (0.948646atm)
+2023-04-24 16:16:15,809 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5442degC (88.7796degF), Pressure: 96090.18Pa (13.9362psi) (0.94857atm)
+2023-04-24 16:16:16,380 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:16,915 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5342degC (88.7616degF), Pressure: 96086.04Pa (13.9356psi) (0.94853atm)
+2023-04-24 16:16:18,021 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5342degC (88.7616degF), Pressure: 96086.04Pa (13.9356psi) (0.94853atm)
+2023-04-24 16:16:18,474 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:19,126 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5292degC (88.7526degF), Pressure: 96085.37Pa (13.9355psi) (0.948523atm)
+2023-04-24 16:16:20,231 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5342degC (88.7616degF), Pressure: 96086.04Pa (13.9356psi) (0.94853atm)
+2023-04-24 16:16:20,575 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:21,334 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5342degC (88.7616degF), Pressure: 96097.19Pa (13.9372psi) (0.94864atm)
+2023-04-24 16:16:22,438 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5292degC (88.7526degF), Pressure: 96090.94Pa (13.9363psi) (0.948578atm)
+2023-04-24 16:16:22,669 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:23,545 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5192degC (88.7346degF), Pressure: 96086.81Pa (13.9357psi) (0.948537atm)
+2023-04-24 16:16:24,652 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5143degC (88.7257degF), Pressure: 96091.71Pa (13.9364psi) (0.948585atm)
+2023-04-24 16:16:24,814 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:25,757 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5143degC (88.7257degF), Pressure: 96094.5Pa (13.9368psi) (0.948613atm)
+2023-04-24 16:16:26,866 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5143degC (88.7257degF), Pressure: 96083.35Pa (13.9352psi) (0.948503atm)
+2023-04-24 16:16:26,945 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:27,973 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5043degC (88.7077degF), Pressure: 96090.37Pa (13.9362psi) (0.948572atm)
+2023-04-24 16:16:29,084 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5043degC (88.7077degF), Pressure: 96090.37Pa (13.9362psi) (0.948572atm)
+2023-04-24 16:16:29,116 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:30,210 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4993degC (88.6987degF), Pressure: 96084.12Pa (13.9353psi) (0.948511atm)
+2023-04-24 16:16:31,245 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:31,316 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4943degC (88.6897degF), Pressure: 96089.02Pa (13.936psi) (0.948559atm)
+2023-04-24 16:16:32,422 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4893degC (88.6807degF), Pressure: 96093.92Pa (13.9368psi) (0.948607atm)
+2023-04-24 16:16:33,328 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:33,528 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5043degC (88.7077degF), Pressure: 96090.37Pa (13.9362psi) (0.948572atm)
+2023-04-24 16:16:34,638 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5043degC (88.7077degF), Pressure: 96093.15Pa (13.9366psi) (0.9486atm)
+2023-04-24 16:16:35,415 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.7%
+2023-04-24 16:16:35,745 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5093degC (88.7167degF), Pressure: 96091.04Pa (13.9363psi) (0.948579atm)
+2023-04-24 16:16:36,913 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.5043degC (88.7077degF), Pressure: 96087.58Pa (13.9358psi) (0.948545atm)
+2023-04-24 16:16:37,595 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 18.7%
+2023-04-24 16:16:38,018 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4943degC (88.6897degF), Pressure: 96091.81Pa (13.9364psi) (0.948586atm)
+2023-04-24 16:16:39,124 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4843degC (88.6717degF), Pressure: 96087.67Pa (13.9358psi) (0.948546atm)
+2023-04-24 16:16:39,731 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.7%
+2023-04-24 16:16:40,229 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4893degC (88.6807degF), Pressure: 96093.92Pa (13.9368psi) (0.948607atm)
+2023-04-24 16:16:41,408 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4893degC (88.6807degF), Pressure: 96091.13Pa (13.9363psi) (0.94858atm)
+2023-04-24 16:16:41,858 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.7%
+2023-04-24 16:16:42,514 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4893degC (88.6807degF), Pressure: 96091.13Pa (13.9363psi) (0.94858atm)
+2023-04-24 16:16:43,620 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4794degC (88.6629degF), Pressure: 96087.0Pa (13.9358psi) (0.948539atm)
+2023-04-24 16:16:43,991 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.7%
+2023-04-24 16:16:44,727 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4843degC (88.6717degF), Pressure: 96090.46Pa (13.9363psi) (0.948573atm)
+2023-04-24 16:16:45,833 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4794degC (88.6629degF), Pressure: 96092.57Pa (13.9366psi) (0.948594atm)
+2023-04-24 16:16:46,101 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.8%
+2023-04-24 16:16:46,940 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4694degC (88.6449degF), Pressure: 96082.87Pa (13.9352psi) (0.948498atm)
+2023-04-24 16:16:48,046 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4544degC (88.6179degF), Pressure: 96086.42Pa (13.9357psi) (0.948533atm)
+2023-04-24 16:16:48,183 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.7%
+2023-04-24 16:16:49,151 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4494degC (88.6089degF), Pressure: 96085.75Pa (13.9356psi) (0.948527atm)
+2023-04-24 16:16:50,290 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4594degC (88.6269degF), Pressure: 96087.09Pa (13.9358psi) (0.94854atm)
+2023-04-24 16:16:50,296 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.8%
+2023-04-24 16:16:51,403 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4494degC (88.6089degF), Pressure: 96091.32Pa (13.9364psi) (0.948582atm)
+2023-04-24 16:16:52,383 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.8%
+2023-04-24 16:16:52,509 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4544degC (88.6179degF), Pressure: 96089.21Pa (13.9361psi) (0.948561atm)
+2023-04-24 16:16:53,616 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4544degC (88.6179degF), Pressure: 96094.78Pa (13.9369psi) (0.948616atm)
+2023-04-24 16:16:54,478 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.8%
+2023-04-24 16:16:54,723 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4444degC (88.5999degF), Pressure: 96085.07Pa (13.9355psi) (0.94852atm)
+2023-04-24 16:16:55,828 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4594degC (88.6269degF), Pressure: 96087.09Pa (13.9358psi) (0.94854atm)
+2023-04-24 16:16:56,563 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.8%
+2023-04-24 16:16:56,933 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4544degC (88.6179degF), Pressure: 96094.78Pa (13.9369psi) (0.948616atm)
+2023-04-24 16:16:58,040 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4594degC (88.6269degF), Pressure: 96092.67Pa (13.9366psi) (0.948595atm)
+2023-04-24 16:16:58,709 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 18.8%
+2023-04-24 16:16:59,145 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4444degC (88.5999degF), Pressure: 96087.86Pa (13.9359psi) (0.948547atm)
+2023-04-24 16:17:00,250 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4345degC (88.5821degF), Pressure: 96089.3Pa (13.9361psi) (0.948562atm)
+2023-04-24 16:17:00,831 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.8%
+2023-04-24 16:17:01,354 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4395degC (88.5911degF), Pressure: 96089.98Pa (13.9362psi) (0.948568atm)
+2023-04-24 16:17:02,458 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4395degC (88.5911degF), Pressure: 96089.98Pa (13.9362psi) (0.948568atm)
+2023-04-24 16:17:02,912 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.8%
+2023-04-24 16:17:03,562 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4345degC (88.5821degF), Pressure: 96089.3Pa (13.9361psi) (0.948562atm)
+2023-04-24 16:17:04,668 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4345degC (88.5821degF), Pressure: 96089.3Pa (13.9361psi) (0.948562atm)
+2023-04-24 16:17:04,993 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.8%
+2023-04-24 16:17:05,774 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4295degC (88.5731degF), Pressure: 96088.63Pa (13.936psi) (0.948555atm)
+2023-04-24 16:17:06,880 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4345degC (88.5821degF), Pressure: 96086.52Pa (13.9357psi) (0.948534atm)
+2023-04-24 16:17:07,118 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.8%
+2023-04-24 16:17:07,986 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4295degC (88.5731degF), Pressure: 96088.63Pa (13.936psi) (0.948555atm)
+2023-04-24 16:17:09,133 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4145degC (88.5461degF), Pressure: 96086.61Pa (13.9357psi) (0.948535atm)
+2023-04-24 16:17:09,259 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.8%
+2023-04-24 16:17:10,239 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4245degC (88.5641degF), Pressure: 96093.53Pa (13.9367psi) (0.948603atm)
+2023-04-24 16:17:11,349 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:11,350 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4095degC (88.5371degF), Pressure: 96083.15Pa (13.9352psi) (0.948501atm)
+2023-04-24 16:17:12,458 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3996degC (88.5193degF), Pressure: 96084.59Pa (13.9354psi) (0.948515atm)
+2023-04-24 16:17:13,480 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:13,575 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4045degC (88.5281degF), Pressure: 96090.84Pa (13.9363psi) (0.948577atm)
+2023-04-24 16:17:14,684 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3946degC (88.5103degF), Pressure: 96092.28Pa (13.9365psi) (0.948591atm)
+2023-04-24 16:17:15,616 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:15,791 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3896degC (88.5013degF), Pressure: 96091.6Pa (13.9364psi) (0.948584atm)
+2023-04-24 16:17:16,898 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3946degC (88.5103degF), Pressure: 96083.92Pa (13.9353psi) (0.948509atm)
+2023-04-24 16:17:17,740 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:18,003 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3946degC (88.5103degF), Pressure: 96092.28Pa (13.9365psi) (0.948591atm)
+2023-04-24 16:17:19,110 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3896degC (88.5013degF), Pressure: 96088.82Pa (13.936psi) (0.948557atm)
+2023-04-24 16:17:19,825 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:20,215 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3946degC (88.5103degF), Pressure: 96083.92Pa (13.9353psi) (0.948509atm)
+2023-04-24 16:17:21,320 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.4095degC (88.5371degF), Pressure: 96094.3Pa (13.9368psi) (0.948611atm)
+2023-04-24 16:17:21,907 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:22,425 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3796degC (88.4833degF), Pressure: 96084.68Pa (13.9354psi) (0.948516atm)
+2023-04-24 16:17:23,535 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3846degC (88.4923degF), Pressure: 96093.72Pa (13.9367psi) (0.948605atm)
+2023-04-24 16:17:24,050 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:24,644 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3746degC (88.4743degF), Pressure: 96086.8Pa (13.9357psi) (0.948537atm)
+2023-04-24 16:17:25,752 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3796degC (88.4833degF), Pressure: 96087.47Pa (13.9358psi) (0.948544atm)
+2023-04-24 16:17:26,132 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:17:26,132 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:17:26,858 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3846degC (88.4923degF), Pressure: 96088.14Pa (13.9359psi) (0.94855atm)
+2023-04-24 16:17:27,964 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3796degC (88.4833degF), Pressure: 96081.9Pa (13.935psi) (0.948489atm)
+2023-04-24 16:17:28,224 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.4degC (86.72degF), Humidity 18.9%
+2023-04-24 16:17:29,070 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3896degC (88.5013degF), Pressure: 96088.82Pa (13.936psi) (0.948557atm)
+2023-04-24 16:17:30,176 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3696degC (88.4653degF), Pressure: 96086.12Pa (13.9356psi) (0.94853atm)
+2023-04-24 16:17:30,305 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:31,283 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3696degC (88.4653degF), Pressure: 96091.7Pa (13.9364psi) (0.948585atm)
+2023-04-24 16:17:32,403 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3696degC (88.4653degF), Pressure: 96086.12Pa (13.9356psi) (0.94853atm)
+2023-04-24 16:17:32,441 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:33,516 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3597degC (88.4475degF), Pressure: 96084.78Pa (13.9354psi) (0.948517atm)
+2023-04-24 16:17:34,586 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:34,621 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3547degC (88.4385degF), Pressure: 96092.46Pa (13.9365psi) (0.948593atm)
+2023-04-24 16:17:35,734 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3597degC (88.4475degF), Pressure: 96093.14Pa (13.9366psi) (0.9486atm)
+2023-04-24 16:17:36,704 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:36,840 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3497degC (88.4295degF), Pressure: 96094.58Pa (13.9368psi) (0.948614atm)
+2023-04-24 16:17:37,995 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3497degC (88.4295degF), Pressure: 96089.0Pa (13.936psi) (0.948559atm)
+2023-04-24 16:17:38,795 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:39,098 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3646degC (88.4563degF), Pressure: 96093.81Pa (13.9367psi) (0.948606atm)
+2023-04-24 16:17:40,204 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3497degC (88.4295degF), Pressure: 96091.79Pa (13.9364psi) (0.948586atm)
+2023-04-24 16:17:40,925 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:41,327 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3447degC (88.4205degF), Pressure: 96082.76Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:17:42,432 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3597degC (88.4475degF), Pressure: 96090.35Pa (13.9362psi) (0.948572atm)
+2023-04-24 16:17:43,007 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:43,538 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3497degC (88.4295degF), Pressure: 96100.15Pa (13.9377psi) (0.948669atm)
+2023-04-24 16:17:44,650 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3447degC (88.4205degF), Pressure: 96088.33Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:17:45,141 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:45,755 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3447degC (88.4205degF), Pressure: 96088.33Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:17:46,862 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3447degC (88.4205degF), Pressure: 96099.48Pa (13.9376psi) (0.948662atm)
+2023-04-24 16:17:47,237 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 18.9%
+2023-04-24 16:17:47,972 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3497degC (88.4295degF), Pressure: 96091.79Pa (13.9364psi) (0.948586atm)
+2023-04-24 16:17:49,082 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3497degC (88.4295degF), Pressure: 96094.58Pa (13.9368psi) (0.948614atm)
+2023-04-24 16:17:49,363 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 18.9%
+2023-04-24 16:17:50,188 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3297degC (88.3935degF), Pressure: 96091.88Pa (13.9365psi) (0.948587atm)
+2023-04-24 16:17:51,293 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3447degC (88.4205degF), Pressure: 96085.54Pa (13.9355psi) (0.948525atm)
+2023-04-24 16:17:51,494 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 18.9%
+2023-04-24 16:17:52,398 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3397degC (88.4115degF), Pressure: 96090.44Pa (13.9362psi) (0.948573atm)
+2023-04-24 16:17:53,504 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3347degC (88.4025degF), Pressure: 96084.2Pa (13.9353psi) (0.948511atm)
+2023-04-24 16:17:53,580 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 18.9%
+2023-04-24 16:17:54,610 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3347degC (88.4025degF), Pressure: 96092.56Pa (13.9366psi) (0.948594atm)
+2023-04-24 16:17:55,680 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:17:55,717 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3148degC (88.3666degF), Pressure: 96095.44Pa (13.937psi) (0.948622atm)
+2023-04-24 16:17:56,827 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3198degC (88.3756degF), Pressure: 96093.32Pa (13.9367psi) (0.948601atm)
+2023-04-24 16:17:57,834 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 18.9%
+2023-04-24 16:17:57,941 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3098degC (88.3576degF), Pressure: 96089.19Pa (13.9361psi) (0.948561atm)
+2023-04-24 16:17:59,047 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96088.52Pa (13.936psi) (0.948554atm)
+2023-04-24 16:17:59,965 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 18.9%
+2023-04-24 16:18:00,153 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3148degC (88.3666degF), Pressure: 96089.86Pa (13.9362psi) (0.948567atm)
+2023-04-24 16:18:01,260 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3148degC (88.3666degF), Pressure: 96089.86Pa (13.9362psi) (0.948567atm)
+2023-04-24 16:18:02,089 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:02,366 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2998degC (88.3396degF), Pressure: 96087.84Pa (13.9359psi) (0.948547atm)
+2023-04-24 16:18:03,475 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2898degC (88.3216degF), Pressure: 96086.5Pa (13.9357psi) (0.948534atm)
+2023-04-24 16:18:04,213 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 18.9%
+2023-04-24 16:18:04,579 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96096.88Pa (13.9372psi) (0.948637atm)
+2023-04-24 16:18:05,683 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96088.52Pa (13.936psi) (0.948554atm)
+2023-04-24 16:18:06,308 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 18.9%
+2023-04-24 16:18:06,791 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96088.52Pa (13.936psi) (0.948554atm)
+2023-04-24 16:18:07,896 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3098degC (88.3576degF), Pressure: 96086.4Pa (13.9357psi) (0.948533atm)
+2023-04-24 16:18:08,431 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 18.9%
+2023-04-24 16:18:09,000 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2998degC (88.3396degF), Pressure: 96090.63Pa (13.9363psi) (0.948575atm)
+2023-04-24 16:18:10,105 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96091.3Pa (13.9364psi) (0.948581atm)
+2023-04-24 16:18:10,512 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:11,211 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3098degC (88.3576degF), Pressure: 96089.19Pa (13.9361psi) (0.948561atm)
+2023-04-24 16:18:12,318 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96085.73Pa (13.9356psi) (0.948526atm)
+2023-04-24 16:18:12,639 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:13,425 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96094.09Pa (13.9368psi) (0.948609atm)
+2023-04-24 16:18:14,533 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96088.52Pa (13.936psi) (0.948554atm)
+2023-04-24 16:18:14,761 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:15,637 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96091.3Pa (13.9364psi) (0.948581atm)
+2023-04-24 16:18:16,743 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2998degC (88.3396degF), Pressure: 96087.84Pa (13.9359psi) (0.948547atm)
+2023-04-24 16:18:16,891 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 18.9%
+2023-04-24 16:18:17,851 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96088.52Pa (13.936psi) (0.948554atm)
+2023-04-24 16:18:18,956 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96088.52Pa (13.936psi) (0.948554atm)
+2023-04-24 16:18:19,028 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:20,061 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2948degC (88.3306degF), Pressure: 96092.74Pa (13.9366psi) (0.948596atm)
+2023-04-24 16:18:21,111 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:21,166 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2898degC (88.3216degF), Pressure: 96092.07Pa (13.9365psi) (0.948589atm)
+2023-04-24 16:18:22,271 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2948degC (88.3306degF), Pressure: 96089.96Pa (13.9362psi) (0.948568atm)
+2023-04-24 16:18:23,193 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:23,375 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2898degC (88.3216degF), Pressure: 96086.5Pa (13.9357psi) (0.948534atm)
+2023-04-24 16:18:24,481 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2948degC (88.3306degF), Pressure: 96078.81Pa (13.9346psi) (0.948458atm)
+2023-04-24 16:18:25,290 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:25,587 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2998degC (88.3396degF), Pressure: 96085.06Pa (13.9355psi) (0.94852atm)
+2023-04-24 16:18:26,694 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2998degC (88.3396degF), Pressure: 96085.06Pa (13.9355psi) (0.94852atm)
+2023-04-24 16:18:27,420 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:27,800 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2998degC (88.3396degF), Pressure: 96090.63Pa (13.9363psi) (0.948575atm)
+2023-04-24 16:18:28,910 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2948degC (88.3306degF), Pressure: 96092.74Pa (13.9366psi) (0.948596atm)
+2023-04-24 16:18:29,547 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:30,015 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.3048degC (88.3486degF), Pressure: 96085.73Pa (13.9356psi) (0.948526atm)
+2023-04-24 16:18:31,120 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2948degC (88.3306degF), Pressure: 96087.17Pa (13.9358psi) (0.948541atm)
+2023-04-24 16:18:31,670 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:32,226 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2898degC (88.3216degF), Pressure: 96086.5Pa (13.9357psi) (0.948534atm)
+2023-04-24 16:18:33,333 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2898degC (88.3216degF), Pressure: 96089.28Pa (13.9361psi) (0.948562atm)
+2023-04-24 16:18:33,804 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:34,439 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2848degC (88.3126degF), Pressure: 96088.61Pa (13.936psi) (0.948555atm)
+2023-04-24 16:18:35,546 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2948degC (88.3306degF), Pressure: 96084.38Pa (13.9354psi) (0.948513atm)
+2023-04-24 16:18:35,902 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:36,652 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2749degC (88.2948degF), Pressure: 96090.05Pa (13.9362psi) (0.948569atm)
+2023-04-24 16:18:37,758 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2749degC (88.2948degF), Pressure: 96090.05Pa (13.9362psi) (0.948569atm)
+2023-04-24 16:18:37,986 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:38,864 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2699degC (88.2858degF), Pressure: 96089.38Pa (13.9361psi) (0.948562atm)
+2023-04-24 16:18:39,971 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2749degC (88.2948degF), Pressure: 96092.84Pa (13.9366psi) (0.948597atm)
+2023-04-24 16:18:40,070 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:41,079 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2599degC (88.2678degF), Pressure: 96088.03Pa (13.9359psi) (0.948549atm)
+2023-04-24 16:18:42,185 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2649degC (88.2768degF), Pressure: 96085.92Pa (13.9356psi) (0.948528atm)
+2023-04-24 16:18:42,209 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:43,290 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2549degC (88.2588degF), Pressure: 96090.14Pa (13.9362psi) (0.94857atm)
+2023-04-24 16:18:44,295 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:44,398 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2649degC (88.2768degF), Pressure: 96088.7Pa (13.936psi) (0.948556atm)
+2023-04-24 16:18:45,509 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2499degC (88.2498degF), Pressure: 96083.9Pa (13.9353psi) (0.948508atm)
+2023-04-24 16:18:46,423 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:18:46,423 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:18:46,615 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2549degC (88.2588degF), Pressure: 96084.57Pa (13.9354psi) (0.948515atm)
+2023-04-24 16:18:47,723 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2449degC (88.2408degF), Pressure: 96091.58Pa (13.9364psi) (0.948584atm)
+2023-04-24 16:18:48,520 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.3degC (86.54degF), Humidity 19.0%
+2023-04-24 16:18:48,829 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2449degC (88.2408degF), Pressure: 96086.01Pa (13.9356psi) (0.948529atm)
+2023-04-24 16:18:49,939 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2449degC (88.2408degF), Pressure: 96091.58Pa (13.9364psi) (0.948584atm)
+2023-04-24 16:18:50,648 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:51,046 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.235degC (88.223degF), Pressure: 96090.24Pa (13.9362psi) (0.948571atm)
+2023-04-24 16:18:52,158 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.225degC (88.205degF), Pressure: 96086.1Pa (13.9356psi) (0.94853atm)
+2023-04-24 16:18:52,773 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:53,262 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.23degC (88.214degF), Pressure: 96086.78Pa (13.9357psi) (0.948537atm)
+2023-04-24 16:18:54,368 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.23degC (88.214degF), Pressure: 96083.99Pa (13.9353psi) (0.948509atm)
+2023-04-24 16:18:54,891 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:18:54,892 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:18:55,492 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.23degC (88.214degF), Pressure: 96086.78Pa (13.9357psi) (0.948537atm)
+2023-04-24 16:18:56,597 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.23degC (88.214degF), Pressure: 96089.56Pa (13.9361psi) (0.948564atm)
+2023-04-24 16:18:56,982 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:57,701 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.23degC (88.214degF), Pressure: 96083.99Pa (13.9353psi) (0.948509atm)
+2023-04-24 16:18:58,808 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.23degC (88.214degF), Pressure: 96083.99Pa (13.9353psi) (0.948509atm)
+2023-04-24 16:18:59,105 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:18:59,914 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.235degC (88.223degF), Pressure: 96084.66Pa (13.9354psi) (0.948516atm)
+2023-04-24 16:19:01,022 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.235degC (88.223degF), Pressure: 96087.45Pa (13.9358psi) (0.948543atm)
+2023-04-24 16:19:01,188 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:19:02,130 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.215degC (88.187degF), Pressure: 96087.54Pa (13.9358psi) (0.948544atm)
+2023-04-24 16:19:03,235 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.22degC (88.196degF), Pressure: 96088.21Pa (13.9359psi) (0.948551atm)
+2023-04-24 16:19:03,291 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.0%
+2023-04-24 16:19:04,343 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.215degC (88.187degF), Pressure: 96081.97Pa (13.935psi) (0.948489atm)
+2023-04-24 16:19:05,425 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.1%
+2023-04-24 16:19:05,480 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.23degC (88.214degF), Pressure: 96092.35Pa (13.9365psi) (0.948592atm)
+2023-04-24 16:19:06,591 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.225degC (88.205degF), Pressure: 96091.67Pa (13.9364psi) (0.948585atm)
+2023-04-24 16:19:07,519 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.1%
+2023-04-24 16:19:07,697 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.2001degC (88.1602degF), Pressure: 96088.31Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:19:08,807 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.215degC (88.187degF), Pressure: 96093.11Pa (13.9366psi) (0.948599atm)
+2023-04-24 16:19:09,643 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:19:09,644 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:19:09,913 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.21degC (88.178degF), Pressure: 96092.44Pa (13.9365psi) (0.948593atm)
+2023-04-24 16:19:11,020 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.215degC (88.187degF), Pressure: 96093.11Pa (13.9366psi) (0.948599atm)
+2023-04-24 16:19:11,776 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 19.1%
+2023-04-24 16:19:12,125 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.21degC (88.178degF), Pressure: 96081.29Pa (13.9349psi) (0.948483atm)
+2023-04-24 16:19:13,232 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.21degC (88.178degF), Pressure: 96092.44Pa (13.9365psi) (0.948593atm)
+2023-04-24 16:19:13,895 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.1%
+2023-04-24 16:19:14,340 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1901degC (88.1422degF), Pressure: 96092.53Pa (13.9366psi) (0.948594atm)
+2023-04-24 16:19:15,447 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1851degC (88.1332degF), Pressure: 96089.07Pa (13.9361psi) (0.948559atm)
+2023-04-24 16:19:16,030 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.1%
+2023-04-24 16:19:16,553 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1801degC (88.1242degF), Pressure: 96091.18Pa (13.9364psi) (0.94858atm)
+2023-04-24 16:19:17,660 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1801degC (88.1242degF), Pressure: 96088.4Pa (13.936psi) (0.948553atm)
+2023-04-24 16:19:18,123 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:19:18,123 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:19:18,771 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1851degC (88.1332degF), Pressure: 96091.86Pa (13.9365psi) (0.948587atm)
+2023-04-24 16:19:19,877 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1801degC (88.1242degF), Pressure: 96088.4Pa (13.936psi) (0.948553atm)
+2023-04-24 16:19:20,224 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.2degC (86.36degF), Humidity 19.1%
+2023-04-24 16:19:20,980 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1801degC (88.1242degF), Pressure: 96093.97Pa (13.9368psi) (0.948608atm)
+2023-04-24 16:19:22,089 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1602degC (88.0884degF), Pressure: 96096.85Pa (13.9372psi) (0.948636atm)
+2023-04-24 16:19:22,349 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.1%
+2023-04-24 16:19:23,197 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1701degC (88.1062degF), Pressure: 96089.84Pa (13.9362psi) (0.948567atm)
+2023-04-24 16:19:24,303 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1651degC (88.0972degF), Pressure: 96091.95Pa (13.9365psi) (0.948588atm)
+2023-04-24 16:19:24,484 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.1%
+2023-04-24 16:19:25,409 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1502degC (88.0704degF), Pressure: 96087.14Pa (13.9358psi) (0.94854atm)
+2023-04-24 16:19:26,516 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1402degC (88.0524degF), Pressure: 96088.58Pa (13.936psi) (0.948555atm)
+2023-04-24 16:19:26,608 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.1%
+2023-04-24 16:19:27,622 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1502degC (88.0704degF), Pressure: 96084.36Pa (13.9354psi) (0.948513atm)
+2023-04-24 16:19:28,744 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1651degC (88.0972degF), Pressure: 96094.74Pa (13.9369psi) (0.948615atm)
+2023-04-24 16:19:28,752 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.1%
+2023-04-24 16:19:29,856 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1602degC (88.0884degF), Pressure: 96088.49Pa (13.936psi) (0.948554atm)
+2023-04-24 16:19:30,886 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.1%
+2023-04-24 16:19:30,990 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1552degC (88.0794degF), Pressure: 96087.82Pa (13.9359psi) (0.948547atm)
+2023-04-24 16:19:32,095 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1502degC (88.0704degF), Pressure: 96089.93Pa (13.9362psi) (0.948568atm)
+2023-04-24 16:19:33,013 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.1%
+2023-04-24 16:19:33,200 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1701degC (88.1062degF), Pressure: 96092.62Pa (13.9366psi) (0.948594atm)
+2023-04-24 16:19:34,304 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1701degC (88.1062degF), Pressure: 96087.05Pa (13.9358psi) (0.948539atm)
+2023-04-24 16:19:35,155 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.2%
+2023-04-24 16:19:35,407 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1701degC (88.1062degF), Pressure: 96087.05Pa (13.9358psi) (0.948539atm)
+2023-04-24 16:19:36,516 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1751degC (88.1152degF), Pressure: 96084.94Pa (13.9355psi) (0.948519atm)
+2023-04-24 16:19:37,308 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.2%
+2023-04-24 16:19:37,622 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1901degC (88.1422degF), Pressure: 96095.32Pa (13.937psi) (0.948621atm)
+2023-04-24 16:19:38,729 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1851degC (88.1332degF), Pressure: 96091.86Pa (13.9365psi) (0.948587atm)
+2023-04-24 16:19:39,396 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.2%
+2023-04-24 16:19:39,838 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1801degC (88.1242degF), Pressure: 96088.4Pa (13.936psi) (0.948553atm)
+2023-04-24 16:19:40,944 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1801degC (88.1242degF), Pressure: 96088.4Pa (13.936psi) (0.948553atm)
+2023-04-24 16:19:41,493 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.2%
+2023-04-24 16:19:42,051 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1701degC (88.1062degF), Pressure: 96087.05Pa (13.9358psi) (0.948539atm)
+2023-04-24 16:19:43,156 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1651degC (88.0972degF), Pressure: 96091.95Pa (13.9365psi) (0.948588atm)
+2023-04-24 16:19:43,621 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.2%
+2023-04-24 16:19:44,263 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1502degC (88.0704degF), Pressure: 96087.14Pa (13.9358psi) (0.94854atm)
+2023-04-24 16:19:45,370 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1502degC (88.0704degF), Pressure: 96089.93Pa (13.9362psi) (0.948568atm)
+2023-04-24 16:19:45,712 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.2%
+2023-04-24 16:19:46,476 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1502degC (88.0704degF), Pressure: 96089.93Pa (13.9362psi) (0.948568atm)
+2023-04-24 16:19:47,580 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1252degC (88.0254degF), Pressure: 96092.13Pa (13.9365psi) (0.94859atm)
+2023-04-24 16:19:47,812 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.2%
+2023-04-24 16:19:48,685 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1352degC (88.0434degF), Pressure: 96087.91Pa (13.9359psi) (0.948548atm)
+2023-04-24 16:19:49,792 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1252degC (88.0254degF), Pressure: 96089.35Pa (13.9361psi) (0.948562atm)
+2023-04-24 16:19:49,925 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:19:49,925 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:19:50,898 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1302degC (88.0344degF), Pressure: 96081.66Pa (13.935psi) (0.948486atm)
+2023-04-24 16:19:52,019 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1103degC (87.9985degF), Pressure: 96090.11Pa (13.9362psi) (0.94857atm)
+2023-04-24 16:19:52,045 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.1degC (86.18degF), Humidity 19.2%
+2023-04-24 16:19:53,140 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1103degC (87.9985degF), Pressure: 96092.9Pa (13.9366psi) (0.948597atm)
+2023-04-24 16:19:54,146 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.8degC (85.64degF), Humidity 19.2%
+2023-04-24 16:19:54,251 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1302degC (88.0344degF), Pressure: 96090.02Pa (13.9362psi) (0.948569atm)
+2023-04-24 16:19:55,358 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1103degC (87.9985degF), Pressure: 96090.11Pa (13.9362psi) (0.94857atm)
+2023-04-24 16:19:56,228 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.8degC (85.64degF), Humidity 19.2%
+2023-04-24 16:19:56,462 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1252degC (88.0254degF), Pressure: 96097.71Pa (13.9373psi) (0.948645atm)
+2023-04-24 16:19:57,571 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1103degC (87.9985degF), Pressure: 96090.11Pa (13.9362psi) (0.94857atm)
+2023-04-24 16:19:58,349 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.8degC (85.64degF), Humidity 19.2%
+2023-04-24 16:19:58,677 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1103degC (87.9985degF), Pressure: 96078.97Pa (13.9346psi) (0.94846atm)
+2023-04-24 16:19:59,781 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1003degC (87.9805degF), Pressure: 96088.77Pa (13.936psi) (0.948556atm)
+2023-04-24 16:20:00,431 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.8degC (85.64degF), Humidity 19.2%
+2023-04-24 16:20:00,885 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0853degC (87.9535degF), Pressure: 96081.17Pa (13.9349psi) (0.948481atm)
+2023-04-24 16:20:01,991 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0953degC (87.9715degF), Pressure: 96088.09Pa (13.9359psi) (0.94855atm)
+2023-04-24 16:20:02,512 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.8degC (85.64degF), Humidity 19.2%
+2023-04-24 16:20:03,095 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0853degC (87.9535degF), Pressure: 96092.32Pa (13.9365psi) (0.948592atm)
+2023-04-24 16:20:04,200 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.1003degC (87.9805degF), Pressure: 96097.12Pa (13.9372psi) (0.948639atm)
+2023-04-24 16:20:04,637 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.8degC (85.64degF), Humidity 19.2%
+2023-04-24 16:20:05,306 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0853degC (87.9535degF), Pressure: 96092.32Pa (13.9365psi) (0.948592atm)
+2023-04-24 16:20:06,411 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0754degC (87.9357degF), Pressure: 96090.97Pa (13.9363psi) (0.948578atm)
+2023-04-24 16:20:06,727 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.8degC (85.64degF), Humidity 19.3%
+2023-04-24 16:20:07,516 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0853degC (87.9535degF), Pressure: 96081.17Pa (13.9349psi) (0.948481atm)
+2023-04-24 16:20:08,621 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0804degC (87.9447degF), Pressure: 96086.07Pa (13.9356psi) (0.94853atm)
+2023-04-24 16:20:08,824 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.8degC (85.64degF), Humidity 19.3%
+2023-04-24 16:20:09,728 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0754degC (87.9357degF), Pressure: 96085.4Pa (13.9355psi) (0.948523atm)
+2023-04-24 16:20:10,836 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0754degC (87.9357degF), Pressure: 96090.97Pa (13.9363psi) (0.948578atm)
+2023-04-24 16:20:10,908 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:11,942 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0804degC (87.9447degF), Pressure: 96088.86Pa (13.936psi) (0.948557atm)
+2023-04-24 16:20:13,000 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:20:13,000 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:20:13,046 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0804degC (87.9447degF), Pressure: 96094.43Pa (13.9368psi) (0.948612atm)
+2023-04-24 16:20:14,155 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0754degC (87.9357degF), Pressure: 96088.18Pa (13.9359psi) (0.948551atm)
+2023-04-24 16:20:15,160 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.2%
+2023-04-24 16:20:15,264 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0754degC (87.9357degF), Pressure: 96090.97Pa (13.9363psi) (0.948578atm)
+2023-04-24 16:20:16,371 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0853degC (87.9535degF), Pressure: 96083.96Pa (13.9353psi) (0.948509atm)
+2023-04-24 16:20:17,288 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.8degC (85.64degF), Humidity 19.2%
+2023-04-24 16:20:17,477 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0804degC (87.9447degF), Pressure: 96083.28Pa (13.9352psi) (0.948502atm)
+2023-04-24 16:20:18,582 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0953degC (87.9715degF), Pressure: 96082.52Pa (13.9351psi) (0.948495atm)
+2023-04-24 16:20:19,411 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:19,687 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0754degC (87.9357degF), Pressure: 96090.97Pa (13.9363psi) (0.948578atm)
+2023-04-24 16:20:20,792 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0654degC (87.9177degF), Pressure: 96089.62Pa (13.9361psi) (0.948565atm)
+2023-04-24 16:20:21,549 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:21,898 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0554degC (87.8997degF), Pressure: 96088.27Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:20:23,003 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0454degC (87.8817degF), Pressure: 96089.71Pa (13.9361psi) (0.948566atm)
+2023-04-24 16:20:23,670 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:24,113 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0604degC (87.9087degF), Pressure: 96088.95Pa (13.936psi) (0.948558atm)
+2023-04-24 16:20:25,221 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0504degC (87.8907degF), Pressure: 96084.81Pa (13.9354psi) (0.948517atm)
+2023-04-24 16:20:25,838 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:20:25,839 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:20:26,327 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0405degC (87.8729degF), Pressure: 96091.82Pa (13.9364psi) (0.948587atm)
+2023-04-24 16:20:27,434 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0504degC (87.8907degF), Pressure: 96087.6Pa (13.9358psi) (0.948545atm)
+2023-04-24 16:20:27,962 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.3%
+2023-04-24 16:20:28,540 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0305degC (87.8549degF), Pressure: 96087.69Pa (13.9359psi) (0.948546atm)
+2023-04-24 16:20:29,648 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0255degC (87.8459degF), Pressure: 96087.02Pa (13.9358psi) (0.948539atm)
+2023-04-24 16:20:30,062 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:30,756 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0454degC (87.8817degF), Pressure: 96086.93Pa (13.9357psi) (0.948538atm)
+2023-04-24 16:20:31,865 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0504degC (87.8907degF), Pressure: 96087.6Pa (13.9358psi) (0.948545atm)
+2023-04-24 16:20:32,191 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:32,970 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0454degC (87.8817degF), Pressure: 96084.14Pa (13.9353psi) (0.948511atm)
+2023-04-24 16:20:34,075 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0454degC (87.8817degF), Pressure: 96086.93Pa (13.9357psi) (0.948538atm)
+2023-04-24 16:20:34,288 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:35,180 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0654degC (87.9177degF), Pressure: 96086.84Pa (13.9357psi) (0.948537atm)
+2023-04-24 16:20:36,286 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0454degC (87.8817degF), Pressure: 96086.93Pa (13.9357psi) (0.948538atm)
+2023-04-24 16:20:36,440 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:37,394 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0405degC (87.8729degF), Pressure: 96086.25Pa (13.9356psi) (0.948532atm)
+2023-04-24 16:20:38,500 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0604degC (87.9087degF), Pressure: 96088.95Pa (13.936psi) (0.948558atm)
+2023-04-24 16:20:38,531 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:39,606 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0704degC (87.9267degF), Pressure: 96084.72Pa (13.9354psi) (0.948516atm)
+2023-04-24 16:20:40,659 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:40,717 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0604degC (87.9087degF), Pressure: 96080.59Pa (13.9348psi) (0.948476atm)
+2023-04-24 16:20:41,823 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0604degC (87.9087degF), Pressure: 96088.95Pa (13.936psi) (0.948558atm)
+2023-04-24 16:20:42,792 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:42,928 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0405degC (87.8729degF), Pressure: 96083.47Pa (13.9352psi) (0.948504atm)
+2023-04-24 16:20:44,039 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0504degC (87.8907degF), Pressure: 96087.6Pa (13.9358psi) (0.948545atm)
+2023-04-24 16:20:44,873 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:20:44,874 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:20:45,145 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0355degC (87.8639degF), Pressure: 96091.15Pa (13.9364psi) (0.94858atm)
+2023-04-24 16:20:46,251 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0355degC (87.8639degF), Pressure: 96080.01Pa (13.9347psi) (0.94847atm)
+2023-04-24 16:20:46,986 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:20:46,987 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:20:47,356 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0355degC (87.8639degF), Pressure: 96088.36Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:20:48,461 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0405degC (87.8729degF), Pressure: 96091.82Pa (13.9364psi) (0.948587atm)
+2023-04-24 16:20:49,078 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 30.0degC (86.0degF), Humidity 19.3%
+2023-04-24 16:20:49,567 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0554degC (87.8997degF), Pressure: 96082.7Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:20:50,673 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0604degC (87.9087degF), Pressure: 96088.95Pa (13.936psi) (0.948558atm)
+2023-04-24 16:20:51,175 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:51,779 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0704degC (87.9267degF), Pressure: 96087.51Pa (13.9358psi) (0.948544atm)
+2023-04-24 16:20:52,888 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0704degC (87.9267degF), Pressure: 96087.51Pa (13.9358psi) (0.948544atm)
+2023-04-24 16:20:53,308 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:53,993 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0604degC (87.9087degF), Pressure: 96088.95Pa (13.936psi) (0.948558atm)
+2023-04-24 16:20:55,098 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0554degC (87.8997degF), Pressure: 96085.49Pa (13.9355psi) (0.948524atm)
+2023-04-24 16:20:55,437 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:56,203 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0554degC (87.8997degF), Pressure: 96088.27Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:20:57,310 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0554degC (87.8997degF), Pressure: 96091.06Pa (13.9363psi) (0.948579atm)
+2023-04-24 16:20:57,530 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:20:58,415 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0355degC (87.8639degF), Pressure: 96091.15Pa (13.9364psi) (0.94858atm)
+2023-04-24 16:20:59,521 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0355degC (87.8639degF), Pressure: 96085.58Pa (13.9355psi) (0.948525atm)
+2023-04-24 16:20:59,612 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:21:00,626 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0305degC (87.8549degF), Pressure: 96082.12Pa (13.935psi) (0.948491atm)
+2023-04-24 16:21:01,737 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0355degC (87.8639degF), Pressure: 96091.15Pa (13.9364psi) (0.94858atm)
+2023-04-24 16:21:01,770 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.3%
+2023-04-24 16:21:02,843 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0305degC (87.8549degF), Pressure: 96084.91Pa (13.9354psi) (0.948518atm)
+2023-04-24 16:21:03,904 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:03,996 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0355degC (87.8639degF), Pressure: 96088.36Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:21:05,101 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0255degC (87.8459degF), Pressure: 96089.8Pa (13.9362psi) (0.948567atm)
+2023-04-24 16:21:06,001 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:06,206 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0205degC (87.8369degF), Pressure: 96089.13Pa (13.9361psi) (0.94856atm)
+2023-04-24 16:21:07,312 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0255degC (87.8459degF), Pressure: 96087.02Pa (13.9358psi) (0.948539atm)
+2023-04-24 16:21:08,092 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:08,417 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0105degC (87.8189degF), Pressure: 96085.0Pa (13.9355psi) (0.948519atm)
+2023-04-24 16:21:09,522 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0155degC (87.8279degF), Pressure: 96085.67Pa (13.9356psi) (0.948526atm)
+2023-04-24 16:21:10,184 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:10,626 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0105degC (87.8189degF), Pressure: 96087.78Pa (13.9359psi) (0.948547atm)
+2023-04-24 16:21:11,729 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0155degC (87.8279degF), Pressure: 96088.46Pa (13.936psi) (0.948553atm)
+2023-04-24 16:21:12,329 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:12,837 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0006degC (87.8011degF), Pressure: 96086.43Pa (13.9357psi) (0.948533atm)
+2023-04-24 16:21:13,944 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0006degC (87.8011degF), Pressure: 96083.65Pa (13.9353psi) (0.948506atm)
+2023-04-24 16:21:14,459 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:15,049 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0105degC (87.8189degF), Pressure: 96085.0Pa (13.9355psi) (0.948519atm)
+2023-04-24 16:21:16,155 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9956degC (87.7921degF), Pressure: 96088.55Pa (13.936psi) (0.948554atm)
+2023-04-24 16:21:16,559 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:17,260 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0105degC (87.8189degF), Pressure: 96087.78Pa (13.9359psi) (0.948547atm)
+2023-04-24 16:21:18,365 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0105degC (87.8189degF), Pressure: 96090.57Pa (13.9363psi) (0.948574atm)
+2023-04-24 16:21:18,658 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:19,471 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0155degC (87.8279degF), Pressure: 96082.88Pa (13.9352psi) (0.948498atm)
+2023-04-24 16:21:20,577 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0155degC (87.8279degF), Pressure: 96085.67Pa (13.9356psi) (0.948526atm)
+2023-04-24 16:21:20,785 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:21,683 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0155degC (87.8279degF), Pressure: 96091.24Pa (13.9364psi) (0.948581atm)
+2023-04-24 16:21:22,791 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0055degC (87.8099degF), Pressure: 96087.11Pa (13.9358psi) (0.94854atm)
+2023-04-24 16:21:22,893 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:23,898 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0155degC (87.8279degF), Pressure: 96088.46Pa (13.936psi) (0.948553atm)
+2023-04-24 16:21:25,047 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0006degC (87.8011degF), Pressure: 96089.22Pa (13.9361psi) (0.948561atm)
+2023-04-24 16:21:25,050 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:26,152 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0205degC (87.8369degF), Pressure: 96083.56Pa (13.9353psi) (0.948505atm)
+2023-04-24 16:21:27,144 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.4%
+2023-04-24 16:21:27,259 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0255degC (87.8459degF), Pressure: 96084.23Pa (13.9353psi) (0.948512atm)
+2023-04-24 16:21:28,368 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0255degC (87.8459degF), Pressure: 96078.66Pa (13.9345psi) (0.948457atm)
+2023-04-24 16:21:29,236 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.4%
+2023-04-24 16:21:29,474 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0255degC (87.8459degF), Pressure: 96084.23Pa (13.9353psi) (0.948512atm)
+2023-04-24 16:21:30,585 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0355degC (87.8639degF), Pressure: 96091.15Pa (13.9364psi) (0.94858atm)
+2023-04-24 16:21:31,370 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.4%
+2023-04-24 16:21:31,691 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0405degC (87.8729degF), Pressure: 96080.68Pa (13.9348psi) (0.948477atm)
+2023-04-24 16:21:32,798 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0405degC (87.8729degF), Pressure: 96083.47Pa (13.9352psi) (0.948504atm)
+2023-04-24 16:21:33,501 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.4%
+2023-04-24 16:21:33,905 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0355degC (87.8639degF), Pressure: 96088.36Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:21:35,014 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0205degC (87.8369degF), Pressure: 96077.99Pa (13.9344psi) (0.94845atm)
+2023-04-24 16:21:35,627 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.4%
+2023-04-24 16:21:36,120 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0305degC (87.8549degF), Pressure: 96082.12Pa (13.935psi) (0.948491atm)
+2023-04-24 16:21:37,225 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0205degC (87.8369degF), Pressure: 96086.34Pa (13.9357psi) (0.948532atm)
+2023-04-24 16:21:37,736 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.4%
+2023-04-24 16:21:38,330 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0105degC (87.8189degF), Pressure: 96087.78Pa (13.9359psi) (0.948547atm)
+2023-04-24 16:21:39,436 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0055degC (87.8099degF), Pressure: 96081.54Pa (13.935psi) (0.948485atm)
+2023-04-24 16:21:39,833 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.5%
+2023-04-24 16:21:40,542 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0055degC (87.8099degF), Pressure: 96087.11Pa (13.9358psi) (0.94854atm)
+2023-04-24 16:21:41,648 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0055degC (87.8099degF), Pressure: 96087.11Pa (13.9358psi) (0.94854atm)
+2023-04-24 16:21:41,930 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.5%
+2023-04-24 16:21:42,754 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9956degC (87.7921degF), Pressure: 96091.33Pa (13.9364psi) (0.948582atm)
+2023-04-24 16:21:43,862 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 31.0105degC (87.8189degF), Pressure: 96085.0Pa (13.9355psi) (0.948519atm)
+2023-04-24 16:21:44,012 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.5%
+2023-04-24 16:21:44,971 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9906degC (87.7831degF), Pressure: 96090.66Pa (13.9363psi) (0.948575atm)
+2023-04-24 16:21:46,079 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9956degC (87.7921degF), Pressure: 96080.19Pa (13.9348psi) (0.948472atm)
+2023-04-24 16:21:46,096 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.5%
+2023-04-24 16:21:47,184 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9856degC (87.7741degF), Pressure: 96081.63Pa (13.935psi) (0.948486atm)
+2023-04-24 16:21:48,197 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.5%
+2023-04-24 16:21:48,300 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9656degC (87.7381degF), Pressure: 96081.72Pa (13.935psi) (0.948487atm)
+2023-04-24 16:21:49,407 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9756degC (87.7561degF), Pressure: 96088.64Pa (13.936psi) (0.948555atm)
+2023-04-24 16:21:50,318 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.5%
+2023-04-24 16:21:50,510 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9856degC (87.7741degF), Pressure: 96087.2Pa (13.9358psi) (0.948541atm)
+2023-04-24 16:21:51,614 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9856degC (87.7741degF), Pressure: 96084.41Pa (13.9354psi) (0.948513atm)
+2023-04-24 16:21:52,472 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.5%
+2023-04-24 16:21:52,719 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9856degC (87.7741degF), Pressure: 96089.98Pa (13.9362psi) (0.948568atm)
+2023-04-24 16:21:53,824 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9856degC (87.7741degF), Pressure: 96089.98Pa (13.9362psi) (0.948568atm)
+2023-04-24 16:21:54,566 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:21:54,567 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:21:54,932 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9756degC (87.7561degF), Pressure: 96088.64Pa (13.936psi) (0.948555atm)
+2023-04-24 16:21:56,042 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9706degC (87.7471degF), Pressure: 96082.39Pa (13.9351psi) (0.948493atm)
+2023-04-24 16:21:56,701 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.5%
+2023-04-24 16:21:57,148 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9656degC (87.7381degF), Pressure: 96087.29Pa (13.9358psi) (0.948542atm)
+2023-04-24 16:21:58,254 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9756degC (87.7561degF), Pressure: 96080.28Pa (13.9348psi) (0.948473atm)
+2023-04-24 16:21:58,827 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:21:58,828 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:21:59,359 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9756degC (87.7561degF), Pressure: 96083.07Pa (13.9352psi) (0.9485atm)
+2023-04-24 16:22:00,465 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9756degC (87.7561degF), Pressure: 96083.07Pa (13.9352psi) (0.9485atm)
+2023-04-24 16:22:00,949 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.5%
+2023-04-24 16:22:01,570 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9756degC (87.7561degF), Pressure: 96085.85Pa (13.9356psi) (0.948528atm)
+2023-04-24 16:22:02,676 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9756degC (87.7561degF), Pressure: 96085.85Pa (13.9356psi) (0.948528atm)
+2023-04-24 16:22:03,032 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:22:03,033 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:22:03,781 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9906degC (87.7831degF), Pressure: 96087.87Pa (13.9359psi) (0.948548atm)
+2023-04-24 16:22:04,886 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9906degC (87.7831degF), Pressure: 96082.3Pa (13.9351psi) (0.948493atm)
+2023-04-24 16:22:05,118 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.9degC (85.82degF), Humidity 19.5%
+2023-04-24 16:22:05,993 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9956degC (87.7921degF), Pressure: 96085.76Pa (13.9356psi) (0.948527atm)
+2023-04-24 16:22:07,099 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9756degC (87.7561degF), Pressure: 96088.64Pa (13.936psi) (0.948555atm)
+2023-04-24 16:22:07,309 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.5%
+2023-04-24 16:22:08,203 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9806degC (87.7651degF), Pressure: 96086.52Pa (13.9357psi) (0.948534atm)
+2023-04-24 16:22:09,308 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9706degC (87.7471degF), Pressure: 96082.39Pa (13.9351psi) (0.948493atm)
+2023-04-24 16:22:09,408 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.5%
+2023-04-24 16:22:10,413 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9706degC (87.7471degF), Pressure: 96085.18Pa (13.9355psi) (0.948521atm)
+2023-04-24 16:22:11,540 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9656degC (87.7381degF), Pressure: 96081.72Pa (13.935psi) (0.948487atm)
+2023-04-24 16:22:11,552 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.5%
+2023-04-24 16:22:12,651 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9656degC (87.7381degF), Pressure: 96081.72Pa (13.935psi) (0.948487atm)
+2023-04-24 16:22:13,684 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.5%
+2023-04-24 16:22:13,773 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9557degC (87.7203degF), Pressure: 96083.16Pa (13.9352psi) (0.948501atm)
+2023-04-24 16:22:14,880 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9507degC (87.7113degF), Pressure: 96090.84Pa (13.9363psi) (0.948577atm)
+2023-04-24 16:22:15,767 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.5%
+2023-04-24 16:22:15,990 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9407degC (87.6933degF), Pressure: 96083.92Pa (13.9353psi) (0.948509atm)
+2023-04-24 16:22:17,099 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9557degC (87.7203degF), Pressure: 96085.94Pa (13.9356psi) (0.948529atm)
+2023-04-24 16:22:17,929 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.5%
+2023-04-24 16:22:18,203 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9607degC (87.7293degF), Pressure: 96089.4Pa (13.9361psi) (0.948563atm)
+2023-04-24 16:22:19,307 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9607degC (87.7293degF), Pressure: 96083.83Pa (13.9353psi) (0.948508atm)
+2023-04-24 16:22:20,030 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.5%
+2023-04-24 16:22:20,412 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9557degC (87.7203degF), Pressure: 96085.94Pa (13.9356psi) (0.948529atm)
+2023-04-24 16:22:21,516 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9557degC (87.7203degF), Pressure: 96091.51Pa (13.9364psi) (0.948584atm)
+2023-04-24 16:22:22,161 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.5%
+2023-04-24 16:22:22,622 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9507degC (87.7113degF), Pressure: 96085.27Pa (13.9355psi) (0.948522atm)
+2023-04-24 16:22:23,732 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9656degC (87.7381degF), Pressure: 96087.29Pa (13.9358psi) (0.948542atm)
+2023-04-24 16:22:24,287 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.5%
+2023-04-24 16:22:24,835 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9507degC (87.7113degF), Pressure: 96088.05Pa (13.9359psi) (0.948549atm)
+2023-04-24 16:22:25,945 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9457degC (87.7023degF), Pressure: 96090.16Pa (13.9362psi) (0.94857atm)
+2023-04-24 16:22:26,411 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.5%
+2023-04-24 16:22:27,050 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9457degC (87.7023degF), Pressure: 96081.81Pa (13.935psi) (0.948488atm)
+2023-04-24 16:22:28,156 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9357degC (87.6843degF), Pressure: 96083.25Pa (13.9352psi) (0.948502atm)
+2023-04-24 16:22:28,492 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:29,262 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9507degC (87.7113degF), Pressure: 96082.48Pa (13.9351psi) (0.948494atm)
+2023-04-24 16:22:30,368 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9457degC (87.7023degF), Pressure: 96081.81Pa (13.935psi) (0.948488atm)
+2023-04-24 16:22:30,588 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:31,474 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9457degC (87.7023degF), Pressure: 96084.59Pa (13.9354psi) (0.948515atm)
+2023-04-24 16:22:32,580 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9457degC (87.7023degF), Pressure: 96079.02Pa (13.9346psi) (0.94846atm)
+2023-04-24 16:22:32,772 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:33,685 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9407degC (87.6933degF), Pressure: 96086.7Pa (13.9357psi) (0.948536atm)
+2023-04-24 16:22:34,790 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9407degC (87.6933degF), Pressure: 96083.92Pa (13.9353psi) (0.948509atm)
+2023-04-24 16:22:34,900 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:35,895 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9457degC (87.7023degF), Pressure: 96084.59Pa (13.9354psi) (0.948515atm)
+2023-04-24 16:22:37,005 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9357degC (87.6843degF), Pressure: 96086.03Pa (13.9356psi) (0.948529atm)
+2023-04-24 16:22:37,025 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:38,110 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9257degC (87.6663degF), Pressure: 96084.68Pa (13.9354psi) (0.948516atm)
+2023-04-24 16:22:39,122 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:39,225 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9208degC (87.6574degF), Pressure: 96081.22Pa (13.9349psi) (0.948482atm)
+2023-04-24 16:22:40,333 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9257degC (87.6663degF), Pressure: 96087.47Pa (13.9358psi) (0.948544atm)
+2023-04-24 16:22:41,253 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:41,438 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9108degC (87.6394degF), Pressure: 96088.23Pa (13.9359psi) (0.948551atm)
+2023-04-24 16:22:42,543 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9058degC (87.6304degF), Pressure: 96081.99Pa (13.935psi) (0.94849atm)
+2023-04-24 16:22:43,354 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:43,700 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9058degC (87.6304degF), Pressure: 96087.56Pa (13.9358psi) (0.948545atm)
+2023-04-24 16:22:44,807 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9108degC (87.6394degF), Pressure: 96082.66Pa (13.9351psi) (0.948496atm)
+2023-04-24 16:22:45,481 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:45,914 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9058degC (87.6304degF), Pressure: 96079.2Pa (13.9346psi) (0.948462atm)
+2023-04-24 16:22:47,020 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8958degC (87.6124degF), Pressure: 96083.43Pa (13.9352psi) (0.948504atm)
+2023-04-24 16:22:47,615 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:48,125 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9108degC (87.6394degF), Pressure: 96085.45Pa (13.9355psi) (0.948524atm)
+2023-04-24 16:22:49,231 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9008degC (87.6214degF), Pressure: 96084.1Pa (13.9353psi) (0.94851atm)
+2023-04-24 16:22:49,749 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:50,336 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9008degC (87.6214degF), Pressure: 96081.31Pa (13.9349psi) (0.948483atm)
+2023-04-24 16:22:51,444 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.9058degC (87.6304degF), Pressure: 96090.34Pa (13.9362psi) (0.948572atm)
+2023-04-24 16:22:51,884 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:52,547 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8809degC (87.5856degF), Pressure: 96084.19Pa (13.9353psi) (0.948511atm)
+2023-04-24 16:22:53,655 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8958degC (87.6124degF), Pressure: 96077.86Pa (13.9344psi) (0.948449atm)
+2023-04-24 16:22:54,008 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:22:54,758 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8908degC (87.6034degF), Pressure: 96082.75Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:22:55,863 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8809degC (87.5856degF), Pressure: 96086.97Pa (13.9357psi) (0.948539atm)
+2023-04-24 16:22:56,112 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:22:56,113 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:22:56,971 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8908degC (87.6034degF), Pressure: 96085.54Pa (13.9355psi) (0.948525atm)
+2023-04-24 16:22:58,077 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8809degC (87.5856degF), Pressure: 96086.97Pa (13.9357psi) (0.948539atm)
+2023-04-24 16:22:58,199 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.6%
+2023-04-24 16:22:59,184 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8759degC (87.5766degF), Pressure: 96077.95Pa (13.9344psi) (0.94845atm)
+2023-04-24 16:23:00,318 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:23:00,319 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8759degC (87.5766degF), Pressure: 96080.73Pa (13.9348psi) (0.948477atm)
+2023-04-24 16:23:01,426 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8559degC (87.5406degF), Pressure: 96075.25Pa (13.934psi) (0.948423atm)
+2023-04-24 16:23:02,450 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:23:02,543 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8609degC (87.5496degF), Pressure: 96081.49Pa (13.935psi) (0.948485atm)
+2023-04-24 16:23:03,652 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8409degC (87.5136degF), Pressure: 96084.37Pa (13.9354psi) (0.948513atm)
+2023-04-24 16:23:04,534 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:23:04,761 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96082.26Pa (13.9351psi) (0.948492atm)
+2023-04-24 16:23:05,879 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8559degC (87.5406degF), Pressure: 96086.39Pa (13.9357psi) (0.948533atm)
+2023-04-24 16:23:06,678 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:23:06,984 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8509degC (87.5316degF), Pressure: 96082.93Pa (13.9352psi) (0.948499atm)
+2023-04-24 16:23:08,090 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8509degC (87.5316degF), Pressure: 96077.36Pa (13.9344psi) (0.948444atm)
+2023-04-24 16:23:08,807 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:23:09,195 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.831degC (87.4958degF), Pressure: 96080.23Pa (13.9348psi) (0.948472atm)
+2023-04-24 16:23:10,306 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96083.69Pa (13.9353psi) (0.948506atm)
+2023-04-24 16:23:10,942 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.6%
+2023-04-24 16:23:11,419 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96087.83Pa (13.9359psi) (0.948547atm)
+2023-04-24 16:23:12,525 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96087.83Pa (13.9359psi) (0.948547atm)
+2023-04-24 16:23:13,081 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.7%
+2023-04-24 16:23:13,630 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8409degC (87.5136degF), Pressure: 96078.8Pa (13.9346psi) (0.948458atm)
+2023-04-24 16:23:14,735 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96082.26Pa (13.9351psi) (0.948492atm)
+2023-04-24 16:23:15,163 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.7%
+2023-04-24 16:23:15,840 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8609degC (87.5496degF), Pressure: 96084.28Pa (13.9354psi) (0.948512atm)
+2023-04-24 16:23:16,946 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96085.04Pa (13.9355psi) (0.94852atm)
+2023-04-24 16:23:17,301 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.7%
+2023-04-24 16:23:18,049 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8559degC (87.5406degF), Pressure: 96083.6Pa (13.9353psi) (0.948505atm)
+2023-04-24 16:23:19,156 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96085.04Pa (13.9355psi) (0.94852atm)
+2023-04-24 16:23:19,408 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.7%
+2023-04-24 16:23:20,262 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96089.26Pa (13.9361psi) (0.948561atm)
+2023-04-24 16:23:21,369 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.831degC (87.4958degF), Pressure: 96080.23Pa (13.9348psi) (0.948472atm)
+2023-04-24 16:23:21,539 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.7%
+2023-04-24 16:23:22,477 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8409degC (87.5136degF), Pressure: 96087.15Pa (13.9358psi) (0.94854atm)
+2023-04-24 16:23:23,581 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.821degC (87.4778degF), Pressure: 96081.67Pa (13.935psi) (0.948486atm)
+2023-04-24 16:23:23,667 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.7%
+2023-04-24 16:23:24,685 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.826degC (87.4868degF), Pressure: 96079.56Pa (13.9347psi) (0.948466atm)
+2023-04-24 16:23:25,764 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.7%
+2023-04-24 16:23:25,791 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.826degC (87.4868degF), Pressure: 96079.56Pa (13.9347psi) (0.948466atm)
+2023-04-24 16:23:26,898 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.831degC (87.4958degF), Pressure: 96083.02Pa (13.9352psi) (0.9485atm)
+2023-04-24 16:23:27,860 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.7%
+2023-04-24 16:23:28,004 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.821degC (87.4778degF), Pressure: 96078.89Pa (13.9346psi) (0.948459atm)
+2023-04-24 16:23:29,109 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.831degC (87.4958degF), Pressure: 96085.8Pa (13.9356psi) (0.948527atm)
+2023-04-24 16:23:29,973 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:23:29,973 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:23:30,218 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.831degC (87.4958degF), Pressure: 96080.23Pa (13.9348psi) (0.948472atm)
+2023-04-24 16:23:31,324 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.826degC (87.4868degF), Pressure: 96085.13Pa (13.9355psi) (0.948521atm)
+2023-04-24 16:23:32,071 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.7%
+2023-04-24 16:23:32,431 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.831degC (87.4958degF), Pressure: 96085.8Pa (13.9356psi) (0.948527atm)
+2023-04-24 16:23:33,540 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96080.91Pa (13.9349psi) (0.948479atm)
+2023-04-24 16:23:34,183 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.7%
+2023-04-24 16:23:34,646 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.831degC (87.4958degF), Pressure: 96085.8Pa (13.9356psi) (0.948527atm)
+2023-04-24 16:23:35,753 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96083.69Pa (13.9353psi) (0.948506atm)
+2023-04-24 16:23:36,310 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.7%
+2023-04-24 16:23:36,859 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96085.04Pa (13.9355psi) (0.94852atm)
+2023-04-24 16:23:37,964 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96089.26Pa (13.9361psi) (0.948561atm)
+2023-04-24 16:23:38,397 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.7%
+2023-04-24 16:23:39,069 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8559degC (87.5406degF), Pressure: 96083.6Pa (13.9353psi) (0.948505atm)
+2023-04-24 16:23:40,175 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8409degC (87.5136degF), Pressure: 96078.8Pa (13.9346psi) (0.948458atm)
+2023-04-24 16:23:40,479 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.7%
+2023-04-24 16:23:41,281 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96080.91Pa (13.9349psi) (0.948479atm)
+2023-04-24 16:23:42,386 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96083.69Pa (13.9353psi) (0.948506atm)
+2023-04-24 16:23:42,567 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:23:43,493 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96085.04Pa (13.9355psi) (0.94852atm)
+2023-04-24 16:23:44,598 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8509degC (87.5316degF), Pressure: 96080.15Pa (13.9348psi) (0.948471atm)
+2023-04-24 16:23:44,761 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:23:45,705 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.826degC (87.4868degF), Pressure: 96082.35Pa (13.9351psi) (0.948493atm)
+2023-04-24 16:23:46,813 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8409degC (87.5136degF), Pressure: 96081.58Pa (13.935psi) (0.948485atm)
+2023-04-24 16:23:46,845 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:23:47,919 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96082.26Pa (13.9351psi) (0.948492atm)
+2023-04-24 16:23:48,977 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:23:49,031 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8409degC (87.5136degF), Pressure: 96087.15Pa (13.9358psi) (0.94854atm)
+2023-04-24 16:23:50,181 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96082.26Pa (13.9351psi) (0.948492atm)
+2023-04-24 16:23:51,092 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:23:51,287 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96080.91Pa (13.9349psi) (0.948479atm)
+2023-04-24 16:23:52,392 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8459degC (87.5226degF), Pressure: 96082.26Pa (13.9351psi) (0.948492atm)
+2023-04-24 16:23:53,182 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:23:53,496 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96078.12Pa (13.9345psi) (0.948451atm)
+2023-04-24 16:23:54,602 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8409degC (87.5136degF), Pressure: 96081.58Pa (13.935psi) (0.948485atm)
+2023-04-24 16:23:55,265 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:23:55,709 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.826degC (87.4868degF), Pressure: 96079.56Pa (13.9347psi) (0.948466atm)
+2023-04-24 16:23:56,815 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.831degC (87.4958degF), Pressure: 96083.02Pa (13.9352psi) (0.9485atm)
+2023-04-24 16:23:57,360 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:23:57,921 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.821degC (87.4778degF), Pressure: 96078.89Pa (13.9346psi) (0.948459atm)
+2023-04-24 16:23:59,025 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.821degC (87.4778degF), Pressure: 96078.89Pa (13.9346psi) (0.948459atm)
+2023-04-24 16:23:59,506 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:00,157 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.826degC (87.4868degF), Pressure: 96085.13Pa (13.9355psi) (0.948521atm)
+2023-04-24 16:24:01,262 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.826degC (87.4868degF), Pressure: 96082.35Pa (13.9351psi) (0.948493atm)
+2023-04-24 16:24:01,633 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:02,367 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.816degC (87.4688degF), Pressure: 96078.21Pa (13.9345psi) (0.948452atm)
+2023-04-24 16:24:03,473 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.821degC (87.4778degF), Pressure: 96076.1Pa (13.9342psi) (0.948431atm)
+2023-04-24 16:24:03,725 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:04,635 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.826degC (87.4868degF), Pressure: 96079.56Pa (13.9347psi) (0.948466atm)
+2023-04-24 16:24:05,740 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.831degC (87.4958degF), Pressure: 96083.02Pa (13.9352psi) (0.9485atm)
+2023-04-24 16:24:05,852 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:24:05,852 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:24:06,846 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96086.48Pa (13.9357psi) (0.948534atm)
+2023-04-24 16:24:07,962 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.8%
+2023-04-24 16:24:07,963 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96086.48Pa (13.9357psi) (0.948534atm)
+2023-04-24 16:24:09,069 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96080.91Pa (13.9349psi) (0.948479atm)
+2023-04-24 16:24:10,097 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:10,202 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96080.91Pa (13.9349psi) (0.948479atm)
+2023-04-24 16:24:11,308 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.836degC (87.5048degF), Pressure: 96075.34Pa (13.9341psi) (0.948424atm)
+2023-04-24 16:24:12,236 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:12,411 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.8409degC (87.5136degF), Pressure: 96076.01Pa (13.9342psi) (0.948431atm)
+2023-04-24 16:24:13,516 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.821degC (87.4778degF), Pressure: 96084.46Pa (13.9354psi) (0.948514atm)
+2023-04-24 16:24:14,366 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:14,621 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.821degC (87.4778degF), Pressure: 96084.46Pa (13.9354psi) (0.948514atm)
+2023-04-24 16:24:15,729 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.826degC (87.4868degF), Pressure: 96090.7Pa (13.9363psi) (0.948576atm)
+2023-04-24 16:24:16,484 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:16,835 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.816degC (87.4688degF), Pressure: 96086.57Pa (13.9357psi) (0.948535atm)
+2023-04-24 16:24:17,939 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.811degC (87.4598degF), Pressure: 96080.32Pa (13.9348psi) (0.948473atm)
+2023-04-24 16:24:18,592 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:24:18,592 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:24:19,046 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.811degC (87.4598degF), Pressure: 96088.68Pa (13.936psi) (0.948556atm)
+2023-04-24 16:24:20,157 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.811degC (87.4598degF), Pressure: 96080.32Pa (13.9348psi) (0.948473atm)
+2023-04-24 16:24:20,689 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.8%
+2023-04-24 16:24:21,266 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.801degC (87.4418degF), Pressure: 96081.76Pa (13.935psi) (0.948487atm)
+2023-04-24 16:24:22,372 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.801degC (87.4418degF), Pressure: 96087.33Pa (13.9358psi) (0.948542atm)
+2023-04-24 16:24:22,824 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:23,477 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7961degC (87.433degF), Pressure: 96086.66Pa (13.9357psi) (0.948536atm)
+2023-04-24 16:24:24,583 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7911degC (87.424degF), Pressure: 96088.77Pa (13.936psi) (0.948556atm)
+2023-04-24 16:24:24,951 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:25,688 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7961degC (87.433degF), Pressure: 96089.44Pa (13.9361psi) (0.948563atm)
+2023-04-24 16:24:26,793 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7911degC (87.424degF), Pressure: 96088.77Pa (13.936psi) (0.948556atm)
+2023-04-24 16:24:27,076 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:24:27,076 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:24:27,898 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7661degC (87.379degF), Pressure: 96079.83Pa (13.9347psi) (0.948468atm)
+2023-04-24 16:24:29,003 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7761degC (87.397degF), Pressure: 96078.39Pa (13.9345psi) (0.948454atm)
+2023-04-24 16:24:29,203 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.7degC (85.46degF), Humidity 19.8%
+2023-04-24 16:24:30,109 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7661degC (87.379degF), Pressure: 96082.61Pa (13.9351psi) (0.948496atm)
+2023-04-24 16:24:31,214 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7761degC (87.397degF), Pressure: 96086.74Pa (13.9357psi) (0.948536atm)
+2023-04-24 16:24:31,285 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:32,323 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7661degC (87.379degF), Pressure: 96088.18Pa (13.9359psi) (0.948551atm)
+2023-04-24 16:24:33,418 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:33,429 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7711degC (87.388degF), Pressure: 96080.5Pa (13.9348psi) (0.948475atm)
+2023-04-24 16:24:34,534 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7761degC (87.397degF), Pressure: 96083.96Pa (13.9353psi) (0.948509atm)
+2023-04-24 16:24:35,541 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:35,646 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7611degC (87.37degF), Pressure: 96084.72Pa (13.9354psi) (0.948516atm)
+2023-04-24 16:24:36,780 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7562degC (87.3612degF), Pressure: 96092.4Pa (13.9365psi) (0.948592atm)
+2023-04-24 16:24:37,626 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:37,886 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7562degC (87.3612degF), Pressure: 96078.48Pa (13.9345psi) (0.948455atm)
+2023-04-24 16:24:38,994 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7761degC (87.397degF), Pressure: 96083.96Pa (13.9353psi) (0.948509atm)
+2023-04-24 16:24:39,708 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:40,099 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7611degC (87.37degF), Pressure: 96079.15Pa (13.9346psi) (0.948462atm)
+2023-04-24 16:24:41,206 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7562degC (87.3612degF), Pressure: 96084.05Pa (13.9353psi) (0.94851atm)
+2023-04-24 16:24:41,846 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.9%
+2023-04-24 16:24:42,314 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7562degC (87.3612degF), Pressure: 96081.26Pa (13.9349psi) (0.948482atm)
+2023-04-24 16:24:43,419 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7562degC (87.3612degF), Pressure: 96075.7Pa (13.9341psi) (0.948427atm)
+2023-04-24 16:24:43,973 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.9%
+2023-04-24 16:24:44,525 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7562degC (87.3612degF), Pressure: 96089.62Pa (13.9361psi) (0.948565atm)
+2023-04-24 16:24:45,632 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7661degC (87.379degF), Pressure: 96082.61Pa (13.9351psi) (0.948496atm)
+2023-04-24 16:24:46,106 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.9%
+2023-04-24 16:24:46,738 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7661degC (87.379degF), Pressure: 96085.4Pa (13.9355psi) (0.948523atm)
+2023-04-24 16:24:47,842 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7611degC (87.37degF), Pressure: 96090.29Pa (13.9362psi) (0.948571atm)
+2023-04-24 16:24:48,259 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.9%
+2023-04-24 16:24:48,948 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7661degC (87.379degF), Pressure: 96082.61Pa (13.9351psi) (0.948496atm)
+2023-04-24 16:24:50,053 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7562degC (87.3612degF), Pressure: 96084.05Pa (13.9353psi) (0.94851atm)
+2023-04-24 16:24:50,390 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.9%
+2023-04-24 16:24:51,161 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96079.92Pa (13.9347psi) (0.948469atm)
+2023-04-24 16:24:52,266 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7512degC (87.3522degF), Pressure: 96077.81Pa (13.9344psi) (0.948448atm)
+2023-04-24 16:24:52,482 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.9%
+2023-04-24 16:24:53,372 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7512degC (87.3522degF), Pressure: 96083.37Pa (13.9352psi) (0.948503atm)
+2023-04-24 16:24:54,481 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7362degC (87.3252degF), Pressure: 96078.57Pa (13.9345psi) (0.948456atm)
+2023-04-24 16:24:54,564 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:24:54,564 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:24:55,586 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96085.57Pa (13.9355psi) (0.948525atm)
+2023-04-24 16:24:56,696 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96078.66Pa (13.9345psi) (0.948457atm)
+2023-04-24 16:24:56,734 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.8%
+2023-04-24 16:24:57,809 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96085.57Pa (13.9355psi) (0.948525atm)
+2023-04-24 16:24:58,826 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:24:58,930 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96082.7Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:25:00,037 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7362degC (87.3252degF), Pressure: 96089.7Pa (13.9361psi) (0.948566atm)
+2023-04-24 16:25:00,950 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:25:01,141 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7412degC (87.3342degF), Pressure: 96090.38Pa (13.9362psi) (0.948572atm)
+2023-04-24 16:25:02,246 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7362degC (87.3252degF), Pressure: 96089.7Pa (13.9361psi) (0.948566atm)
+2023-04-24 16:25:03,076 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:25:03,352 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96083.46Pa (13.9352psi) (0.948504atm)
+2023-04-24 16:25:04,457 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96084.22Pa (13.9353psi) (0.948512atm)
+2023-04-24 16:25:05,206 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.9%
+2023-04-24 16:25:05,563 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96087.68Pa (13.9358psi) (0.948546atm)
+2023-04-24 16:25:06,669 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96082.11Pa (13.935psi) (0.948491atm)
+2023-04-24 16:25:07,334 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.9%
+2023-04-24 16:25:07,774 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96082.79Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:25:08,880 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96085.57Pa (13.9355psi) (0.948525atm)
+2023-04-24 16:25:09,428 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:25:09,987 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96083.46Pa (13.9352psi) (0.948504atm)
+2023-04-24 16:25:11,093 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96088.36Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:25:11,522 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:25:12,196 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96086.25Pa (13.9356psi) (0.948532atm)
+2023-04-24 16:25:13,302 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96082.79Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:25:13,605 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:25:14,407 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96082.79Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:25:15,512 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96088.36Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:25:15,748 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:16,618 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7113degC (87.2803degF), Pressure: 96080.77Pa (13.9348psi) (0.948477atm)
+2023-04-24 16:25:17,765 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96073.76Pa (13.9338psi) (0.948408atm)
+2023-04-24 16:25:17,892 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:18,875 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96076.55Pa (13.9342psi) (0.948436atm)
+2023-04-24 16:25:20,021 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96081.44Pa (13.9349psi) (0.948484atm)
+2023-04-24 16:25:20,033 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:21,129 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96087.01Pa (13.9358psi) (0.948539atm)
+2023-04-24 16:25:22,163 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:22,255 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7113degC (87.2803degF), Pressure: 96086.33Pa (13.9357psi) (0.948532atm)
+2023-04-24 16:25:23,361 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7113degC (87.2803degF), Pressure: 96080.77Pa (13.9348psi) (0.948477atm)
+2023-04-24 16:25:24,295 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:24,466 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.6963degC (87.2533degF), Pressure: 96078.74Pa (13.9346psi) (0.948457atm)
+2023-04-24 16:25:25,579 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.6963degC (87.2533degF), Pressure: 96084.31Pa (13.9354psi) (0.948512atm)
+2023-04-24 16:25:26,424 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:25:26,685 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7063degC (87.2713degF), Pressure: 96091.23Pa (13.9364psi) (0.948581atm)
+2023-04-24 16:25:27,791 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.6963degC (87.2533degF), Pressure: 96087.1Pa (13.9358psi) (0.94854atm)
+2023-04-24 16:25:28,541 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:28,895 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7013degC (87.2623degF), Pressure: 96087.77Pa (13.9359psi) (0.948547atm)
+2023-04-24 16:25:30,001 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.6963degC (87.2533degF), Pressure: 96084.31Pa (13.9354psi) (0.948512atm)
+2023-04-24 16:25:30,666 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:25:30,667 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:25:31,105 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7113degC (87.2803degF), Pressure: 96089.12Pa (13.9361psi) (0.94856atm)
+2023-04-24 16:25:32,208 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96087.01Pa (13.9358psi) (0.948539atm)
+2023-04-24 16:25:32,799 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.8%
+2023-04-24 16:25:33,312 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7113degC (87.2803degF), Pressure: 96080.77Pa (13.9348psi) (0.948477atm)
+2023-04-24 16:25:34,419 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96087.68Pa (13.9358psi) (0.948546atm)
+2023-04-24 16:25:34,891 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:35,526 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96082.11Pa (13.935psi) (0.948491atm)
+2023-04-24 16:25:36,635 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96082.11Pa (13.935psi) (0.948491atm)
+2023-04-24 16:25:37,024 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:37,742 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7412degC (87.3342degF), Pressure: 96082.03Pa (13.935psi) (0.94849atm)
+2023-04-24 16:25:38,848 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96085.48Pa (13.9355psi) (0.948524atm)
+2023-04-24 16:25:39,141 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:39,956 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96088.27Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:25:41,066 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96079.92Pa (13.9347psi) (0.948469atm)
+2023-04-24 16:25:41,223 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:42,172 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7562degC (87.3612degF), Pressure: 96086.83Pa (13.9357psi) (0.948537atm)
+2023-04-24 16:25:43,277 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7562degC (87.3612degF), Pressure: 96089.62Pa (13.9361psi) (0.948565atm)
+2023-04-24 16:25:43,307 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:44,382 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7611degC (87.37degF), Pressure: 96081.94Pa (13.935psi) (0.948489atm)
+2023-04-24 16:25:45,400 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:45,503 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7611degC (87.37degF), Pressure: 96087.51Pa (13.9358psi) (0.948544atm)
+2023-04-24 16:25:46,609 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7611degC (87.37degF), Pressure: 96081.94Pa (13.935psi) (0.948489atm)
+2023-04-24 16:25:47,497 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:25:47,498 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:25:47,715 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7711degC (87.388degF), Pressure: 96088.85Pa (13.936psi) (0.948557atm)
+2023-04-24 16:25:48,820 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7711degC (87.388degF), Pressure: 96083.29Pa (13.9352psi) (0.948502atm)
+2023-04-24 16:25:49,579 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.5degC (85.1degF), Humidity 19.8%
+2023-04-24 16:25:49,926 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7611degC (87.37degF), Pressure: 96087.51Pa (13.9358psi) (0.948544atm)
+2023-04-24 16:25:51,035 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96082.7Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:25:51,698 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:52,140 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7512degC (87.3522degF), Pressure: 96080.59Pa (13.9348psi) (0.948476atm)
+2023-04-24 16:25:53,245 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7562degC (87.3612degF), Pressure: 96086.83Pa (13.9357psi) (0.948537atm)
+2023-04-24 16:25:53,797 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:54,351 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7512degC (87.3522degF), Pressure: 96083.37Pa (13.9352psi) (0.948503atm)
+2023-04-24 16:25:55,456 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96091.05Pa (13.9363psi) (0.948579atm)
+2023-04-24 16:25:55,923 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:25:56,561 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96077.13Pa (13.9343psi) (0.948442atm)
+2023-04-24 16:25:57,666 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96079.92Pa (13.9347psi) (0.948469atm)
+2023-04-24 16:25:58,021 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:25:58,021 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:25:58,773 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7412degC (87.3342degF), Pressure: 96084.81Pa (13.9354psi) (0.948517atm)
+2023-04-24 16:25:59,879 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96079.92Pa (13.9347psi) (0.948469atm)
+2023-04-24 16:26:00,115 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-24 16:26:00,116 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-24 16:26:00,985 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7362degC (87.3252degF), Pressure: 96084.14Pa (13.9353psi) (0.948511atm)
+2023-04-24 16:26:02,092 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96077.89Pa (13.9344psi) (0.948449atm)
+2023-04-24 16:26:02,227 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.6degC (85.28degF), Humidity 19.8%
+2023-04-24 16:26:03,198 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7412degC (87.3342degF), Pressure: 96084.81Pa (13.9354psi) (0.948517atm)
+2023-04-24 16:26:04,307 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7462degC (87.3432degF), Pressure: 96085.48Pa (13.9355psi) (0.948524atm)
+2023-04-24 16:26:04,332 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.4degC (84.92degF), Humidity 19.8%
+2023-04-24 16:26:05,419 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7362degC (87.3252degF), Pressure: 96078.57Pa (13.9345psi) (0.948456atm)
+2023-04-24 16:26:06,465 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:26:06,551 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96082.11Pa (13.935psi) (0.948491atm)
+2023-04-24 16:26:07,658 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7362degC (87.3252degF), Pressure: 96086.92Pa (13.9357psi) (0.948538atm)
+2023-04-24 16:26:08,601 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:26:08,762 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96087.68Pa (13.9358psi) (0.948546atm)
+2023-04-24 16:26:09,867 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96081.44Pa (13.9349psi) (0.948484atm)
+2023-04-24 16:26:10,739 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:26:10,972 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96082.79Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:26:12,081 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7113degC (87.2803degF), Pressure: 96077.98Pa (13.9344psi) (0.94845atm)
+2023-04-24 16:26:12,822 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.8%
+2023-04-24 16:26:13,186 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96076.55Pa (13.9342psi) (0.948436atm)
+2023-04-24 16:26:14,294 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96086.25Pa (13.9356psi) (0.948532atm)
+2023-04-24 16:26:14,949 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:15,400 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96082.11Pa (13.935psi) (0.948491atm)
+2023-04-24 16:26:16,507 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96083.46Pa (13.9352psi) (0.948504atm)
+2023-04-24 16:26:17,074 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:17,611 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96077.22Pa (13.9343psi) (0.948442atm)
+2023-04-24 16:26:18,716 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96084.22Pa (13.9353psi) (0.948512atm)
+2023-04-24 16:26:19,161 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:19,823 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96075.87Pa (13.9341psi) (0.948429atm)
+2023-04-24 16:26:20,931 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96078.66Pa (13.9345psi) (0.948457atm)
+2023-04-24 16:26:21,268 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:22,039 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96075.11Pa (13.934psi) (0.948422atm)
+2023-04-24 16:26:23,146 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96085.57Pa (13.9355psi) (0.948525atm)
+2023-04-24 16:26:23,401 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:24,254 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7412degC (87.3342degF), Pressure: 96079.24Pa (13.9346psi) (0.948462atm)
+2023-04-24 16:26:25,360 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96081.44Pa (13.9349psi) (0.948484atm)
+2023-04-24 16:26:25,533 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:26,466 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96080.68Pa (13.9348psi) (0.948477atm)
+2023-04-24 16:26:27,572 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7362degC (87.3252degF), Pressure: 96084.14Pa (13.9353psi) (0.948511atm)
+2023-04-24 16:26:27,634 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:28,677 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96080.0Pa (13.9347psi) (0.94847atm)
+2023-04-24 16:26:29,730 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:29,782 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96077.89Pa (13.9344psi) (0.948449atm)
+2023-04-24 16:26:30,889 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96082.79Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:26:31,854 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:31,994 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96083.46Pa (13.9352psi) (0.948504atm)
+2023-04-24 16:26:33,109 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96088.36Pa (13.9359psi) (0.948552atm)
+2023-04-24 16:26:33,936 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:34,215 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96082.11Pa (13.935psi) (0.948491atm)
+2023-04-24 16:26:35,322 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96082.79Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:26:36,036 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:36,427 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96083.46Pa (13.9352psi) (0.948504atm)
+2023-04-24 16:26:37,534 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7412degC (87.3342degF), Pressure: 96079.24Pa (13.9346psi) (0.948462atm)
+2023-04-24 16:26:38,165 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:38,640 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7362degC (87.3252degF), Pressure: 96081.35Pa (13.9349psi) (0.948483atm)
+2023-04-24 16:26:39,747 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96085.57Pa (13.9355psi) (0.948525atm)
+2023-04-24 16:26:40,263 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:40,856 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96082.11Pa (13.935psi) (0.948491atm)
+2023-04-24 16:26:41,963 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96083.46Pa (13.9352psi) (0.948504atm)
+2023-04-24 16:26:42,358 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:43,070 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96077.22Pa (13.9343psi) (0.948442atm)
+2023-04-24 16:26:44,175 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96084.9Pa (13.9354psi) (0.948518atm)
+2023-04-24 16:26:44,486 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:45,281 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96082.79Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:26:46,390 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96086.25Pa (13.9356psi) (0.948532atm)
+2023-04-24 16:26:46,590 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:47,498 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96082.79Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:26:48,604 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7212degC (87.2982degF), Pressure: 96082.11Pa (13.935psi) (0.948491atm)
+2023-04-24 16:26:48,672 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:49,708 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7113degC (87.2803degF), Pressure: 96075.2Pa (13.934psi) (0.948423atm)
+2023-04-24 16:26:50,767 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:50,814 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96082.79Pa (13.9351psi) (0.948497atm)
+2023-04-24 16:26:51,922 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7412degC (87.3342degF), Pressure: 96079.24Pa (13.9346psi) (0.948462atm)
+2023-04-24 16:26:52,891 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:53,026 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7312degC (87.3162degF), Pressure: 96075.11Pa (13.934psi) (0.948422atm)
+2023-04-24 16:26:54,133 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7362degC (87.3252degF), Pressure: 96078.57Pa (13.9345psi) (0.948456atm)
+2023-04-24 16:26:55,017 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:55,238 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96077.22Pa (13.9343psi) (0.948442atm)
+2023-04-24 16:26:56,350 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7162degC (87.2892degF), Pressure: 96075.87Pa (13.9341psi) (0.948429atm)
+2023-04-24 16:26:57,146 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.3degC (84.74degF), Humidity 19.9%
+2023-04-24 16:26:57,456 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7262degC (87.3072degF), Pressure: 96077.22Pa (13.9343psi) (0.948442atm)
+2023-04-24 16:26:58,559 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.7362degC (87.3252degF), Pressure: 96078.57Pa (13.9345psi) (0.948456atm)
+2023-04-24 16:27:01,757 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1796 / 1796 iterations successful. 100.0%, pass theshold is 100%
+2023-04-24 16:27:01,758 - SBC_Tester - INFO - Test Button GPIOD PASSED: 0 / 0 iterations successful. 100%, pass theshold is 0%
+2023-04-24 16:27:01,758 - SBC_Tester - INFO - Test DHT11 over SPI PASSED: 1607 / 1703 iterations successful. 94.0%, pass theshold is 75.0%
+2023-04-24 16:27:01,758 - SBC_Tester - INFO - Test BMP280/BME280 over SPI PASSED: 3249 / 3249 iterations successful. 100.0%, pass theshold is 75.0%
+2023-04-24 16:27:01,759 - SBC_Tester - INFO - Test I2C Display PASSED: 3243 / 3243 iterations successful. 100.0%, pass theshold is 100%
+2023-04-24 16:27:01,759 - SBC_Tester - INFO - Test IR GPIO TX/RX PASSED: 2736 / 2736 iterations successful. 100.0%, pass theshold is 75.0%
+2023-04-24 16:27:01,760 - GpioOut - INFO - GpioOut (chip:3,pin:7): Releasing GPIO...
+2023-04-24 16:27:01,760 - GpioOut - INFO - GpioOut (chip:3,pin:7): Releasing GPIO...
+2023-04-24 16:27:01,818 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 3525227 stopping...
+2023-04-24 16:27:01,926 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 3525247 stopping...
+(venv) tdunteman@rock-5b:~/development/devtest$ 
+(venv) tdunteman@rock-5b:~/development/devtest$ 
