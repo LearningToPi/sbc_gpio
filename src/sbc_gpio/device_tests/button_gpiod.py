@@ -38,7 +38,7 @@ class DevTest_Button(DevTest_Base):
                 self.__events = []
             stop_time = time() + run_secs
             start_time = time()
-            while time() < stop_time:
+            while time() < stop_time and not self._stop_tests:
                 with self._event_lock:
                     if iterations is not None and len(self.__events) >= iterations:
                         break
