@@ -4,7 +4,7 @@ from time import time, sleep
 
 from sbc_gpio import SBCPlatform, EVENT
 
-from sbc_gpio.device_tests.test_ir import DevTest_IR
+from sbc_gpio.device_tests.ir import DevTest_IR
 from sbc_gpio.device_tests.led_gpiod import DevTest_LED
 from sbc_gpio.device_tests.button_gpiod import DevTest_Button
 from sbc_gpio.device_tests.dht_spi import DevTest_DHT
