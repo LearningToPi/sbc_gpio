@@ -23,49 +23,51 @@ class DevTest_BMX(DevTest_Base):
 
     def _start_thread_iterations(self, iterations, run_secs=None, interval=1):
         ''' Run the blink test for a specified number of iterations '''
-        iter_run, iter_success = 0, 0
-        start_time = time()
-        while iter_run < iterations and not self._stop_tests:
-            try:
-                reading = self._bmx.update_readings()
-                if reading is not None:
-                    iter_success += 1
-                    self._logger.info(f"{self.info_str}: {self._bmx.model} reading: {reading}")
-                else:
-                    self._logger.warning(f"{self.info_str}: Error reading BMX")
-            except Exception as e:
-                self._logger.warning(f"{self.info_str}: Error reading BMX: {e}")
-            finally:
-                iter_run += 1
-                sleep(interval)
-        end_time = time()
-        self.test_results = DevTest_Results(iterations=iter_run, iter_success=iter_success, 
-                                            parameters={'iterations': iterations, 'interval': interval,
-                                                        'gpio': str(self._gpio_tuple)},
-                                            start_time=start_time, end_time=end_time, pass_threshold=PASS_THRESHOLD,
-                                            name=TEST_NAME, description=TEST_DESCRIPTION)
+        with self._testing_lock:
+            iter_run, iter_success = 0, 0
+            start_time = time()
+            while iter_run < iterations and not self._stop_tests:
+                try:
+                    reading = self._bmx.update_readings()
+                    if reading is not None:
+                        iter_success += 1
+                        self._logger.info(f"{self.info_str}: {self._bmx.model} reading: {reading}")
+                    else:
+                        self._logger.warning(f"{self.info_str}: Error reading BMX")
+                except Exception as e:
+                    self._logger.warning(f"{self.info_str}: Error reading BMX: {e}")
+                finally:
+                    iter_run += 1
+                    sleep(interval)
+            end_time = time()
+            self.test_results = DevTest_Results(iterations=iter_run, iter_success=iter_success, 
+                                                parameters={'iterations': iterations, 'interval': interval,
+                                                            'gpio': str(self._gpio_tuple)},
+                                                start_time=start_time, end_time=end_time, pass_threshold=PASS_THRESHOLD,
+                                                name=TEST_NAME, description=TEST_DESCRIPTION)
 
     def _start_thread_time(self, run_secs=10, iterations=None, interval=1):
         ''' Run the blink test for a specified number of seconds '''
-        iter_run, iter_success = 0, 0
-        start_time = time()
-        stop_time = time() + run_secs
-        while time() < stop_time and not self._stop_tests:
-            try:
-                reading = self._bmx.update_readings()
-                if reading is not None:
-                    iter_success += 1
-                    self._logger.info(f"{self.info_str}: {self._bmx.model} reading: {reading}")
-                else:
-                    self._logger.warning(f"{self.info_str}: Error reading BMX")
-            except Exception as e:
-                self._logger.error(f"{self.info_str}: Error reading BMX: {e}")
-            finally:
-                iter_run += 1
-                sleep(interval)
-        end_time = time()
-        self.test_results = DevTest_Results(iterations=iter_run, iter_success=iter_success, 
-                                            parameters={'run_secs': run_secs, 'interval': interval,
-                                                        'gpio': str(self._gpio_tuple)},
-                                            start_time=start_time, end_time=end_time, pass_threshold=PASS_THRESHOLD,
-                                            name=TEST_NAME, description=TEST_DESCRIPTION)
+        with self._testing_lock:
+            iter_run, iter_success = 0, 0
+            start_time = time()
+            stop_time = time() + run_secs
+            while time() < stop_time and not self._stop_tests:
+                try:
+                    reading = self._bmx.update_readings()
+                    if reading is not None:
+                        iter_success += 1
+                        self._logger.info(f"{self.info_str}: {self._bmx.model} reading: {reading}")
+                    else:
+                        self._logger.warning(f"{self.info_str}: Error reading BMX")
+                except Exception as e:
+                    self._logger.error(f"{self.info_str}: Error reading BMX: {e}")
+                finally:
+                    iter_run += 1
+                    sleep(interval)
+            end_time = time()
+            self.test_results = DevTest_Results(iterations=iter_run, iter_success=iter_success, 
+                                                parameters={'run_secs': run_secs, 'interval': interval,
+                                                            'gpio': str(self._gpio_tuple)},
+                                                start_time=start_time, end_time=end_time, pass_threshold=PASS_THRESHOLD,
+                                                name=TEST_NAME, description=TEST_DESCRIPTION)
