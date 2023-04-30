@@ -16,6 +16,7 @@ LIRC_REMOTE = namedtuple("LIRC_REMOTE", ('name', 'keys'))
 
 LIRC_DEVICE_PATH = '/tmp/'
 
+LIRC_OPTIONS_FILE = os.path.join(os.path.dirname(__file__), 'lirc', 'lirc-options.conf')
 LIRC_EXCLUDE_REMOTES = ['devinput-32', 'devinput-64']
 
 
@@ -33,61 +34,67 @@ class DevTest_IR(DevTest_Base):
     ''' Class for an IR TX/RX test using lirc and GPIO based IR transmitter and receiver '''
     def __init__(self, log_level=INFO, lircd_path=LIRC_DEVICE_PATH):
         super().__init__(log_level)
-        self.__ir_ok = None
-        self.__ir_tx_obj = None
-        self.__ir_rx_obj = None
+        self._ir_ok = None
+        self._ir_tx_obj = None
+        self._ir_rx_obj = None
         self.ir_tx_dev = None
         self.ir_rx_dev = None
         self.ir_tx_driver = None
         self.ir_rx_driver = None
-        self.__ir_tx_process = None
-        self.__ir_rx_process = None
+        self._ir_tx_process = None
+        self._ir_rx_process = None
         self.lircd_path = lircd_path
 
     def close(self):
         # kill lircd processes if started by devtester
-        if self.__ir_tx_process is not None:
+        if self._ir_tx_process is not None:
             lircd_procs = get_pid_list([f"lircd.*{self.ir_tx_dev}"])
             for process in lircd_procs:
                 if process is not None:
-                    self._logger.info(f"{self.info_str}: lircd TX process pid: {self.__ir_tx_process.pid} stopping...")
+                    self._logger.info(f"{self.info_str}: lircd TX process pid: {self._ir_tx_process.pid} stopping...")
                     subprocess.run(f'kill {process}'.split())
-        if self.__ir_rx_process is not None:
+        if self._ir_rx_process is not None:
             lircd_procs = get_pid_list([f"lircd.*{self.ir_rx_dev}"])
             for process in lircd_procs:
                 if process is not None:
-                    self._logger.info(f"{self.info_str}: lircd RX process pid: {self.__ir_rx_process.pid} stopping...")
+                    self._logger.info(f"{self.info_str}: lircd RX process pid: {self._ir_rx_process.pid} stopping...")
                     subprocess.run(f'kill {process}'.split())
         sleep(1)
         if self._lircd_rx_proc() or self._lircd_tx_proc():
             raise RuntimeError(f'{self.info_str}: Error terminating lircd processes!')
 
     @property
-    def __ir_tx(self):
+    def _ir_tx(self):
         ''' Return the TX LIRC object '''
-        if isinstance(self.__ir_tx_obj, lirc.Client):
-            return self.__ir_tx_obj
+        if isinstance(self._ir_tx_obj, lirc.Client):
+            return self._ir_tx_obj
         if self.is_test_ok:
-            self.__ir_tx_obj = lirc.Client(lirc.LircdConnection(address=self.lircd_path + self.ir_tx_dev)) # type: ignore
-            return self.__ir_tx_obj
+            self._ir_tx_obj = lirc.Client(lirc.LircdConnection(address=self.lircd_path + self.ir_tx_dev)) # type: ignore
+            return self._ir_tx_obj
         raise LookupError(f'{self.info_str}: Unable to open TX IR device')
 
     @property
-    def __ir_rx(self):
+    def _ir_rx(self):
         ''' Return the RX socket '''
-        if isinstance(self.__ir_rx_obj, socket.socket):
-            return self.__ir_rx_obj
+        if isinstance(self._ir_rx_obj, socket.socket):
+            return self._ir_rx_obj
         if self.is_test_ok:
-            self.__ir_rx_obj = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
-            self.__ir_rx_obj.connect(self.lircd_path + self.ir_rx_dev) # type: ignore
-            self.__ir_rx_obj.setblocking(False)
-            return self.__ir_rx_obj
+            self._ir_rx_obj = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+            self._ir_rx_obj.connect(self.lircd_path + self.ir_rx_dev) # type: ignore
+            self._ir_rx_obj.setblocking(False)
+            return self._ir_rx_obj
         raise LookupError(f'{self.info_str}: Unable to open RX IR device')
     
     @property
-    def __remote_codes(self) -> tuple:
+    def _remote_codes(self) -> tuple:
         ''' Return a tuple containing the remote and keys for all remotes available to LIRCD and associated tuple containing all codes '''
-        remotes = tuple([LIRC_REMOTE(x, tuple([y.split()[1] for y in self.__ir_tx.list_remote_keys(x)])) for x in self.__ir_tx.list_remotes() if x not in LIRC_EXCLUDE_REMOTES])
+        raw_remotes = self._ir_tx.list_remotes()
+        if isinstance(raw_remotes, list):
+            remotes = tuple([LIRC_REMOTE(x, tuple([y.split()[1] for y in self._ir_tx.list_remote_keys(x)])) for x in raw_remotes if x not in LIRC_EXCLUDE_REMOTES])
+        elif isinstance(raw_remotes, str):
+            remotes = tuple([LIRC_REMOTE(raw_remotes, tuple([y.split()[1] for y in self._ir_tx.list_remote_keys(raw_remotes)]))])
+        else:
+            raise ValueError(f'Unable to query remotes from {self.ir_tx_dev}.  Received a {type(raw_remotes)}, expected a list or string.')
         if len(remotes) == 0:
             raise ValueError(f"{self.info_str}: Unable to identify any configured remote controls")
         return remotes
@@ -95,22 +102,22 @@ class DevTest_IR(DevTest_Base):
     @property
     def is_test_ok(self):
         ''' Checks if there are 2 IR devices, one using send and one receive '''
-        if self.__ir_ok is not None:
-            return self.__ir_ok
+        if self._ir_ok is not None:
+            return self._ir_ok
         try:
             lirc_sys = os.listdir('/sys/class/lirc')
             if len(lirc_sys) < 2:
                 self._logger.warning(f"{self.info_str}: Insufficient lirc devices.  Skipping all IR tests.")
-                self.__ir_ok = False
+                self._ir_ok = False
             for lirc_dev in lirc_sys:
                 driver_path = os.path.realpath(f'/sys/class/lirc/{lirc_dev}/device/device')
                 driver_name = driver_path.rsplit('/', 1)[1]
                 device = {'os_driver': driver_name}
-                if 'tx' in driver_name:
+                if 'tx' in driver_name or 'transmit' in driver_name:
                     device['dir'] = 'out'
                     self.ir_tx_dev = lirc_dev
                     self.ir_tx_driver = driver_name
-                elif 'rx' in driver_name or 'recv' in driver_name:
+                elif 'rx' in driver_name or 'recv' in driver_name or 'receiver' in driver_name:
                     device['dir'] = 'in'
                     self.ir_rx_dev = lirc_dev
                     self.ir_rx_driver = driver_name
@@ -119,19 +126,19 @@ class DevTest_IR(DevTest_Base):
             
             # make sure there is at least 1 send and 1 recieve device
             if self.ir_tx_dev is not None and self.ir_rx_dev is not None:
-                self.__ir_ok = True
+                self._ir_ok = True
                 return True
             return False
 
         except Exception as e:
             self._logger.warning(f"{self.info_str}: Unable to list lirc devices.  Skipping all IR tests: {e}")
-            self.__ir_ok = False
+            self._ir_ok = False
 
     def _lircd_tx_proc(self) -> bool:
         ''' Check if lircd tx process started by the devtest python is up '''
         if not self.is_test_ok:
             return False
-        if self.__ir_tx_process and self.__ir_tx_process.poll() is None:
+        if self._ir_tx_process and self._ir_tx_process.poll() is None:
             # process started by devtest
             return True
         if get_pid_list([f"lircd.*{self.ir_tx_dev}"])[0] != None:
@@ -143,7 +150,7 @@ class DevTest_IR(DevTest_Base):
         ''' Check if lircd rx process started by the devtest python is up '''
         if not self.is_test_ok:
             return False
-        if self.__ir_rx_process and self.__ir_rx_process.poll() is None:
+        if self._ir_rx_process and self._ir_rx_process.poll() is None:
             return True
         if get_pid_list([f"lircd.*{self.ir_rx_dev}"])[0] != None:
             # other lircd process started outside of devtest for the device specified
@@ -161,30 +168,30 @@ class DevTest_IR(DevTest_Base):
             if not self._lircd_tx_proc():
                 # start the lircd TX process
                 self._logger.info(f"{self.info_str}: lircd TX process starting...")
-                self.__ir_tx_process = subprocess.Popen(f"/sbin/lircd --driver=default --device=/dev/{self.ir_tx_dev} --output={self.lircd_path + self.ir_tx_dev} --pidfile={self.lircd_path + self.ir_tx_dev}.pid --nodaemon".split(),  # type: ignore
+                self._ir_tx_process = subprocess.Popen(f"/sbin/lircd --driver=default --device=/dev/{self.ir_tx_dev} --output={self.lircd_path + self.ir_tx_dev} --pidfile={self.lircd_path + self.ir_tx_dev}.pid --nodaemon --options-file={LIRC_OPTIONS_FILE}".split(),  # type: ignore
                                                                stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
                 # wait 1 second and make sure the process didn't terminate
                 sleep(1)
-                if self.__ir_tx_process.poll() != None:
-                    stdout, stderr = self.__ir_tx_process.communicate()
-                    self._logger.error(f"{self.info_str}: Error starting LIRC TX process. code: {self.__ir_tx_process.poll()}, stdout: {stdout}, stderr: {stderr}")
-                    self.__ir_tx_process = None
+                if self._ir_tx_process.poll() != None:
+                    stdout, stderr = self._ir_tx_process.communicate()
+                    self._logger.error(f"{self.info_str}: Error starting LIRC TX process. code: {self._ir_tx_process.poll()}, stdout: {stdout}, stderr: {stderr}")
+                    self._ir_tx_process = None
                 else:
-                    self._logger.info(f"{self.info_str}: lircd TX process pid: {self.__ir_tx_process.pid}")
+                    self._logger.info(f"{self.info_str}: lircd TX process pid: {self._ir_tx_process.pid}")
                 
             if not self._lircd_rx_proc():
                 # start the lircd RX process
                 self._logger.info(f"{self.info_str}: lircd RX process starting...")
-                self.__ir_rx_process = subprocess.Popen(f"/sbin/lircd --driver=default --device=/dev/{self.ir_rx_dev} --output={self.lircd_path + self.ir_rx_dev} --pidfile={self.lircd_path + self.ir_rx_dev}.pid --nodaemon".split(),  # type: ignore
+                self._ir_rx_process = subprocess.Popen(f"/sbin/lircd --driver=default --device=/dev/{self.ir_rx_dev} --output={self.lircd_path + self.ir_rx_dev} --pidfile={self.lircd_path + self.ir_rx_dev}.pid --nodaemon  --options-file={LIRC_OPTIONS_FILE}".split(),  # type: ignore
                                                                stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
                 # wait 1 second and make sure the process didn't terminate
                 sleep(1)
-                if self.__ir_rx_process.poll() != None:
-                    stdout, stderr = self.__ir_rx_process.communicate()
-                    self._logger.error(f"{self.info_str}: Error starting LIRC TX process. code: {self.__ir_rx_process.poll()}, stdout: {stdout}, stderr: {stderr}")
-                    self.__ir_rx_process = None
+                if self._ir_rx_process.poll() != None:
+                    stdout, stderr = self._ir_rx_process.communicate()
+                    self._logger.error(f"{self.info_str}: Error starting LIRC TX process. code: {self._ir_rx_process.poll()}, stdout: {stdout}, stderr: {stderr}")
+                    self._ir_rx_process = None
                 else:
-                    self._logger.info(f"{self.info_str}: lircd RX process pid: {self.__ir_rx_process.pid}")
+                    self._logger.info(f"{self.info_str}: lircd RX process pid: {self._ir_rx_process.pid}")
 
             if not self._lircd_tx_proc() or not self._lircd_rx_proc():
                 raise ConnectionError(f"{self.info_str}: Unable to start lircd IR processes")
@@ -196,12 +203,14 @@ class DevTest_IR(DevTest_Base):
         ''' Stops the lirc daemon for the TX and RX. '''
         self.close()
 
-    def __transmit_blocking(self, remote, key, tx_ms) -> str:
+    def _transmit_blocking(self, remote, key, tx_ms, wait_delay_ms=100) -> str:
         ''' Send the IR command and validate response.  Return received string '''
         self._logger.debug(f"{self.info_str}: IR Test: Sending {remote} {key}")
-        self.__ir_tx.send_start(remote, key)
+        self.lirc_rx_read_code() # Read from the RX to clear any stored codes
+        self._ir_tx.send_start(remote, key)
         sleep(tx_ms / 1000)
-        self.__ir_tx.send_stop(remote, key)
+        self._ir_tx.send_stop(remote, key)
+        sleep(wait_delay_ms / 1000)
         recv = self.lirc_rx_read_code()
         self._logger.debug(f"{self.info_str}: IR Test: Received {recv}")
         return recv
@@ -210,7 +219,7 @@ class DevTest_IR(DevTest_Base):
         ''' Run the IR test threaded or blocking '''
         with self._testing_lock:
             self.lirc_start()
-            remote_list = self.__remote_codes
+            remote_list = self._remote_codes
             iter_run, iter_success = 0, 0
             self.lirc_rx_read_code() # read from the RX stream to clear any pending data
             start_time = time()
@@ -219,7 +228,7 @@ class DevTest_IR(DevTest_Base):
                     for remote in remote_list:
                         for key in remote.keys:
                             iter_run += 1
-                            recv = self.__transmit_blocking(remote.name, key, tx_ms)
+                            recv = self._transmit_blocking(remote.name, key, tx_ms)
                             if recv == key:
                                 iter_success += 1
                             else:
@@ -242,7 +251,7 @@ class DevTest_IR(DevTest_Base):
         ''' Run the IR test threaded or blocking '''
         with self._testing_lock:
             self.lirc_start()
-            remote_list = self.__remote_codes
+            remote_list = self._remote_codes
             iter_run, iter_success = 0, 0
             self.lirc_rx_read_code() # read from the RX stream to clear any pending data
             start_time = time()
@@ -252,7 +261,7 @@ class DevTest_IR(DevTest_Base):
                     for remote in remote_list:
                         for key in remote.keys:
                             iter_run += 1
-                            recv = self.__transmit_blocking(remote.name, key, tx_ms)
+                            recv = self._transmit_blocking(remote.name, key, tx_ms)
                             if recv == key:
                                 iter_success += 1
                             else:
@@ -274,7 +283,7 @@ class DevTest_IR(DevTest_Base):
     def lirc_rx_read_code(self) -> str:
         ''' Read any pending data from the socket and return the last code received '''
         try:
-            data = self.__ir_rx.recv(1024)
+            data = self._ir_rx.recv(8192)
             return data.decode('utf-8').strip().split('\n')[-1].split()[-2]
         except BlockingIOError:
             return 'NO-DATA'
