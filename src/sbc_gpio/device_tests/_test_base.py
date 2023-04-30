@@ -15,6 +15,7 @@ class DevTest_Results:
     pass_on_zero = False
     name = ''
     description = ''
+    details= []
 
     def __init__(self, **kwargs):
         for key, value in kwargs.items():

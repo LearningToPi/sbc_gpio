@@ -11,9 +11,11 @@ from sbc_gpio.device_tests.i2c_display import DevTest_I2CDisp
 from sbc_gpio.device_tests.ir import DevTest_IR
 from sbc_gpio.device_tests.dht_spi import DevTest_DHT
 from sbc_gpio.device_tests.bmx_spi import DevTest_BMX
+from sbc_gpio.device_tests.uart import DevTest_UART
 
 
-def run_test(run_secs=60, led=None, btn=None, dht=None, ir=None, dht_spi=None, dht22=False, bmx=None, bmx_spi=None, i2c=None, log_level=INFO):
+def run_test(run_secs=60, led=None, btn=None, dht=None, ir=None, dht_spi=None, dht22=False, bmx=None, bmx_spi=None, i2c=None, log_level=INFO,
+             uart_dev=None, usb_dev=None):
     logger = create_logger(console_level=log_level, name='SBC_Tester')
 
     # loop through and start each test
@@ -36,6 +38,8 @@ def run_test(run_secs=60, led=None, btn=None, dht=None, ir=None, dht_spi=None, d
         tests.append(DevTest_I2CDisp(port=i2c, log_level=log_level))
     if isinstance(ir, bool) and ir:
         tests.append(DevTest_IR(log_level=log_level))
+    if uart_dev is not None and usb_dev is not None:
+        tests.append(DevTest_UART(uart_dev, usb_dev, log_level=log_level))
 
     # start the tests
     for test in tests:
@@ -59,6 +63,11 @@ def run_test(run_secs=60, led=None, btn=None, dht=None, ir=None, dht_spi=None, d
                 logger.error(f"Test {test.infostr} failed to complete!  Results not available.")
             else:
                 logger.info(test.test_results)
+                if test.test_results.details is not None:
+                    for line in test.test_results.details:
+                        logger.info(f"    {line}")
+
+        logger.info(f'Completed test run for {run_secs} seconds.')
     except KeyboardInterrupt:
         # if Ctrl+C stop all tests
         logger.warning('Keyboard Interrupt caught. Stopping all tests. This may take a few seconds to complete...')
@@ -98,7 +107,9 @@ if __name__ == '__main__':
             'bmx': '3B5',
             'bmx_spi': 1,
             'i2c': 7,
-            'ir': True
+            'ir': True,
+            "uart_dev": "ttyS0",
+            "usb_dev": "ttyUSB0"
         }
         if os.path.isfile(args.get('config', 'sample-config.json')):
             print(f"Config file '{args.get('config', 'sample-config.json')}' already exists")
