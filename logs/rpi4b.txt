@@ -1,0 +1,1030 @@
+2023-04-27 23:05:35,908 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/64chars) FAILED
+2023-04-27 23:05:36,216 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:05:36,631 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:05:36,632 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:05:36,708 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8878degC (85.798degF), Pressure: 96407.74Pa (13.9823psi) (0.951705atm)
+2023-04-27 23:05:36,756 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_TL.  Recived: NO-DATA
+2023-04-27 23:05:37,244 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.9degC (84.02degF), Humidity 22.0%
+2023-04-27 23:05:37,598 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:05:37,599 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:05:37,810 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8828degC (85.789degF), Pressure: 96409.77Pa (13.9826psi) (0.951725atm)
+2023-04-27 23:05:38,170 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_UP.  Recived: NO-DATA
+2023-04-27 23:05:38,917 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8727degC (85.7709degF), Pressure: 96408.38Pa (13.9824psi) (0.951712atm)
+2023-04-27 23:05:39,384 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:05:40,020 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8677degC (85.7619degF), Pressure: 96407.68Pa (13.9823psi) (0.951705atm)
+2023-04-27 23:05:40,404 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:05:40,997 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_LEFT.  Recived: NO-DATA
+2023-04-27 23:05:41,123 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8677degC (85.7619degF), Pressure: 96402.22Pa (13.9815psi) (0.951651atm)
+2023-04-27 23:05:41,486 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.9degC (84.02degF), Humidity 22.0%
+2023-04-27 23:05:42,226 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8626degC (85.7527degF), Pressure: 96406.98Pa (13.9822psi) (0.951698atm)
+2023-04-27 23:05:43,330 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8475degC (85.7255degF), Pressure: 96415.82Pa (13.9834psi) (0.951785atm)
+2023-04-27 23:05:43,588 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:05:44,457 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8626degC (85.7527degF), Pressure: 96401.52Pa (13.9814psi) (0.951644atm)
+2023-04-27 23:05:45,560 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8526degC (85.7347degF), Pressure: 96411.05Pa (13.9827psi) (0.951738atm)
+2023-04-27 23:05:45,689 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:05:46,664 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8677degC (85.7619degF), Pressure: 96413.14Pa (13.9831psi) (0.951759atm)
+2023-04-27 23:05:47,772 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8677degC (85.7619degF), Pressure: 96404.95Pa (13.9819psi) (0.951678atm)
+2023-04-27 23:05:47,791 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:05:48,876 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8677degC (85.7619degF), Pressure: 96413.14Pa (13.9831psi) (0.951759atm)
+2023-04-27 23:05:49,895 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:05:49,996 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8677degC (85.7619degF), Pressure: 96407.68Pa (13.9823psi) (0.951705atm)
+2023-04-27 23:05:51,099 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8626degC (85.7527degF), Pressure: 96406.98Pa (13.9822psi) (0.951698atm)
+2023-04-27 23:05:51,998 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:05:52,202 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8576degC (85.7437degF), Pressure: 96411.75Pa (13.9828psi) (0.951745atm)
+2023-04-27 23:05:53,306 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8626degC (85.7527degF), Pressure: 96406.98Pa (13.9822psi) (0.951698atm)
+2023-04-27 23:05:54,102 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:05:54,409 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8475degC (85.7255degF), Pressure: 96415.82Pa (13.9834psi) (0.951785atm)
+2023-04-27 23:05:55,507 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:05:55,561 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8375degC (85.7075degF), Pressure: 96414.42Pa (13.9832psi) (0.951771atm)
+2023-04-27 23:05:56,206 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:05:56,665 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8425degC (85.7165degF), Pressure: 96415.12Pa (13.9833psi) (0.951778atm)
+2023-04-27 23:05:57,769 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8375degC (85.7075degF), Pressure: 96408.96Pa (13.9824psi) (0.951717atm)
+2023-04-27 23:05:58,316 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:05:58,873 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8375degC (85.7075degF), Pressure: 96414.42Pa (13.9832psi) (0.951771atm)
+2023-04-27 23:05:59,976 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8375degC (85.7075degF), Pressure: 96408.96Pa (13.9824psi) (0.951717atm)
+2023-04-27 23:06:00,419 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:06:01,079 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8324degC (85.6983degF), Pressure: 96408.26Pa (13.9823psi) (0.95171atm)
+2023-04-27 23:06:02,182 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8324degC (85.6983degF), Pressure: 96413.73Pa (13.9831psi) (0.951764atm)
+2023-04-27 23:06:02,213 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_FORWARD.  Recived: NO-DATA
+2023-04-27 23:06:02,560 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:03,167 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:06:03,285 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8475degC (85.7255degF), Pressure: 96413.09Pa (13.983psi) (0.951758atm)
+2023-04-27 23:06:03,592 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/128chars) FAILED
+2023-04-27 23:06:03,638 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_P.  Recived: NO-DATA
+2023-04-27 23:06:04,389 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8274degC (85.6893degF), Pressure: 96410.3Pa (13.9826psi) (0.951731atm)
+2023-04-27 23:06:04,547 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/1024chars) FAILED
+2023-04-27 23:06:04,663 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:06:05,052 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_AV.  Recived: NO-DATA
+2023-04-27 23:06:05,491 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8224degC (85.6803degF), Pressure: 96415.06Pa (13.9833psi) (0.951777atm)
+2023-04-27 23:06:06,595 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8224degC (85.6803degF), Pressure: 96409.6Pa (13.9825psi) (0.951724atm)
+2023-04-27 23:06:06,764 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:06:07,755 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8173degC (85.6711degF), Pressure: 96408.9Pa (13.9824psi) (0.951717atm)
+2023-04-27 23:06:08,870 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:06:08,870 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96407.5Pa (13.9822psi) (0.951703atm)
+2023-04-27 23:06:09,981 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8022degC (85.644degF), Pressure: 96404.08Pa (13.9817psi) (0.951669atm)
+2023-04-27 23:06:11,044 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:11,147 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8022degC (85.644degF), Pressure: 96409.54Pa (13.9825psi) (0.951723atm)
+2023-04-27 23:06:11,784 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:06:12,215 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:06:12,250 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96410.24Pa (13.9826psi) (0.95173atm)
+2023-04-27 23:06:13,148 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:13,229 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:06:13,353 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8022degC (85.644degF), Pressure: 96409.54Pa (13.9825psi) (0.951723atm)
+2023-04-27 23:06:14,457 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96410.24Pa (13.9826psi) (0.95173atm)
+2023-04-27 23:06:15,324 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:15,563 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96407.5Pa (13.9822psi) (0.951703atm)
+2023-04-27 23:06:16,708 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96407.5Pa (13.9822psi) (0.951703atm)
+2023-04-27 23:06:17,426 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.8degC (83.84degF), Humidity 22.0%
+2023-04-27 23:06:17,812 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96404.77Pa (13.9818psi) (0.951676atm)
+2023-04-27 23:06:18,916 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96410.24Pa (13.9826psi) (0.95173atm)
+2023-04-27 23:06:19,571 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:20,018 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96412.97Pa (13.983psi) (0.951757atm)
+2023-04-27 23:06:21,122 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96410.24Pa (13.9826psi) (0.95173atm)
+2023-04-27 23:06:21,673 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:22,225 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8022degC (85.644degF), Pressure: 96412.27Pa (13.9829psi) (0.95175atm)
+2023-04-27 23:06:23,328 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96410.24Pa (13.9826psi) (0.95173atm)
+2023-04-27 23:06:23,782 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:24,431 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.8073degC (85.6531degF), Pressure: 96410.24Pa (13.9826psi) (0.95173atm)
+2023-04-27 23:06:25,345 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/256chars) FAILED
+2023-04-27 23:06:25,535 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7972degC (85.635degF), Pressure: 96408.84Pa (13.9824psi) (0.951716atm)
+2023-04-27 23:06:25,562 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/512chars) FAILED
+2023-04-27 23:06:25,900 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-27 23:06:25,900 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-27 23:06:26,306 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_6.  Recived: NO-DATA
+2023-04-27 23:06:26,308 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/2048chars) FAILED
+2023-04-27 23:06:26,638 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7871degC (85.6168degF), Pressure: 96407.45Pa (13.9822psi) (0.951702atm)
+2023-04-27 23:06:27,720 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_7.  Recived: NO-DATA
+2023-04-27 23:06:27,742 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7771degC (85.5988degF), Pressure: 96406.05Pa (13.982psi) (0.951689atm)
+2023-04-27 23:06:28,004 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:28,845 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7771degC (85.5988degF), Pressure: 96411.51Pa (13.9828psi) (0.951742atm)
+2023-04-27 23:06:29,076 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/2048chars) FAILED
+2023-04-27 23:06:29,155 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_8.  Recived: NO-DATA
+2023-04-27 23:06:29,641 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:06:29,950 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7871degC (85.6168degF), Pressure: 96407.45Pa (13.9822psi) (0.951702atm)
+2023-04-27 23:06:30,098 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:06:30,098 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:06:30,151 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:30,569 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_9.  Recived: NO-DATA
+2023-04-27 23:06:31,053 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7871degC (85.6168degF), Pressure: 96407.45Pa (13.9822psi) (0.951702atm)
+2023-04-27 23:06:31,238 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:06:31,239 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:06:31,984 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_PREVIOUS.  Recived: NO-DATA
+2023-04-27 23:06:32,156 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7821degC (85.6078degF), Pressure: 96404.02Pa (13.9817psi) (0.951669atm)
+2023-04-27 23:06:32,253 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:33,260 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7922degC (85.626degF), Pressure: 96413.61Pa (13.9831psi) (0.951763atm)
+2023-04-27 23:06:33,399 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_0.  Recived: NO-DATA
+2023-04-27 23:06:34,141 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:06:34,368 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.767degC (85.5806degF), Pressure: 96410.12Pa (13.9826psi) (0.951729atm)
+2023-04-27 23:06:34,396 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:34,813 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_TEXT.  Recived: NO-DATA
+2023-04-27 23:06:35,477 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7569degC (85.5624degF), Pressure: 96408.72Pa (13.9824psi) (0.951715atm)
+2023-04-27 23:06:36,228 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MUTE.  Recived: NO-DATA
+2023-04-27 23:06:36,501 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:36,585 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.767degC (85.5806degF), Pressure: 96404.66Pa (13.9818psi) (0.951675atm)
+2023-04-27 23:06:37,648 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_CHANNELUP.  Recived: NO-DATA
+2023-04-27 23:06:37,689 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.767degC (85.5806degF), Pressure: 96412.85Pa (13.983psi) (0.951756atm)
+2023-04-27 23:06:38,645 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:06:38,792 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.762degC (85.5716degF), Pressure: 96414.88Pa (13.9833psi) (0.951776atm)
+2023-04-27 23:06:39,063 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_CHANNELDOWN.  Recived: NO-DATA
+2023-04-27 23:06:39,895 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7469degC (85.5444degF), Pressure: 96407.33Pa (13.9822psi) (0.951701atm)
+2023-04-27 23:06:40,477 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_VOLUMEUP.  Recived: NO-DATA
+2023-04-27 23:06:40,748 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:40,859 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:06:41,007 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.772degC (85.5896degF), Pressure: 96413.55Pa (13.9831psi) (0.951763atm)
+2023-04-27 23:06:41,321 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/128chars) FAILED
+2023-04-27 23:06:41,816 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/512chars) FAILED
+2023-04-27 23:06:41,896 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_VOLUMEDOWN.  Recived: NO-DATA
+2023-04-27 23:06:42,110 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7469degC (85.5444degF), Pressure: 96407.33Pa (13.9822psi) (0.951701atm)
+2023-04-27 23:06:42,892 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:43,024 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/2048chars) FAILED
+2023-04-27 23:06:43,214 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7519degC (85.5534degF), Pressure: 96405.29Pa (13.9819psi) (0.951681atm)
+2023-04-27 23:06:43,311 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_LIST.  Recived: NO-DATA
+2023-04-27 23:06:44,318 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96408.66Pa (13.9824psi) (0.951714atm)
+2023-04-27 23:06:44,725 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MEDIA.  Recived: NO-DATA
+2023-04-27 23:06:44,879 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/2048chars) FAILED
+2023-04-27 23:06:45,049 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:45,421 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7318degC (85.5172degF), Pressure: 96413.43Pa (13.9831psi) (0.951761atm)
+2023-04-27 23:06:45,957 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/1024chars) FAILED
+2023-04-27 23:06:46,151 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MENU.  Recived: NO-DATA
+2023-04-27 23:06:46,526 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7217degC (85.4991degF), Pressure: 96412.03Pa (13.9829psi) (0.951748atm)
+2023-04-27 23:06:46,739 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (576000baud/128chars) FAILED
+2023-04-27 23:06:47,149 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:47,566 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_EPG.  Recived: NO-DATA
+2023-04-27 23:06:47,630 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96405.93Pa (13.982psi) (0.951687atm)
+2023-04-27 23:06:48,156 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/128chars) FAILED
+2023-04-27 23:06:48,733 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7418degC (85.5352degF), Pressure: 96412.09Pa (13.9829psi) (0.951748atm)
+2023-04-27 23:06:48,980 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_TL.  Recived: NO-DATA
+2023-04-27 23:06:49,252 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:06:49,683 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:06:49,835 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7418degC (85.5352degF), Pressure: 96412.09Pa (13.9829psi) (0.951748atm)
+2023-04-27 23:06:50,146 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:06:50,146 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:06:50,400 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_UP.  Recived: NO-DATA
+2023-04-27 23:06:50,939 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96403.2Pa (13.9816psi) (0.95166atm)
+2023-04-27 23:06:51,171 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:06:51,171 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:06:51,398 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:51,814 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_RIGHT.  Recived: NO-DATA
+2023-04-27 23:06:52,042 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96416.86Pa (13.9836psi) (0.951795atm)
+2023-04-27 23:06:53,145 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7217degC (85.4991degF), Pressure: 96406.57Pa (13.9821psi) (0.951694atm)
+2023-04-27 23:06:53,229 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_LEFT.  Recived: NO-DATA
+2023-04-27 23:06:53,501 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:54,080 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:06:54,248 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7217degC (85.4991degF), Pressure: 96412.03Pa (13.9829psi) (0.951748atm)
+2023-04-27 23:06:54,648 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_DOWN.  Recived: NO-DATA
+2023-04-27 23:06:55,352 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7318degC (85.5172degF), Pressure: 96405.23Pa (13.9819psi) (0.95168atm)
+2023-04-27 23:06:55,645 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:06:56,063 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_OK.  Recived: NO-DATA
+2023-04-27 23:06:56,455 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96411.4Pa (13.9828psi) (0.951741atm)
+2023-04-27 23:06:57,478 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_BACK.  Recived: NO-DATA
+2023-04-27 23:06:57,558 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7318degC (85.5172degF), Pressure: 96407.97Pa (13.9823psi) (0.951708atm)
+2023-04-27 23:06:57,747 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:06:58,662 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96408.66Pa (13.9824psi) (0.951714atm)
+2023-04-27 23:06:58,903 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_EXIT.  Recived: NO-DATA
+2023-04-27 23:06:59,765 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96408.66Pa (13.9824psi) (0.951714atm)
+2023-04-27 23:06:59,902 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:00,804 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:07:00,868 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7418degC (85.5352degF), Pressure: 96412.09Pa (13.9829psi) (0.951748atm)
+2023-04-27 23:07:01,264 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/128chars) FAILED
+2023-04-27 23:07:01,731 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_B.  Recived: NO-DATA
+2023-04-27 23:07:01,759 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/512chars) FAILED
+2023-04-27 23:07:01,985 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96411.4Pa (13.9828psi) (0.951741atm)
+2023-04-27 23:07:02,048 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:02,966 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/2048chars) FAILED
+2023-04-27 23:07:03,123 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96405.93Pa (13.982psi) (0.951687atm)
+2023-04-27 23:07:03,150 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_C.  Recived: NO-DATA
+2023-04-27 23:07:04,152 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:04,253 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96405.93Pa (13.982psi) (0.951687atm)
+2023-04-27 23:07:04,564 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_D.  Recived: NO-DATA
+2023-04-27 23:07:05,357 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7267degC (85.5081degF), Pressure: 96404.54Pa (13.9818psi) (0.951674atm)
+2023-04-27 23:07:05,979 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_START.  Recived: NO-DATA
+2023-04-27 23:07:06,256 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:06,460 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7368degC (85.5262degF), Pressure: 96411.4Pa (13.9828psi) (0.951741atm)
+2023-04-27 23:07:07,403 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_SUBTITLE.  Recived: NO-DATA
+2023-04-27 23:07:07,564 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7217degC (85.4991degF), Pressure: 96412.03Pa (13.9829psi) (0.951748atm)
+2023-04-27 23:07:07,994 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/128chars) FAILED
+2023-04-27 23:07:08,400 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:08,667 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7318degC (85.5172degF), Pressure: 96410.7Pa (13.9827psi) (0.951734atm)
+2023-04-27 23:07:08,818 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_STOP.  Recived: NO-DATA
+2023-04-27 23:07:09,547 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:07:09,770 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7267degC (85.5081degF), Pressure: 96410.0Pa (13.9826psi) (0.951728atm)
+2023-04-27 23:07:09,978 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:07:09,978 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:07:10,232 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_REWIND.  Recived: NO-DATA
+2023-04-27 23:07:10,503 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:10,873 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7267degC (85.5081degF), Pressure: 96415.46Pa (13.9834psi) (0.951781atm)
+2023-04-27 23:07:11,003 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:07:11,003 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:07:11,657 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_PLAY.  Recived: NO-DATA
+2023-04-27 23:07:11,977 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7318degC (85.5172degF), Pressure: 96405.23Pa (13.9819psi) (0.95168atm)
+2023-04-27 23:07:12,653 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:13,071 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_PAUSE.  Recived: NO-DATA
+2023-04-27 23:07:13,080 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7217degC (85.4991degF), Pressure: 96409.3Pa (13.9825psi) (0.951721atm)
+2023-04-27 23:07:13,891 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:07:14,183 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7167degC (85.4901degF), Pressure: 96408.6Pa (13.9824psi) (0.951714atm)
+2023-04-27 23:07:14,485 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_FORWARD.  Recived: NO-DATA
+2023-04-27 23:07:14,755 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:15,287 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7116degC (85.4809degF), Pressure: 96410.64Pa (13.9827psi) (0.951734atm)
+2023-04-27 23:07:15,905 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_P.  Recived: NO-DATA
+2023-04-27 23:07:16,390 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7167degC (85.4901degF), Pressure: 96408.6Pa (13.9824psi) (0.951714atm)
+2023-04-27 23:07:16,903 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:17,320 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_AV.  Recived: NO-DATA
+2023-04-27 23:07:17,497 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7016degC (85.4629degF), Pressure: 96411.97Pa (13.9829psi) (0.951747atm)
+2023-04-27 23:07:18,601 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6965degC (85.4537degF), Pressure: 96414.01Pa (13.9832psi) (0.951767atm)
+2023-04-27 23:07:18,734 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_COMPONENT.  Recived: NO-DATA
+2023-04-27 23:07:19,005 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.0%
+2023-04-27 23:07:19,705 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7167degC (85.4901degF), Pressure: 96411.34Pa (13.9828psi) (0.951741atm)
+2023-04-27 23:07:20,154 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_HDMI1.  Recived: NO-DATA
+2023-04-27 23:07:20,637 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:07:20,807 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7016degC (85.4629degF), Pressure: 96406.51Pa (13.9821psi) (0.951693atm)
+2023-04-27 23:07:21,100 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/128chars) FAILED
+2023-04-27 23:07:21,154 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:21,568 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_HDMI2.  Recived: NO-DATA
+2023-04-27 23:07:21,601 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/512chars) FAILED
+2023-04-27 23:07:21,910 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7066degC (85.4719degF), Pressure: 96412.67Pa (13.983psi) (0.951754atm)
+2023-04-27 23:07:22,857 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/2048chars) FAILED
+2023-04-27 23:07:22,983 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_TV.  Recived: NO-DATA
+2023-04-27 23:07:23,013 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7016degC (85.4629degF), Pressure: 96406.51Pa (13.9821psi) (0.951693atm)
+2023-04-27 23:07:23,258 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:24,117 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6965degC (85.4537degF), Pressure: 96411.28Pa (13.9828psi) (0.95174atm)
+2023-04-27 23:07:24,407 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_POWER_ON.  Recived: NO-DATA
+2023-04-27 23:07:25,220 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.7016degC (85.4629degF), Pressure: 96409.24Pa (13.9825psi) (0.95172atm)
+2023-04-27 23:07:25,402 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.7degC (83.66degF), Humidity 22.1%
+2023-04-27 23:07:25,821 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_POWER_OFF.  Recived: NO-DATA
+2023-04-27 23:07:26,323 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6915degC (85.4447degF), Pressure: 96410.58Pa (13.9827psi) (0.951733atm)
+2023-04-27 23:07:27,236 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_SMARTHUB.  Recived: NO-DATA
+2023-04-27 23:07:27,426 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6865degC (85.4357degF), Pressure: 96407.15Pa (13.9822psi) (0.951699atm)
+2023-04-27 23:07:27,507 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:28,530 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6965degC (85.4537degF), Pressure: 96411.28Pa (13.9828psi) (0.95174atm)
+2023-04-27 23:07:28,655 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_POWER.  Recived: NO-DATA
+2023-04-27 23:07:29,361 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:07:29,649 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6865degC (85.4357degF), Pressure: 96412.61Pa (13.983psi) (0.951753atm)
+2023-04-27 23:07:29,654 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:29,815 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:07:29,815 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:07:30,069 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_CYCLEWINDOWS.  Recived: NO-DATA
+2023-04-27 23:07:30,757 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6814degC (85.4265degF), Pressure: 96414.65Pa (13.9833psi) (0.951773atm)
+2023-04-27 23:07:30,840 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:07:30,840 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:07:31,483 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_1.  Recived: NO-DATA
+2023-04-27 23:07:31,755 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:31,860 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6865degC (85.4357degF), Pressure: 96412.61Pa (13.983psi) (0.951753atm)
+2023-04-27 23:07:32,908 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_2.  Recived: NO-DATA
+2023-04-27 23:07:32,964 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6764degC (85.4175degF), Pressure: 96419.41Pa (13.984psi) (0.95182atm)
+2023-04-27 23:07:33,728 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:07:33,904 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:34,067 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6713degC (85.4083degF), Pressure: 96413.25Pa (13.9831psi) (0.95176atm)
+2023-04-27 23:07:34,323 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_3.  Recived: NO-DATA
+2023-04-27 23:07:35,171 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6764degC (85.4175degF), Pressure: 96411.22Pa (13.9828psi) (0.95174atm)
+2023-04-27 23:07:35,737 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_4.  Recived: NO-DATA
+2023-04-27 23:07:36,006 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:36,273 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6713degC (85.4083degF), Pressure: 96415.98Pa (13.9835psi) (0.951787atm)
+2023-04-27 23:07:37,162 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_5.  Recived: NO-DATA
+2023-04-27 23:07:37,376 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6865degC (85.4357degF), Pressure: 96420.81Pa (13.9842psi) (0.951834atm)
+2023-04-27 23:07:38,159 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:38,479 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6764degC (85.4175degF), Pressure: 96413.95Pa (13.9832psi) (0.951767atm)
+2023-04-27 23:07:38,576 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_6.  Recived: NO-DATA
+2023-04-27 23:07:39,582 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6663degC (85.3993degF), Pressure: 96407.09Pa (13.9822psi) (0.951699atm)
+2023-04-27 23:07:39,991 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_7.  Recived: NO-DATA
+2023-04-27 23:07:40,262 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:40,473 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:07:40,686 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6613degC (85.3903degF), Pressure: 96411.85Pa (13.9829psi) (0.951746atm)
+2023-04-27 23:07:40,948 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/128chars) FAILED
+2023-04-27 23:07:41,416 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_8.  Recived: NO-DATA
+2023-04-27 23:07:41,444 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/512chars) FAILED
+2023-04-27 23:07:41,790 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6713degC (85.4083degF), Pressure: 96413.25Pa (13.9831psi) (0.95176atm)
+2023-04-27 23:07:42,413 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:42,649 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/2048chars) FAILED
+2023-04-27 23:07:42,830 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_9.  Recived: NO-DATA
+2023-04-27 23:07:42,893 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6764degC (85.4175degF), Pressure: 96411.22Pa (13.9828psi) (0.95174atm)
+2023-04-27 23:07:43,997 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6713degC (85.4083degF), Pressure: 96410.52Pa (13.9827psi) (0.951733atm)
+2023-04-27 23:07:44,244 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_PREVIOUS.  Recived: NO-DATA
+2023-04-27 23:07:44,516 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:44,971 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/128chars) FAILED
+2023-04-27 23:07:45,101 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6613degC (85.3903degF), Pressure: 96409.12Pa (13.9825psi) (0.951719atm)
+2023-04-27 23:07:45,667 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_0.  Recived: NO-DATA
+2023-04-27 23:07:46,204 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6613degC (85.3903degF), Pressure: 96420.05Pa (13.9841psi) (0.951827atm)
+2023-04-27 23:07:46,666 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:47,082 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_TEXT.  Recived: NO-DATA
+2023-04-27 23:07:47,307 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6663degC (85.3993degF), Pressure: 96407.09Pa (13.9822psi) (0.951699atm)
+2023-04-27 23:07:47,802 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/128chars) FAILED
+2023-04-27 23:07:48,412 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6663degC (85.3993degF), Pressure: 96407.09Pa (13.9822psi) (0.951699atm)
+2023-04-27 23:07:48,496 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MUTE.  Recived: NO-DATA
+2023-04-27 23:07:48,831 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:49,515 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6613degC (85.3903degF), Pressure: 96411.85Pa (13.9829psi) (0.951746atm)
+2023-04-27 23:07:50,618 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6462degC (85.3632degF), Pressure: 96412.49Pa (13.983psi) (0.951752atm)
+2023-04-27 23:07:50,934 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:51,758 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6613degC (85.3903degF), Pressure: 96414.59Pa (13.9833psi) (0.951773atm)
+2023-04-27 23:07:52,861 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6562degC (85.3812degF), Pressure: 96416.62Pa (13.9836psi) (0.951793atm)
+2023-04-27 23:07:52,994 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:07:53,038 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:53,966 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6462degC (85.3632degF), Pressure: 96412.49Pa (13.983psi) (0.951752atm)
+2023-04-27 23:07:54,182 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_VOLUMEDOWN.  Recived: NO-DATA
+2023-04-27 23:07:55,069 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6462degC (85.3632degF), Pressure: 96409.76Pa (13.9826psi) (0.951725atm)
+2023-04-27 23:07:55,179 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:55,597 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_LIST.  Recived: NO-DATA
+2023-04-27 23:07:56,172 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6411degC (85.354degF), Pressure: 96419.99Pa (13.984psi) (0.951826atm)
+2023-04-27 23:07:57,010 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MEDIA.  Recived: NO-DATA
+2023-04-27 23:07:57,282 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6411degC (85.354degF), Pressure: 96414.53Pa (13.9833psi) (0.951772atm)
+2023-04-27 23:07:57,282 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:58,385 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6411degC (85.354degF), Pressure: 96409.06Pa (13.9825psi) (0.951718atm)
+2023-04-27 23:07:58,436 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MENU.  Recived: NO-DATA
+2023-04-27 23:07:59,431 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:07:59,488 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.626degC (85.3268degF), Pressure: 96406.97Pa (13.9822psi) (0.951698atm)
+2023-04-27 23:07:59,712 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:07:59,850 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_EPG.  Recived: NO-DATA
+2023-04-27 23:08:00,592 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.626degC (85.3268degF), Pressure: 96409.7Pa (13.9826psi) (0.951725atm)
+2023-04-27 23:08:00,643 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/512chars) FAILED
+2023-04-27 23:08:01,193 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/1024chars) FAILED
+2023-04-27 23:08:01,265 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_TL.  Recived: NO-DATA
+2023-04-27 23:08:01,590 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:01,695 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.626degC (85.3268degF), Pressure: 96412.43Pa (13.9829psi) (0.951752atm)
+2023-04-27 23:08:01,825 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/2048chars) FAILED
+2023-04-27 23:08:02,692 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_UP.  Recived: NO-DATA
+2023-04-27 23:08:02,799 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.626degC (85.3268degF), Pressure: 96406.97Pa (13.9822psi) (0.951698atm)
+2023-04-27 23:08:03,501 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/2048chars) FAILED
+2023-04-27 23:08:03,693 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:03,902 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6411degC (85.354degF), Pressure: 96417.26Pa (13.9836psi) (0.951799atm)
+2023-04-27 23:08:03,952 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/128chars) FAILED
+2023-04-27 23:08:04,106 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_RIGHT.  Recived: NO-DATA
+2023-04-27 23:08:05,005 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6462degC (85.3632degF), Pressure: 96415.22Pa (13.9834psi) (0.951779atm)
+2023-04-27 23:08:05,089 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/2048chars) FAILED
+2023-04-27 23:08:05,521 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_LEFT.  Recived: NO-DATA
+2023-04-27 23:08:05,795 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:06,109 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6311degC (85.336degF), Pressure: 96418.59Pa (13.9838psi) (0.951812atm)
+2023-04-27 23:08:06,941 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_DOWN.  Recived: NO-DATA
+2023-04-27 23:08:07,002 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/128chars) FAILED
+2023-04-27 23:08:07,212 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6512degC (85.3722degF), Pressure: 96418.65Pa (13.9839psi) (0.951813atm)
+2023-04-27 23:08:07,937 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:07,951 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/2048chars) FAILED
+2023-04-27 23:08:08,267 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/64chars) FAILED
+2023-04-27 23:08:08,315 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6311degC (85.336degF), Pressure: 96407.67Pa (13.9823psi) (0.951705atm)
+2023-04-27 23:08:08,355 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_OK.  Recived: NO-DATA
+2023-04-27 23:08:08,990 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:08:08,990 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:08:09,419 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6311degC (85.336degF), Pressure: 96410.4Pa (13.9827psi) (0.951731atm)
+2023-04-27 23:08:09,770 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_BACK.  Recived: NO-DATA
+2023-04-27 23:08:10,039 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:10,304 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:08:10,305 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:08:10,523 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6462degC (85.3632degF), Pressure: 96415.22Pa (13.9834psi) (0.951779atm)
+2023-04-27 23:08:11,194 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_EXIT.  Recived: NO-DATA
+2023-04-27 23:08:11,626 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.626degC (85.3268degF), Pressure: 96409.7Pa (13.9826psi) (0.951725atm)
+2023-04-27 23:08:12,191 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:12,609 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_A.  Recived: NO-DATA
+2023-04-27 23:08:12,729 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.626degC (85.3268degF), Pressure: 96412.43Pa (13.9829psi) (0.951752atm)
+2023-04-27 23:08:13,212 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:08:13,833 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6361degC (85.345degF), Pressure: 96419.29Pa (13.9839psi) (0.951819atm)
+2023-04-27 23:08:14,024 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_B.  Recived: NO-DATA
+2023-04-27 23:08:14,294 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:14,936 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6311degC (85.336degF), Pressure: 96410.4Pa (13.9827psi) (0.951731atm)
+2023-04-27 23:08:15,444 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_C.  Recived: NO-DATA
+2023-04-27 23:08:16,039 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.626degC (85.3268degF), Pressure: 96417.89Pa (13.9837psi) (0.951805atm)
+2023-04-27 23:08:16,439 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:16,858 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_D.  Recived: NO-DATA
+2023-04-27 23:08:17,141 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.626degC (85.3268degF), Pressure: 96406.97Pa (13.9822psi) (0.951698atm)
+2023-04-27 23:08:18,245 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6109degC (85.2996degF), Pressure: 96421.26Pa (13.9842psi) (0.951839atm)
+2023-04-27 23:08:18,273 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_START.  Recived: NO-DATA
+2023-04-27 23:08:18,543 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:19,348 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.621degC (85.3178degF), Pressure: 96417.2Pa (13.9836psi) (0.951799atm)
+2023-04-27 23:08:19,961 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:08:20,452 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.616degC (85.3088degF), Pressure: 96416.5Pa (13.9835psi) (0.951792atm)
+2023-04-27 23:08:20,646 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:21,554 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5908degC (85.2634degF), Pressure: 96402.08Pa (13.9814psi) (0.951649atm)
+2023-04-27 23:08:22,009 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/2048chars) FAILED
+2023-04-27 23:08:22,216 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/64chars) FAILED
+2023-04-27 23:08:22,526 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_REWIND.  Recived: NO-DATA
+2023-04-27 23:08:22,658 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5908degC (85.2634degF), Pressure: 96423.93Pa (13.9846psi) (0.951865atm)
+2023-04-27 23:08:22,748 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:23,216 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/1024chars) FAILED
+2023-04-27 23:08:23,765 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5958degC (85.2724degF), Pressure: 96413.71Pa (13.9831psi) (0.951764atm)
+2023-04-27 23:08:23,815 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/2048chars) FAILED
+2023-04-27 23:08:23,941 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_PLAY.  Recived: NO-DATA
+2023-04-27 23:08:24,851 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:24,868 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96420.5Pa (13.9841psi) (0.951831atm)
+2023-04-27 23:08:25,357 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_PAUSE.  Recived: NO-DATA
+2023-04-27 23:08:25,357 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/2048chars) FAILED
+2023-04-27 23:08:25,972 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96420.5Pa (13.9841psi) (0.951831atm)
+2023-04-27 23:08:26,952 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.1%
+2023-04-27 23:08:27,084 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5908degC (85.2634degF), Pressure: 96418.47Pa (13.9838psi) (0.951811atm)
+2023-04-27 23:08:28,187 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96413.65Pa (13.9831psi) (0.951764atm)
+2023-04-27 23:08:29,072 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:08:29,074 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:29,075 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:08:29,290 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96417.77Pa (13.9837psi) (0.951804atm)
+2023-04-27 23:08:29,601 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_AV.  Recived: NO-DATA
+2023-04-27 23:08:30,239 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:08:30,239 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:08:30,394 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5707degC (85.2273degF), Pressure: 96415.68Pa (13.9834psi) (0.951784atm)
+2023-04-27 23:08:31,016 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_COMPONENT.  Recived: NO-DATA
+2023-04-27 23:08:31,176 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.6degC (83.48degF), Humidity 22.1%
+2023-04-27 23:08:31,497 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96416.38Pa (13.9835psi) (0.951791atm)
+2023-04-27 23:08:32,600 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5707degC (85.2273degF), Pressure: 96415.68Pa (13.9834psi) (0.951784atm)
+2023-04-27 23:08:33,319 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:33,704 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5656degC (85.2181degF), Pressure: 96414.98Pa (13.9833psi) (0.951777atm)
+2023-04-27 23:08:34,807 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5656degC (85.2181degF), Pressure: 96414.98Pa (13.9833psi) (0.951777atm)
+2023-04-27 23:08:35,459 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:35,910 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5556degC (85.2001degF), Pressure: 96416.32Pa (13.9835psi) (0.95179atm)
+2023-04-27 23:08:37,013 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5556degC (85.2001degF), Pressure: 96416.32Pa (13.9835psi) (0.95179atm)
+2023-04-27 23:08:37,562 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:38,117 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96412.19Pa (13.9829psi) (0.951749atm)
+2023-04-27 23:08:39,220 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96414.92Pa (13.9833psi) (0.951776atm)
+2023-04-27 23:08:39,668 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:40,356 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5405degC (85.1729degF), Pressure: 96416.95Pa (13.9836psi) (0.951796atm)
+2023-04-27 23:08:41,459 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5405degC (85.1729degF), Pressure: 96419.68Pa (13.984psi) (0.951823atm)
+2023-04-27 23:08:41,770 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:42,562 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96420.38Pa (13.9841psi) (0.95183atm)
+2023-04-27 23:08:43,665 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96416.25Pa (13.9835psi) (0.951789atm)
+2023-04-27 23:08:43,872 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:44,769 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5405degC (85.1729degF), Pressure: 96422.41Pa (13.9844psi) (0.95185atm)
+2023-04-27 23:08:45,872 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96421.72Pa (13.9843psi) (0.951843atm)
+2023-04-27 23:08:45,975 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:46,757 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:08:46,993 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96416.25Pa (13.9835psi) (0.951789atm)
+2023-04-27 23:08:48,078 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:48,096 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96421.02Pa (13.9842psi) (0.951836atm)
+2023-04-27 23:08:49,200 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96416.25Pa (13.9835psi) (0.951789atm)
+2023-04-27 23:08:50,183 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:50,304 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96416.25Pa (13.9835psi) (0.951789atm)
+2023-04-27 23:08:51,407 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96416.25Pa (13.9835psi) (0.951789atm)
+2023-04-27 23:08:52,285 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:52,511 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96421.72Pa (13.9843psi) (0.951843atm)
+2023-04-27 23:08:53,615 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5203degC (85.1365degF), Pressure: 96414.16Pa (13.9832psi) (0.951769atm)
+2023-04-27 23:08:54,389 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:54,719 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96420.32Pa (13.9841psi) (0.951829atm)
+2023-04-27 23:08:55,822 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5203degC (85.1365degF), Pressure: 96416.89Pa (13.9836psi) (0.951796atm)
+2023-04-27 23:08:56,491 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:56,926 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96420.32Pa (13.9841psi) (0.951829atm)
+2023-04-27 23:08:58,029 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5203degC (85.1365degF), Pressure: 96411.43Pa (13.9828psi) (0.951742atm)
+2023-04-27 23:08:58,421 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/1024chars) FAILED
+2023-04-27 23:08:58,593 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:08:58,963 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/2048chars) FAILED
+2023-04-27 23:08:59,133 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96413.46Pa (13.9831psi) (0.951762atm)
+2023-04-27 23:08:59,306 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_TEXT.  Recived: NO-DATA
+2023-04-27 23:08:59,372 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/128chars) FAILED
+2023-04-27 23:09:00,236 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96413.46Pa (13.9831psi) (0.951762atm)
+2023-04-27 23:09:00,506 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/2048chars) FAILED
+2023-04-27 23:09:00,694 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:00,721 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MUTE.  Recived: NO-DATA
+2023-04-27 23:09:01,340 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96414.86Pa (13.9833psi) (0.951776atm)
+2023-04-27 23:09:02,135 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_CHANNELUP.  Recived: NO-DATA
+2023-04-27 23:09:02,444 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5405degC (85.1729degF), Pressure: 96422.41Pa (13.9844psi) (0.95185atm)
+2023-04-27 23:09:02,805 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:03,362 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/2048chars) FAILED
+2023-04-27 23:09:03,547 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96424.45Pa (13.9847psi) (0.95187atm)
+2023-04-27 23:09:03,549 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_CHANNELDOWN.  Recived: NO-DATA
+2023-04-27 23:09:03,986 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:09:04,401 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:09:04,401 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:09:04,650 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96423.75Pa (13.9846psi) (0.951863atm)
+2023-04-27 23:09:04,907 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:04,964 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_VOLUMEUP.  Recived: NO-DATA
+2023-04-27 23:09:05,599 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:09:05,600 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:09:05,753 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96417.65Pa (13.9837psi) (0.951803atm)
+2023-04-27 23:09:06,378 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_VOLUMEDOWN.  Recived: NO-DATA
+2023-04-27 23:09:06,857 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5405degC (85.1729degF), Pressure: 96414.22Pa (13.9832psi) (0.951769atm)
+2023-04-27 23:09:07,051 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:07,793 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_LIST.  Recived: NO-DATA
+2023-04-27 23:09:07,960 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96418.99Pa (13.9839psi) (0.951816atm)
+2023-04-27 23:09:08,505 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:09:09,062 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96418.29Pa (13.9838psi) (0.951809atm)
+2023-04-27 23:09:09,151 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:10,165 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5405degC (85.1729degF), Pressure: 96419.68Pa (13.984psi) (0.951823atm)
+2023-04-27 23:09:10,622 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MENU.  Recived: NO-DATA
+2023-04-27 23:09:11,273 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96417.65Pa (13.9837psi) (0.951803atm)
+2023-04-27 23:09:11,295 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:12,377 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96414.86Pa (13.9833psi) (0.951776atm)
+2023-04-27 23:09:13,423 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:13,480 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96412.19Pa (13.9829psi) (0.951749atm)
+2023-04-27 23:09:14,623 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96412.19Pa (13.9829psi) (0.951749atm)
+2023-04-27 23:09:15,543 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-27 23:09:15,543 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-27 23:09:15,726 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5505degC (85.1909degF), Pressure: 96412.89Pa (13.983psi) (0.951756atm)
+2023-04-27 23:09:16,830 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96416.25Pa (13.9835psi) (0.951789atm)
+2023-04-27 23:09:17,643 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:17,693 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_LEFT.  Recived: NO-DATA
+2023-04-27 23:09:17,933 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96410.79Pa (13.9827psi) (0.951735atm)
+2023-04-27 23:09:19,036 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96416.25Pa (13.9835psi) (0.951789atm)
+2023-04-27 23:09:19,108 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_DOWN.  Recived: NO-DATA
+2023-04-27 23:09:19,780 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:20,140 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96415.56Pa (13.9834psi) (0.951782atm)
+2023-04-27 23:09:20,523 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_OK.  Recived: NO-DATA
+2023-04-27 23:09:21,243 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96412.83Pa (13.983psi) (0.951755atm)
+2023-04-27 23:09:21,351 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/128chars) FAILED
+2023-04-27 23:09:21,882 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:21,937 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_BACK.  Recived: NO-DATA
+2023-04-27 23:09:22,361 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96418.29Pa (13.9838psi) (0.951809atm)
+2023-04-27 23:09:22,615 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/64chars) FAILED
+2023-04-27 23:09:22,923 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:09:23,338 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:09:23,338 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:09:23,353 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_EXIT.  Recived: NO-DATA
+2023-04-27 23:09:23,464 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96410.73Pa (13.9827psi) (0.951735atm)
+2023-04-27 23:09:24,023 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:24,310 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:09:24,310 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:09:24,567 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96417.59Pa (13.9837psi) (0.951802atm)
+2023-04-27 23:09:24,768 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_A.  Recived: NO-DATA
+2023-04-27 23:09:25,670 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96418.99Pa (13.9839psi) (0.951816atm)
+2023-04-27 23:09:26,125 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:26,182 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_B.  Recived: NO-DATA
+2023-04-27 23:09:26,774 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96412.83Pa (13.983psi) (0.951755atm)
+2023-04-27 23:09:27,170 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:09:27,597 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_C.  Recived: NO-DATA
+2023-04-27 23:09:27,877 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5203degC (85.1365degF), Pressure: 96408.7Pa (13.9824psi) (0.951715atm)
+2023-04-27 23:09:28,269 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:28,980 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96415.56Pa (13.9834psi) (0.951782atm)
+2023-04-27 23:09:29,012 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_D.  Recived: NO-DATA
+2023-04-27 23:09:30,082 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96408.0Pa (13.9823psi) (0.951708atm)
+2023-04-27 23:09:30,371 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:09:30,427 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_START.  Recived: NO-DATA
+2023-04-27 23:09:31,186 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96418.92Pa (13.9839psi) (0.951816atm)
+2023-04-27 23:09:31,842 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_SUBTITLE.  Recived: NO-DATA
+2023-04-27 23:09:32,289 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4951degC (85.0912degF), Pressure: 96418.86Pa (13.9839psi) (0.951815atm)
+2023-04-27 23:09:32,534 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:33,256 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_STOP.  Recived: NO-DATA
+2023-04-27 23:09:33,392 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5052degC (85.1094degF), Pressure: 96417.53Pa (13.9837psi) (0.951802atm)
+2023-04-27 23:09:33,829 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:09:34,495 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5052degC (85.1094degF), Pressure: 96420.26Pa (13.9841psi) (0.951829atm)
+2023-04-27 23:09:34,635 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:35,599 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5002degC (85.1004degF), Pressure: 96411.37Pa (13.9828psi) (0.951741atm)
+2023-04-27 23:09:36,702 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4901degC (85.0822degF), Pressure: 96418.16Pa (13.9838psi) (0.951808atm)
+2023-04-27 23:09:36,737 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:37,807 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4851degC (85.0732degF), Pressure: 96414.74Pa (13.9833psi) (0.951774atm)
+2023-04-27 23:09:38,829 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/2048chars) FAILED
+2023-04-27 23:09:38,849 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:38,951 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5052degC (85.1094degF), Pressure: 96417.53Pa (13.9837psi) (0.951802atm)
+2023-04-27 23:09:40,054 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4901degC (85.0822degF), Pressure: 96415.43Pa (13.9834psi) (0.951781atm)
+2023-04-27 23:09:40,344 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_P.  Recived: NO-DATA
+2023-04-27 23:09:41,014 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:41,157 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4901degC (85.0822degF), Pressure: 96415.43Pa (13.9834psi) (0.951781atm)
+2023-04-27 23:09:41,571 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/2048chars) FAILED
+2023-04-27 23:09:41,758 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_AV.  Recived: NO-DATA
+2023-04-27 23:09:42,196 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:09:42,261 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4851degC (85.0732degF), Pressure: 96414.74Pa (13.9833psi) (0.951774atm)
+2023-04-27 23:09:42,611 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:09:42,612 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:09:43,116 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:43,172 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_COMPONENT.  Recived: NO-DATA
+2023-04-27 23:09:43,364 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.475degC (85.055degF), Pressure: 96410.61Pa (13.9827psi) (0.951734atm)
+2023-04-27 23:09:43,808 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:09:43,808 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:09:44,466 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5002degC (85.1004degF), Pressure: 96411.37Pa (13.9828psi) (0.951741atm)
+2023-04-27 23:09:44,586 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_HDMI1.  Recived: NO-DATA
+2023-04-27 23:09:45,259 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:09:45,569 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.48degC (85.064degF), Pressure: 96419.5Pa (13.984psi) (0.951821atm)
+2023-04-27 23:09:46,001 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_HDMI2.  Recived: NO-DATA
+2023-04-27 23:09:46,672 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.47degC (85.046degF), Pressure: 96418.1Pa (13.9838psi) (0.951808atm)
+2023-04-27 23:09:46,712 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:09:47,360 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:09:47,415 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_TV.  Recived: NO-DATA
+2023-04-27 23:09:47,775 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.48degC (85.064degF), Pressure: 96414.04Pa (13.9832psi) (0.951767atm)
+2023-04-27 23:09:48,829 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_POWER_ON.  Recived: NO-DATA
+2023-04-27 23:09:48,879 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.47degC (85.046degF), Pressure: 96418.1Pa (13.9838psi) (0.951808atm)
+2023-04-27 23:09:49,501 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:09:49,982 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.475degC (85.055degF), Pressure: 96413.34Pa (13.9831psi) (0.951761atm)
+2023-04-27 23:09:50,244 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_POWER_OFF.  Recived: NO-DATA
+2023-04-27 23:09:51,085 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.48degC (85.064degF), Pressure: 96416.77Pa (13.9836psi) (0.951794atm)
+2023-04-27 23:09:51,605 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:09:51,658 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_SMARTHUB.  Recived: NO-DATA
+2023-04-27 23:09:52,189 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4851degC (85.0732degF), Pressure: 96420.2Pa (13.9841psi) (0.951828atm)
+2023-04-27 23:09:53,295 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4649degC (85.0368degF), Pressure: 96417.4Pa (13.9837psi) (0.951801atm)
+2023-04-27 23:09:53,463 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:09:53,708 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:09:54,399 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.475degC (85.055degF), Pressure: 96418.8Pa (13.9839psi) (0.951814atm)
+2023-04-27 23:09:55,503 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96416.71Pa (13.9836psi) (0.951794atm)
+2023-04-27 23:09:55,809 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:09:56,607 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96411.25Pa (13.9828psi) (0.95174atm)
+2023-04-27 23:09:56,656 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/1024chars) FAILED
+2023-04-27 23:09:57,153 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/2048chars) FAILED
+2023-04-27 23:09:57,324 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_2.  Recived: NO-DATA
+2023-04-27 23:09:57,710 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4498degC (85.0096degF), Pressure: 96418.04Pa (13.9838psi) (0.951807atm)
+2023-04-27 23:09:57,911 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:09:58,738 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_3.  Recived: NO-DATA
+2023-04-27 23:09:58,740 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/2048chars) FAILED
+2023-04-27 23:09:58,814 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4448degC (85.0006degF), Pressure: 96417.34Pa (13.9837psi) (0.9518atm)
+2023-04-27 23:09:59,917 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4297degC (84.9735degF), Pressure: 96412.52Pa (13.983psi) (0.951752atm)
+2023-04-27 23:10:00,059 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.2%
+2023-04-27 23:10:00,160 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_4.  Recived: NO-DATA
+2023-04-27 23:10:01,021 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4297degC (84.9735degF), Pressure: 96407.06Pa (13.9822psi) (0.951699atm)
+2023-04-27 23:10:01,495 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/2048chars) FAILED
+2023-04-27 23:10:01,573 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_5.  Recived: NO-DATA
+2023-04-27 23:10:02,103 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:10:02,125 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4347degC (84.9825degF), Pressure: 96413.22Pa (13.9831psi) (0.951759atm)
+2023-04-27 23:10:02,162 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:03,229 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4448degC (85.0006degF), Pressure: 96420.07Pa (13.9841psi) (0.951827atm)
+2023-04-27 23:10:04,264 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.2%
+2023-04-27 23:10:04,364 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4649degC (85.0368degF), Pressure: 96409.21Pa (13.9825psi) (0.95172atm)
+2023-04-27 23:10:05,467 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4549degC (85.0188degF), Pressure: 96416.01Pa (13.9835psi) (0.951787atm)
+2023-04-27 23:10:06,378 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:06,571 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96413.98Pa (13.9832psi) (0.951767atm)
+2023-04-27 23:10:07,675 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96411.25Pa (13.9828psi) (0.95174atm)
+2023-04-27 23:10:08,479 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:08,780 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96416.71Pa (13.9836psi) (0.951794atm)
+2023-04-27 23:10:09,883 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96413.98Pa (13.9832psi) (0.951767atm)
+2023-04-27 23:10:10,582 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:10,986 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.47degC (85.046degF), Pressure: 96423.56Pa (13.9846psi) (0.951861atm)
+2023-04-27 23:10:12,089 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.475degC (85.055degF), Pressure: 96416.07Pa (13.9835psi) (0.951787atm)
+2023-04-27 23:10:12,544 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/512chars) FAILED
+2023-04-27 23:10:12,695 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-27 23:10:12,695 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-27 23:10:12,887 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MUTE.  Recived: NO-DATA
+2023-04-27 23:10:13,032 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/1024chars) FAILED
+2023-04-27 23:10:13,193 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.475degC (85.055degF), Pressure: 96421.53Pa (13.9843psi) (0.951841atm)
+2023-04-27 23:10:13,787 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/2048chars) FAILED
+2023-04-27 23:10:14,260 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/128chars) FAILED
+2023-04-27 23:10:14,296 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4649degC (85.0368degF), Pressure: 96411.94Pa (13.9829psi) (0.951747atm)
+2023-04-27 23:10:14,302 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_CHANNELUP.  Recived: NO-DATA
+2023-04-27 23:10:14,796 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:15,067 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/1024chars) FAILED
+2023-04-27 23:10:15,399 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4649degC (85.0368degF), Pressure: 96411.94Pa (13.9829psi) (0.951747atm)
+2023-04-27 23:10:15,645 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/2048chars) FAILED
+2023-04-27 23:10:15,716 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_CHANNELDOWN.  Recived: NO-DATA
+2023-04-27 23:10:16,503 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4649degC (85.0368degF), Pressure: 96411.94Pa (13.9829psi) (0.951747atm)
+2023-04-27 23:10:16,723 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/1024chars) FAILED
+2023-04-27 23:10:16,900 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:17,606 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4549degC (85.0188degF), Pressure: 96416.01Pa (13.9835psi) (0.951787atm)
+2023-04-27 23:10:18,709 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4498degC (85.0096degF), Pressure: 96415.31Pa (13.9834psi) (0.95178atm)
+2023-04-27 23:10:19,019 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:19,826 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4649degC (85.0368degF), Pressure: 96417.4Pa (13.9837psi) (0.951801atm)
+2023-04-27 23:10:20,930 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4649degC (85.0368degF), Pressure: 96417.4Pa (13.9837psi) (0.951801atm)
+2023-04-27 23:10:21,124 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:22,033 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.47degC (85.046degF), Pressure: 96418.1Pa (13.9838psi) (0.951808atm)
+2023-04-27 23:10:22,789 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MENU.  Recived: NO-DATA
+2023-04-27 23:10:23,137 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96419.44Pa (13.984psi) (0.951821atm)
+2023-04-27 23:10:23,244 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:24,203 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_EPG.  Recived: NO-DATA
+2023-04-27 23:10:24,243 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4498degC (85.0096degF), Pressure: 96418.04Pa (13.9838psi) (0.951807atm)
+2023-04-27 23:10:24,516 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:10:25,345 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:25,347 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4498degC (85.0096degF), Pressure: 96420.77Pa (13.9842psi) (0.951834atm)
+2023-04-27 23:10:25,624 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_TL.  Recived: NO-DATA
+2023-04-27 23:10:26,450 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4297degC (84.9735degF), Pressure: 96417.98Pa (13.9838psi) (0.951806atm)
+2023-04-27 23:10:27,038 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_UP.  Recived: NO-DATA
+2023-04-27 23:10:27,492 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:27,554 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4498degC (85.0096degF), Pressure: 96412.58Pa (13.983psi) (0.951753atm)
+2023-04-27 23:10:28,452 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_RIGHT.  Recived: NO-DATA
+2023-04-27 23:10:28,658 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4549degC (85.0188degF), Pressure: 96416.01Pa (13.9835psi) (0.951787atm)
+2023-04-27 23:10:29,594 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:29,762 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96416.71Pa (13.9836psi) (0.951794atm)
+2023-04-27 23:10:29,867 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_LEFT.  Recived: NO-DATA
+2023-04-27 23:10:30,866 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4498degC (85.0096degF), Pressure: 96415.31Pa (13.9834psi) (0.95178atm)
+2023-04-27 23:10:31,238 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:10:31,281 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_DOWN.  Recived: NO-DATA
+2023-04-27 23:10:31,737 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.3degC (82.94degF), Humidity 22.3%
+2023-04-27 23:10:31,969 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4448degC (85.0006degF), Pressure: 96420.07Pa (13.9841psi) (0.951827atm)
+2023-04-27 23:10:32,269 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/512chars) FAILED
+2023-04-27 23:10:32,695 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_OK.  Recived: NO-DATA
+2023-04-27 23:10:32,772 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/1024chars) FAILED
+2023-04-27 23:10:33,072 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4448degC (85.0006degF), Pressure: 96417.34Pa (13.9837psi) (0.9518atm)
+2023-04-27 23:10:33,459 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/2048chars) FAILED
+2023-04-27 23:10:33,845 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:34,109 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_BACK.  Recived: NO-DATA
+2023-04-27 23:10:34,176 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4347degC (84.9825degF), Pressure: 96413.22Pa (13.9831psi) (0.951759atm)
+2023-04-27 23:10:34,657 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/1024chars) FAILED
+2023-04-27 23:10:35,235 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/2048chars) FAILED
+2023-04-27 23:10:35,291 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4448degC (85.0006degF), Pressure: 96414.61Pa (13.9833psi) (0.951773atm)
+2023-04-27 23:10:35,523 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_EXIT.  Recived: NO-DATA
+2023-04-27 23:10:35,983 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:36,394 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4549degC (85.0188degF), Pressure: 96413.28Pa (13.9831psi) (0.95176atm)
+2023-04-27 23:10:36,417 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/1024chars) FAILED
+2023-04-27 23:10:36,831 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/2048chars) FAILED
+2023-04-27 23:10:36,937 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_A.  Recived: NO-DATA
+2023-04-27 23:10:37,498 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4549degC (85.0188degF), Pressure: 96416.01Pa (13.9835psi) (0.951787atm)
+2023-04-27 23:10:38,086 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:38,352 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_B.  Recived: NO-DATA
+2023-04-27 23:10:38,601 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96416.71Pa (13.9836psi) (0.951794atm)
+2023-04-27 23:10:39,641 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/2048chars) FAILED
+2023-04-27 23:10:39,705 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96416.71Pa (13.9836psi) (0.951794atm)
+2023-04-27 23:10:39,766 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_C.  Recived: NO-DATA
+2023-04-27 23:10:40,221 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:40,221 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:10:40,637 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:10:40,637 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:10:40,808 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.47degC (85.046degF), Pressure: 96415.37Pa (13.9834psi) (0.951781atm)
+2023-04-27 23:10:41,181 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_D.  Recived: NO-DATA
+2023-04-27 23:10:41,833 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:10:41,912 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4649degC (85.0368degF), Pressure: 96411.94Pa (13.9829psi) (0.951747atm)
+2023-04-27 23:10:42,323 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.3degC (82.94degF), Humidity 22.3%
+2023-04-27 23:10:43,015 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4649degC (85.0368degF), Pressure: 96417.4Pa (13.9837psi) (0.951801atm)
+2023-04-27 23:10:44,118 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4599degC (85.0278degF), Pressure: 96413.98Pa (13.9832psi) (0.951767atm)
+2023-04-27 23:10:44,463 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:45,222 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.48degC (85.064degF), Pressure: 96416.77Pa (13.9836psi) (0.951794atm)
+2023-04-27 23:10:45,422 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_STOP.  Recived: NO-DATA
+2023-04-27 23:10:46,326 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.48degC (85.064degF), Pressure: 96414.04Pa (13.9832psi) (0.951767atm)
+2023-04-27 23:10:46,564 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.3degC (82.94degF), Humidity 22.3%
+2023-04-27 23:10:46,837 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_REWIND.  Recived: NO-DATA
+2023-04-27 23:10:47,429 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4851degC (85.0732degF), Pressure: 96420.2Pa (13.9841psi) (0.951828atm)
+2023-04-27 23:10:48,252 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_PLAY.  Recived: NO-DATA
+2023-04-27 23:10:48,532 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4851degC (85.0732degF), Pressure: 96414.74Pa (13.9833psi) (0.951774atm)
+2023-04-27 23:10:48,707 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.3degC (82.94degF), Humidity 22.3%
+2023-04-27 23:10:49,635 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4851degC (85.0732degF), Pressure: 96412.01Pa (13.9829psi) (0.951747atm)
+2023-04-27 23:10:49,666 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_PAUSE.  Recived: NO-DATA
+2023-04-27 23:10:50,738 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4851degC (85.0732degF), Pressure: 96420.2Pa (13.9841psi) (0.951828atm)
+2023-04-27 23:10:50,810 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:50,821 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:10:51,081 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_FORWARD.  Recived: NO-DATA
+2023-04-27 23:10:51,761 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/512chars) FAILED
+2023-04-27 23:10:51,841 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4901degC (85.0822degF), Pressure: 96418.16Pa (13.9838psi) (0.951808atm)
+2023-04-27 23:10:52,315 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/1024chars) FAILED
+2023-04-27 23:10:52,494 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_P.  Recived: NO-DATA
+2023-04-27 23:10:52,949 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:52,951 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4851degC (85.0732degF), Pressure: 96412.01Pa (13.9829psi) (0.951747atm)
+2023-04-27 23:10:53,435 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/128chars) FAILED
+2023-04-27 23:10:53,908 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_AV.  Recived: NO-DATA
+2023-04-27 23:10:54,055 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4901degC (85.0822degF), Pressure: 96420.9Pa (13.9842psi) (0.951835atm)
+2023-04-27 23:10:54,763 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/2048chars) FAILED
+2023-04-27 23:10:55,051 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:55,158 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4951degC (85.0912degF), Pressure: 96410.67Pa (13.9827psi) (0.951734atm)
+2023-04-27 23:10:55,171 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/128chars) FAILED
+2023-04-27 23:10:55,323 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_COMPONENT.  Recived: NO-DATA
+2023-04-27 23:10:56,260 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4951degC (85.0912degF), Pressure: 96416.13Pa (13.9835psi) (0.951788atm)
+2023-04-27 23:10:56,306 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/2048chars) FAILED
+2023-04-27 23:10:56,741 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_HDMI1.  Recived: NO-DATA
+2023-04-27 23:10:57,197 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:10:57,364 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5052degC (85.1094degF), Pressure: 96412.07Pa (13.9829psi) (0.951748atm)
+2023-04-27 23:10:57,757 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (576000baud/2048chars) FAILED
+2023-04-27 23:10:58,155 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_HDMI2.  Recived: NO-DATA
+2023-04-27 23:10:58,216 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/128chars) FAILED
+2023-04-27 23:10:58,467 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4951degC (85.0912degF), Pressure: 96421.59Pa (13.9843psi) (0.951842atm)
+2023-04-27 23:10:59,327 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.3degC (82.94degF), Humidity 22.3%
+2023-04-27 23:10:59,571 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96418.92Pa (13.9839psi) (0.951816atm)
+2023-04-27 23:11:00,674 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5002degC (85.1004degF), Pressure: 96414.1Pa (13.9832psi) (0.951768atm)
+2023-04-27 23:11:01,449 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-27 23:11:01,450 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-27 23:11:01,778 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4951degC (85.0912degF), Pressure: 96413.4Pa (13.9831psi) (0.951761atm)
+2023-04-27 23:11:02,399 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_POWER_OFF.  Recived: NO-DATA
+2023-04-27 23:11:02,881 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4951degC (85.0912degF), Pressure: 96418.86Pa (13.9839psi) (0.951815atm)
+2023-04-27 23:11:03,612 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:03,814 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_SMARTHUB.  Recived: NO-DATA
+2023-04-27 23:11:03,983 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:11:03,988 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4951degC (85.0912degF), Pressure: 96416.13Pa (13.9835psi) (0.951788atm)
+2023-04-27 23:11:05,090 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5002degC (85.1004degF), Pressure: 96416.83Pa (13.9836psi) (0.951795atm)
+2023-04-27 23:11:05,229 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_POWER.  Recived: NO-DATA
+2023-04-27 23:11:05,714 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:06,193 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.4951degC (85.0912degF), Pressure: 96416.13Pa (13.9835psi) (0.951788atm)
+2023-04-27 23:11:06,644 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_CYCLEWINDOWS.  Recived: NO-DATA
+2023-04-27 23:11:07,297 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5052degC (85.1094degF), Pressure: 96422.99Pa (13.9845psi) (0.951856atm)
+2023-04-27 23:11:07,857 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:08,058 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_1.  Recived: NO-DATA
+2023-04-27 23:11:08,400 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5102degC (85.1184degF), Pressure: 96418.23Pa (13.9838psi) (0.951809atm)
+2023-04-27 23:11:09,473 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_2.  Recived: NO-DATA
+2023-04-27 23:11:09,503 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5052degC (85.1094degF), Pressure: 96414.8Pa (13.9833psi) (0.951775atm)
+2023-04-27 23:11:09,958 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:10,607 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5052degC (85.1094degF), Pressure: 96412.07Pa (13.9829psi) (0.951748atm)
+2023-04-27 23:11:10,642 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:11:11,710 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96421.66Pa (13.9843psi) (0.951843atm)
+2023-04-27 23:11:12,060 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:12,813 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5052degC (85.1094degF), Pressure: 96420.26Pa (13.9841psi) (0.951829atm)
+2023-04-27 23:11:13,917 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5052degC (85.1094degF), Pressure: 96412.07Pa (13.9829psi) (0.951748atm)
+2023-04-27 23:11:14,178 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-27 23:11:14,178 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-27 23:11:15,021 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5002degC (85.1004degF), Pressure: 96416.83Pa (13.9836psi) (0.951795atm)
+2023-04-27 23:11:16,125 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5102degC (85.1184degF), Pressure: 96415.5Pa (13.9834psi) (0.951782atm)
+2023-04-27 23:11:16,315 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:17,228 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96418.92Pa (13.9839psi) (0.951816atm)
+2023-04-27 23:11:18,371 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96416.19Pa (13.9835psi) (0.951789atm)
+2023-04-27 23:11:18,416 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:19,474 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5052degC (85.1094degF), Pressure: 96417.53Pa (13.9837psi) (0.951802atm)
+2023-04-27 23:11:20,584 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:11:20,585 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5102degC (85.1184degF), Pressure: 96412.76Pa (13.983psi) (0.951755atm)
+2023-04-27 23:11:21,689 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96418.92Pa (13.9839psi) (0.951816atm)
+2023-04-27 23:11:22,440 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:11:22,686 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:22,831 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5203degC (85.1365degF), Pressure: 96416.89Pa (13.9836psi) (0.951796atm)
+2023-04-27 23:11:23,936 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96410.73Pa (13.9827psi) (0.951735atm)
+2023-04-27 23:11:24,827 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:25,040 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96413.46Pa (13.9831psi) (0.951762atm)
+2023-04-27 23:11:26,143 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96413.46Pa (13.9831psi) (0.951762atm)
+2023-04-27 23:11:27,006 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:27,247 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96420.32Pa (13.9841psi) (0.951829atm)
+2023-04-27 23:11:28,056 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:11:28,350 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5153degC (85.1275degF), Pressure: 96421.66Pa (13.9843psi) (0.951843atm)
+2023-04-27 23:11:29,109 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:29,453 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5203degC (85.1365degF), Pressure: 96416.89Pa (13.9836psi) (0.951796atm)
+2023-04-27 23:11:30,557 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96412.83Pa (13.983psi) (0.951755atm)
+2023-04-27 23:11:31,248 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:31,660 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96418.29Pa (13.9838psi) (0.951809atm)
+2023-04-27 23:11:32,763 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5203degC (85.1365degF), Pressure: 96422.35Pa (13.9844psi) (0.951849atm)
+2023-04-27 23:11:33,348 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:33,866 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96421.02Pa (13.9842psi) (0.951836atm)
+2023-04-27 23:11:34,477 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (576000baud/2048chars) FAILED
+2023-04-27 23:11:34,883 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/128chars) FAILED
+2023-04-27 23:11:34,930 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_MENU.  Recived: NO-DATA
+2023-04-27 23:11:34,969 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96415.56Pa (13.9834psi) (0.951782atm)
+2023-04-27 23:11:35,493 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:35,833 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/2048chars) FAILED
+2023-04-27 23:11:36,103 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96413.52Pa (13.9831psi) (0.951762atm)
+2023-04-27 23:11:36,149 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/64chars) FAILED
+2023-04-27 23:11:36,345 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_EPG.  Recived: NO-DATA
+2023-04-27 23:11:36,457 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:11:36,872 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:11:36,872 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:11:37,207 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96418.99Pa (13.9839psi) (0.951816atm)
+2023-04-27 23:11:37,594 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:37,760 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_TL.  Recived: NO-DATA
+2023-04-27 23:11:38,077 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:11:38,078 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:11:38,310 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96416.25Pa (13.9835psi) (0.951789atm)
+2023-04-27 23:11:39,413 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96410.1Pa (13.9826psi) (0.951729atm)
+2023-04-27 23:11:39,736 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:40,408 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:11:40,517 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96420.32Pa (13.9841psi) (0.951829atm)
+2023-04-27 23:11:41,620 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96417.59Pa (13.9837psi) (0.951802atm)
+2023-04-27 23:11:41,839 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:42,002 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_LEFT.  Recived: NO-DATA
+2023-04-27 23:11:42,723 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96421.02Pa (13.9842psi) (0.951836atm)
+2023-04-27 23:11:43,417 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_DOWN.  Recived: NO-DATA
+2023-04-27 23:11:43,826 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96423.05Pa (13.9845psi) (0.951856atm)
+2023-04-27 23:11:43,982 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:44,831 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_OK.  Recived: NO-DATA
+2023-04-27 23:11:44,930 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96414.92Pa (13.9833psi) (0.951776atm)
+2023-04-27 23:11:46,033 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96413.52Pa (13.9831psi) (0.951762atm)
+2023-04-27 23:11:46,085 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:46,245 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV BTN_BACK.  Recived: NO-DATA
+2023-04-27 23:11:46,992 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:11:47,137 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5405degC (85.1729degF), Pressure: 96411.49Pa (13.9828psi) (0.951742atm)
+2023-04-27 23:11:47,411 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/128chars) FAILED
+2023-04-27 23:11:47,660 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_EXIT.  Recived: NO-DATA
+2023-04-27 23:11:48,225 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:48,241 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96418.99Pa (13.9839psi) (0.951816atm)
+2023-04-27 23:11:48,461 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/1024chars) FAILED
+2023-04-27 23:11:49,075 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_A.  Recived: NO-DATA
+2023-04-27 23:11:49,326 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/2048chars) FAILED
+2023-04-27 23:11:49,344 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96414.86Pa (13.9833psi) (0.951776atm)
+2023-04-27 23:11:50,397 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:11:50,448 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96421.72Pa (13.9843psi) (0.951843atm)
+2023-04-27 23:11:51,551 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96418.29Pa (13.9838psi) (0.951809atm)
+2023-04-27 23:11:52,531 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:11:52,654 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96415.56Pa (13.9834psi) (0.951782atm)
+2023-04-27 23:11:53,758 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96412.83Pa (13.983psi) (0.951755atm)
+2023-04-27 23:11:54,646 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:11:54,862 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96413.52Pa (13.9831psi) (0.951762atm)
+2023-04-27 23:11:55,316 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/64chars) FAILED
+2023-04-27 23:11:55,625 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:11:55,965 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5254degC (85.1457degF), Pressure: 96414.86Pa (13.9833psi) (0.951776atm)
+2023-04-27 23:11:56,041 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:11:56,041 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:11:56,164 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_SUBTITLE.  Recived: NO-DATA
+2023-04-27 23:11:56,751 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:11:57,008 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:11:57,008 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/512chars) FAILED
+2023-04-27 23:11:57,069 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96414.92Pa (13.9833psi) (0.951776atm)
+2023-04-27 23:11:57,579 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_STOP.  Recived: NO-DATA
+2023-04-27 23:11:58,173 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96421.72Pa (13.9843psi) (0.951843atm)
+2023-04-27 23:11:58,902 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:11:59,003 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_REWIND.  Recived: NO-DATA
+2023-04-27 23:11:59,276 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5304degC (85.1547degF), Pressure: 96412.83Pa (13.983psi) (0.951755atm)
+2023-04-27 23:11:59,966 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/1024chars) FAILED
+2023-04-27 23:12:00,392 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96420.38Pa (13.9841psi) (0.95183atm)
+2023-04-27 23:12:01,003 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:01,496 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5354degC (85.1637degF), Pressure: 96416.25Pa (13.9835psi) (0.951789atm)
+2023-04-27 23:12:02,600 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5405degC (85.1729degF), Pressure: 96416.95Pa (13.9836psi) (0.951796atm)
+2023-04-27 23:12:03,106 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:03,703 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5405degC (85.1729degF), Pressure: 96416.95Pa (13.9836psi) (0.951796atm)
+2023-04-27 23:12:04,807 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5405degC (85.1729degF), Pressure: 96408.76Pa (13.9824psi) (0.951715atm)
+2023-04-27 23:12:05,209 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:05,947 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96417.65Pa (13.9837psi) (0.951803atm)
+2023-04-27 23:12:07,051 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96414.92Pa (13.9833psi) (0.951776atm)
+2023-04-27 23:12:07,313 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:08,155 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5556degC (85.2001degF), Pressure: 96413.59Pa (13.9831psi) (0.951763atm)
+2023-04-27 23:12:09,258 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5606degC (85.2091degF), Pressure: 96417.01Pa (13.9836psi) (0.951797atm)
+2023-04-27 23:12:09,415 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:10,361 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5455degC (85.1819degF), Pressure: 96412.19Pa (13.9829psi) (0.951749atm)
+2023-04-27 23:12:11,464 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5556degC (85.2001degF), Pressure: 96413.59Pa (13.9831psi) (0.951763atm)
+2023-04-27 23:12:11,530 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:11,619 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (576000baud/2048chars) FAILED
+2023-04-27 23:12:12,568 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5556degC (85.2001degF), Pressure: 96413.59Pa (13.9831psi) (0.951763atm)
+2023-04-27 23:12:12,958 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/2048chars) FAILED
+2023-04-27 23:12:13,146 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_POWER_ON.  Recived: NO-DATA
+2023-04-27 23:12:13,583 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/128chars) FAILED
+2023-04-27 23:12:13,671 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5556degC (85.2001degF), Pressure: 96410.85Pa (13.9827psi) (0.951736atm)
+2023-04-27 23:12:13,711 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:14,001 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/256chars) FAILED
+2023-04-27 23:12:14,001 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/256chars) FAILED
+2023-04-27 23:12:14,774 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5656degC (85.2181degF), Pressure: 96420.44Pa (13.9841psi) (0.951831atm)
+2023-04-27 23:12:14,966 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyS0 (9600baud/512chars) FAILED
+2023-04-27 23:12:15,815 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:15,878 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5606degC (85.2091degF), Pressure: 96414.28Pa (13.9832psi) (0.95177atm)
+2023-04-27 23:12:17,039 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5556degC (85.2001degF), Pressure: 96419.05Pa (13.9839psi) (0.951817atm)
+2023-04-27 23:12:17,953 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:18,143 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5656degC (85.2181degF), Pressure: 96414.98Pa (13.9833psi) (0.951777atm)
+2023-04-27 23:12:19,246 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5606degC (85.2091degF), Pressure: 96417.01Pa (13.9836psi) (0.951797atm)
+2023-04-27 23:12:20,056 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:20,349 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5556degC (85.2001degF), Pressure: 96419.05Pa (13.9839psi) (0.951817atm)
+2023-04-27 23:12:21,453 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5707degC (85.2273degF), Pressure: 96415.68Pa (13.9834psi) (0.951784atm)
+2023-04-27 23:12:22,159 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:22,556 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5656degC (85.2181degF), Pressure: 96417.71Pa (13.9837psi) (0.951804atm)
+2023-04-27 23:12:23,660 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5707degC (85.2273degF), Pressure: 96415.68Pa (13.9834psi) (0.951784atm)
+2023-04-27 23:12:24,263 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:24,764 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5606degC (85.2091degF), Pressure: 96419.75Pa (13.984psi) (0.951824atm)
+2023-04-27 23:12:25,867 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5656degC (85.2181degF), Pressure: 96417.71Pa (13.9837psi) (0.951804atm)
+2023-04-27 23:12:26,367 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:26,970 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5656degC (85.2181degF), Pressure: 96417.71Pa (13.9837psi) (0.951804atm)
+2023-04-27 23:12:28,073 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5656degC (85.2181degF), Pressure: 96409.52Pa (13.9825psi) (0.951723atm)
+2023-04-27 23:12:28,472 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:29,177 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5707degC (85.2273degF), Pressure: 96415.68Pa (13.9834psi) (0.951784atm)
+2023-04-27 23:12:30,280 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5707degC (85.2273degF), Pressure: 96418.41Pa (13.9838psi) (0.951811atm)
+2023-04-27 23:12:30,580 - dht11_spi - ERROR - DHT22_Spi (SPI0-500.0kHz): Received 0, expected 40. Data discarded.
+2023-04-27 23:12:30,580 - DevTest_DHT - WARNING - DevTest_DHT: Error reading DHT
+2023-04-27 23:12:31,384 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96419.11Pa (13.9839psi) (0.951817atm)
+2023-04-27 23:12:32,487 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96416.38Pa (13.9835psi) (0.951791atm)
+2023-04-27 23:12:32,682 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:33,590 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5908degC (85.2634degF), Pressure: 96421.2Pa (13.9842psi) (0.951838atm)
+2023-04-27 23:12:34,694 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96420.5Pa (13.9841psi) (0.951831atm)
+2023-04-27 23:12:34,788 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:35,798 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96417.77Pa (13.9837psi) (0.951804atm)
+2023-04-27 23:12:36,944 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96417.77Pa (13.9837psi) (0.951804atm)
+2023-04-27 23:12:36,983 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:38,048 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96421.84Pa (13.9843psi) (0.951844atm)
+2023-04-27 23:12:39,160 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:39,161 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96421.84Pa (13.9843psi) (0.951844atm)
+2023-04-27 23:12:39,697 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:12:40,264 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96416.38Pa (13.9835psi) (0.951791atm)
+2023-04-27 23:12:41,264 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:41,368 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96416.38Pa (13.9835psi) (0.951791atm)
+2023-04-27 23:12:42,472 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5807degC (85.2453degF), Pressure: 96417.08Pa (13.9836psi) (0.951797atm)
+2023-04-27 23:12:43,366 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:43,576 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96416.38Pa (13.9835psi) (0.951791atm)
+2023-04-27 23:12:44,680 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96410.92Pa (13.9827psi) (0.951737atm)
+2023-04-27 23:12:45,469 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:45,784 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96412.31Pa (13.9829psi) (0.95175atm)
+2023-04-27 23:12:46,887 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96406.85Pa (13.9821psi) (0.951696atm)
+2023-04-27 23:12:47,651 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:47,990 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96417.77Pa (13.9837psi) (0.951804atm)
+2023-04-27 23:12:49,094 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96419.11Pa (13.9839psi) (0.951817atm)
+2023-04-27 23:12:49,807 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.5degC (83.3degF), Humidity 22.3%
+2023-04-27 23:12:50,197 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5707degC (85.2273degF), Pressure: 96418.41Pa (13.9838psi) (0.951811atm)
+2023-04-27 23:12:51,301 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5707degC (85.2273degF), Pressure: 96418.41Pa (13.9838psi) (0.951811atm)
+2023-04-27 23:12:51,908 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:52,403 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5807degC (85.2453degF), Pressure: 96414.34Pa (13.9832psi) (0.95177atm)
+2023-04-27 23:12:53,506 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96416.38Pa (13.9835psi) (0.951791atm)
+2023-04-27 23:12:54,066 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:54,610 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96419.11Pa (13.9839psi) (0.951817atm)
+2023-04-27 23:12:55,713 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5707degC (85.2273degF), Pressure: 96418.41Pa (13.9838psi) (0.951811atm)
+2023-04-27 23:12:56,169 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:56,821 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:12:56,863 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5757degC (85.2363degF), Pressure: 96410.92Pa (13.9827psi) (0.951737atm)
+2023-04-27 23:12:56,996 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_OK.  Recived: NO-DATA
+2023-04-27 23:12:57,967 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96415.04Pa (13.9833psi) (0.951777atm)
+2023-04-27 23:12:58,320 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:12:59,070 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5807degC (85.2453degF), Pressure: 96414.34Pa (13.9832psi) (0.95177atm)
+2023-04-27 23:13:00,176 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5908degC (85.2634degF), Pressure: 96415.74Pa (13.9834psi) (0.951784atm)
+2023-04-27 23:13:00,420 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (230400baud/2048chars) FAILED
+2023-04-27 23:13:00,509 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:13:00,878 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (460800baud/128chars) FAILED
+2023-04-27 23:13:01,279 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5908degC (85.2634degF), Pressure: 96418.47Pa (13.9838psi) (0.951811atm)
+2023-04-27 23:13:02,430 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5958degC (85.2724degF), Pressure: 96421.9Pa (13.9843psi) (0.951845atm)
+2023-04-27 23:13:02,612 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:13:03,355 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (576000baud/2048chars) FAILED
+2023-04-27 23:13:03,533 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5958degC (85.2724degF), Pressure: 96419.17Pa (13.9839psi) (0.951818atm)
+2023-04-27 23:13:03,816 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (921600baud/128chars) FAILED
+2023-04-27 23:13:04,078 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_C.  Recived: NO-DATA
+2023-04-27 23:13:04,637 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5958degC (85.2724degF), Pressure: 96419.17Pa (13.9839psi) (0.951818atm)
+2023-04-27 23:13:04,716 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:13:05,740 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5908degC (85.2634degF), Pressure: 96418.47Pa (13.9838psi) (0.951811atm)
+2023-04-27 23:13:06,820 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:13:06,843 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6009degC (85.2816degF), Pressure: 96414.4Pa (13.9832psi) (0.951771atm)
+2023-04-27 23:13:07,947 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5858degC (85.2544degF), Pressure: 96415.04Pa (13.9833psi) (0.951777atm)
+2023-04-27 23:13:08,924 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:13:09,081 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5958degC (85.2724degF), Pressure: 96419.17Pa (13.9839psi) (0.951818atm)
+2023-04-27 23:13:10,185 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5908degC (85.2634degF), Pressure: 96407.55Pa (13.9822psi) (0.951703atm)
+2023-04-27 23:13:11,069 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:13:11,170 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_REWIND.  Recived: NO-DATA
+2023-04-27 23:13:11,287 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.5908degC (85.2634degF), Pressure: 96421.2Pa (13.9842psi) (0.951838atm)
+2023-04-27 23:13:12,391 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6009degC (85.2816degF), Pressure: 96414.4Pa (13.9832psi) (0.951771atm)
+2023-04-27 23:13:12,584 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_PLAY.  Recived: NO-DATA
+2023-04-27 23:13:13,172 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:13:13,494 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6059degC (85.2906degF), Pressure: 96415.1Pa (13.9833psi) (0.951778atm)
+2023-04-27 23:13:13,998 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_PAUSE.  Recived: NO-DATA
+2023-04-27 23:13:14,598 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6009degC (85.2816degF), Pressure: 96419.87Pa (13.984psi) (0.951825atm)
+2023-04-27 23:13:15,320 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 28.4degC (83.12degF), Humidity 22.3%
+2023-04-27 23:13:15,421 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_FORWARD.  Recived: NO-DATA
+2023-04-27 23:13:15,495 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (9600baud/2048chars) FAILED
+2023-04-27 23:13:15,703 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6009degC (85.2816degF), Pressure: 96414.4Pa (13.9832psi) (0.951771atm)
+2023-04-27 23:13:15,916 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/128chars) FAILED
+2023-04-27 23:13:16,430 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/512chars) FAILED
+2023-04-27 23:13:16,807 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 29.6009degC (85.2816degF), Pressure: 96419.87Pa (13.984psi) (0.951825atm)
+2023-04-27 23:13:16,836 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV KEY_P.  Recived: NO-DATA
+2023-04-27 23:13:16,981 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/1024chars) FAILED
+2023-04-27 23:13:17,735 - DevTest_UART - WARNING - DevTest_UART: Sent from ttyUSB0 (115200baud/2048chars) FAILED
+2023-04-27 23:13:18,251 - DevTest_IR - WARNING - DevTest_IR: IR Test: Failed reading Samsung_TV INPUT_AV.  Recived: NO-DATA
+2023-04-27 23:13:20,436 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1795 / 1795 iterations successful. 100.0%, pass theshold is 100%
+2023-04-27 23:13:20,436 - SBC_Tester - INFO - Test Button GPIOD PASSED: 0 / 0 iterations successful. 100%, pass theshold is 0%
+2023-04-27 23:13:20,437 - SBC_Tester - INFO - Test DHT11 over SPI PASSED: 1662 / 1698 iterations successful. 98.0%, pass theshold is 75.0%
+2023-04-27 23:13:20,437 - SBC_Tester - INFO - Test BMP280/BME280 over SPI PASSED: 3255 / 3255 iterations successful. 100.0%, pass theshold is 75.0%
+2023-04-27 23:13:20,437 - SBC_Tester - INFO - Test I2C Display PASSED: 3163 / 3163 iterations successful. 100.0%, pass theshold is 100%
+2023-04-27 23:13:20,437 - SBC_Tester - INFO - Test IR GPIO TX/RX FAILED: 1376 / 2544 iterations successful. 54.0%, pass theshold is 75.0%
+2023-04-27 23:13:20,437 - SBC_Tester - INFO - Test UART PASSED: 12663 / 13992 iterations successful. 91.0%, pass theshold is 75.0%
+2023-04-27 23:13:20,437 - SBC_Tester - INFO -     ttyS0: (6826/6996) (baud:recv/sent): 9600:1000/1170, 115200:1170/1170, 230400:1164/1164, 460800:1164/1164, 576000:1164/1164, 921600:1164/1164
+2023-04-27 23:13:20,438 - SBC_Tester - INFO -     ttyUSB0: (5837/6996) (baud:recv/sent): 9600:635/1170, 115200:910/1170, 230400:1033/1164, 460800:1043/1164, 576000:1132/1164, 921600:1084/1164
+2023-04-27 23:13:20,438 - SBC_Tester - INFO -     ttyS0: (6826/6996) (bs:recv/sent): 64:1166/1166, 128:1166/1166, 256:1081/1166, 512:1081/1166, 1024:1166/1166, 2048:1166/1166
+2023-04-27 23:13:20,438 - SBC_Tester - INFO -     ttyUSB0: (5837/6996) (bs:recv/sent): 64:1123/1166, 128:903/1166, 256:1055/1166, 512:988/1166, 1024:953/1166, 2048:815/1166
+2023-04-27 23:13:20,472 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 18602 stopping...
+2023-04-27 23:13:20,514 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 18618 stopping...
+2023-04-27 23:13:21,651 - GpioOut - INFO - GpioOut (chip:0,pin:17): Releasing GPIO...
+2023-04-27 23:13:21,652 - GpioOut - INFO - GpioOut (chip:0,pin:17): Releasing GPIO...
+2023-04-27 23:13:21,652 - DevTest_UART - INFO - DevTest_UART: Closing ttyS0...
+2023-04-27 23:13:21,653 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB0...
+(venv) pi@rpi-kvm1:~/dev/sbc_gpio $ 
