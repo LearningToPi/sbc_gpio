@@ -1,5 +1,6 @@
 '''
-
+GPIO library:  gpiod
+Supported platforms: Most modern SBC devices that support the libgpiod kernel driver
 '''
 import gpiod
 from threading import Thread

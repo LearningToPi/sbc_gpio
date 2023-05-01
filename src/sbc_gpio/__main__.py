@@ -1,10 +1,95 @@
+'''
+PyPi Package: sbc_gpio
+Homepage: https://www.learningtopi.com/python-modules-applications/sbc_gpio/
+Git: https://github.com/LearningToPi/sbc_gpio
+
+Description:
+===========
+Calling the module directly can be used for either printing the model and serial number
+of the SBC device as it is identified, or executing a series of tests based on test classes
+available in the sbc_gpio/device_tests folder.
+
+Executing tests requires a config file that includes the GPIO info needed for each of the tests.
+A sample configuration file can be generated using the CLI options outlined below:
+
+
+Usage Example:
+=============
+
+>> Output the platform info
+$ python3 -m sbc_gpio
+2023-04-30 22:59:55,337 - SBCPlatform - INFO - SBCPlatform: Platform identified as Rock5B (Radxa ROCK 5B)
+###################################
+SBC Model:        Rock5B
+SBC Description:  Radxa ROCK 5B
+SBC Serial:       ***************
+SPI Buses:        1, 0
+I2C Buses:        7, 6, 4, 1, 0, 9
+###################################
+
+>> Create a configuration file
+$ python3 -m sbc_gpio --write-config --config configs/test.json
+Sample configuration written to 'configs/test.json'.
+
+>> Execute a test using a configuration file
+$ python3 -m sbc_gpio --config configs/rock5b.json  --time 30
+2023-04-30 23:05:19,705 - SBCPlatform - INFO - SBCPlatform: Platform identified as Rock5B (Radxa ROCK 5B)
+2023-04-30 23:05:19,706 - GpioOut - INFO - GpioOut (chip:3,pin:7): Requesting GPIO...
+2023-04-30 23:05:19,707 - GpioIn - INFO - GpioIn (chip:3,pin:14): Requesting GPIO...
+2023-04-30 23:05:19,707 - GpioIn - INFO - GpioIn (chip:3,pin:14): Starting event thread...
+2023-04-30 23:05:19,708 - dht11_spi - INFO - DHT22_Spi (SPI0-500.0kHz): Opening
+2023-04-30 23:05:19,708 - dht11_spi - INFO - DHT22_Spi (SPI0-500.0kHz): Setting SPI bus speed from 50000000 to 500000
+2023-04-30 23:05:19,709 - root - INFO - Bmx280Spi (SPI1.13): Opening
+<...>
+2023-04-30 23:05:53,880 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 15 / 15 iterations successful. 100.0%, pass theshold is 100%
+2023-04-30 23:05:53,882 - SBC_Tester - INFO - Test Button GPIOD PASSED: 0 / 0 iterations successful. 100%, pass theshold is 0%
+2023-04-30 23:05:53,882 - SBC_Tester - INFO - Test DHT11 over SPI PASSED: 13 / 14 iterations successful. 93.0%, pass theshold is 75.0%
+2023-04-30 23:05:53,882 - SBC_Tester - INFO - Test BMP280/BME280 over SPI PASSED: 28 / 28 iterations successful. 100.0%, pass theshold is 75.0%
+2023-04-30 23:05:53,883 - SBC_Tester - INFO - Test I2C Display PASSED: 27 / 27 iterations successful. 100.0%, pass theshold is 100%
+2023-04-30 23:05:53,883 - SBC_Tester - INFO - Test IR GPIO TX/RX PASSED: 22 / 22 iterations successful. 100.0%, pass theshold is 75.0%
+2023-04-30 23:05:53,883 - SBC_Tester - INFO - Test UART PASSED: 108 / 108 iterations successful. 100.0%, pass theshold is 75.0%
+2023-04-30 23:05:53,883 - SBC_Tester - INFO -     ttyS2: (54/54) (baud:recv/sent): 9600:12/12, 115200:12/12, 230400:12/12, 460800:6/6, 576000:6/6, 921600:6/6
+2023-04-30 23:05:53,884 - SBC_Tester - INFO -     ttyUSB1: (54/54) (baud:recv/sent): 9600:12/12, 115200:12/12, 230400:12/12, 460800:6/6, 576000:6/6, 921600:6/6
+2023-04-30 23:05:53,884 - SBC_Tester - INFO -     ttyS2: (54/54) (bs:recv/sent): 64:9/9, 128:9/9, 256:9/9, 512:9/9, 1024:9/9, 2048:9/9
+2023-04-30 23:05:53,884 - SBC_Tester - INFO -     ttyUSB1: (54/54) (bs:recv/sent): 64:9/9, 128:9/9, 256:9/9, 512:9/9, 1024:9/9, 2048:9/9
+2023-04-30 23:05:53,884 - SBC_Tester - INFO - Completed test run for 30 seconds.
+2023-04-30 23:05:53,963 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 282170 stopping...
+2023-04-30 23:05:54,071 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 282187 stopping...
+2023-04-30 23:05:55,243 - GpioOut - INFO - GpioOut (chip:3,pin:7): Releasing GPIO...
+2023-04-30 23:05:55,244 - GpioOut - INFO - GpioOut (chip:3,pin:7): Releasing GPIO...
+2023-04-30 23:05:55,244 - DevTest_UART - INFO - DevTest_UART: Closing ttyS2...
+2023-04-30 23:05:55,244 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB1...
+
+    
+MIT License
+
+Copyright (c) 2022 LearningToPi <contact@learningtopi.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+'''
 from . import SBCPlatform
 import argparse
 import os
 import json
 import sys
 from time import sleep
-from logging_handler import create_logger, INFO
+from logging_handler import create_logger, INFO, WARNING
 from sbc_gpio.device_tests.led_gpiod import DevTest_LED
 from sbc_gpio.device_tests.button_gpiod import DevTest_Button
 from sbc_gpio.device_tests.i2c_display import DevTest_I2CDisp
@@ -91,8 +176,6 @@ if __name__ == '__main__':
 
     args = vars(parser.parse_args())
 
-    print(args)
-
     if args.get('write_config', False) and args.get('config') is None:
         sys.tracebacklimit=0
         raise ValueError('Parameter "write-config" requires parameter "config"')
@@ -129,7 +212,7 @@ if __name__ == '__main__':
         quit()
 
     # print the SBC data to the screen
-    platform = SBCPlatform()
+    platform = SBCPlatform(log_level=WARNING)
     print('#' * 35)
     print('SBC Model:       ', platform.model)
     print('SBC Description: ', platform.description)

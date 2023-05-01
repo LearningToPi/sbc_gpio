@@ -1,3 +1,7 @@
+'''
+Base GPIO classes used to represent a in and out GPIO and provide common functionality
+across all gpio libraries.
+'''
 from logging_handler import create_logger
 from threading import Thread, Lock
 from sbc_gpio import EVENT

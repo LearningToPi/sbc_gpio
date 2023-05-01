@@ -1,5 +1,100 @@
 '''
+PyPi Package: sbc_gpio
+Homepage: https://www.learningtopi.com/python-modules-applications/sbc_gpio/
+Git: https://github.com/LearningToPi/sbc_gpio
 
+Description:
+===========
+This library is intended to provide an abstraction layer between the SBC and GPIO.  In particular
+the Raspberry Pi group of devices uses a proprietary GPIO library (RPi.GPIO) that is not accessible
+on other SBC platforms (for example Rock Pi, Banana Pi, Atomic Pi, etc).  This library is intended
+to provide an abstract class that can allow for portable code between platforms.
+
+The SBCPlatform class allows for identifying the platform based on platform specific criteria.  The
+abstract GpioIn and GpioOut classes are used to provide access to GPIO libraries that are assigned
+based on the identified platform.
+
+Usage Example:
+=============
+from sbc_gpio import SBCPlatform, EVENT, DIR, PULL
+
+# get the platform and associated GPIO library
+platform = SBCPlatform()
+print(platform)
+print(platform.serial)
+
+# Get a GPIO out and in pin
+def callback_func(event:str, time:float, state:str)
+    print(time, event, state)
+gpio_out = platform.get_gpio_out(gpio_id='3B3', name='test_out', pull=PULL.NONE, initial_state=0)
+gpio_in = platform.get_gpio_in(gpio_id='3B2', name='test_in', pull=PULL.DOWN, event=EVENT.BOTH, 
+                               debounce_ms=100, callback=callback_func)
+gpio_out.set_high()
+gpio_out.set_low()
+
+
+Folder Structure:
+.\DIR.py, .\EVENT.py, .\PULL.py:
+    These files include constants that are used for consistent usage between GPIO libraries.
+
+.\platforms:
+    This folder includes a file for each platform that can be identified by this library.  Each
+    file should contain the following:
+        MODEL_IDENTIFIER = [ <list of supported mechanisms for identifying the platform> ]
+        PLATFORM_LOCAL = namedtuple('PLATFORM_LOCAL', (<tuple of platform specific values>))
+        PLATFORM_SPECIFIC = PLATFORM_INFO(model=<short device model>, description=<long device model>,
+                                          gpio_valid_values=[<list of valid integer gpio's>],
+                                          local=PLATFORM_LOCAL(<instance of PLATFORM_LOCAL>))
+        <optional>
+        def convert_gpio(gpio_str:str) -> int:
+            # Function to convert a passed string that is platform specific to a GPIO integer
+
+        def convert_gpio_tuple(gpio_str:str) -> tuple:
+            # Function to convert a passed string that is platform specific to a tuple that 
+            #  contains the gpio chip and gpio integer.
+
+.\gpio_libs:
+    This folder includes a "_generic_gpio.py" lib that represents a generic GPIO input or output.
+    All GPIO library files in this folder will inherit these base clases.  The base classes allow
+    the abstraction of the underlying GPIO library to make code more portable between SBC's.
+
+    Each GPIO library file should override the GpioIn and GpioOut classes and provide GPIO class
+    specific functionality.
+
+.\device_tests:
+    This folder contains a series of test files based on the _test_base.py file.  These tests
+    can be used to validate functionality on the different SBC platforms supported using the
+    GPIO libraries available.
+
+.\tests:
+    This folder contains the unittest files for running the SBC device tests.
+
+.\__main__.py:
+    Running the module directly can be used to output information on the current device platform
+    or execute tests on the platform.  See the __main__.py file for more details.
+
+    
+MIT License
+
+Copyright (c) 2022 LearningToPi <contact@learningtopi.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 '''
 
 import os

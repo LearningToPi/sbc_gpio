@@ -1,3 +1,7 @@
+'''
+Base test classes used to represent the test results as well as a structure for the tests.
+
+'''
 import logging
 from logging_handler import create_logger, DEBUG, INFO, ERROR, WARNING, CRITICAL
 from time import time, sleep
@@ -5,7 +9,27 @@ import threading
 
 
 class DevTest_Results:
-    ''' Base class to represent the results of a test '''
+    ''' 
+    Base class to represent the results of a test.
+
+    Properties:
+      iterations: (int) total number of tests that were run
+      iter_success: (int) number of successful tests that were run
+      parameters: (dict) parameters that were used for the test
+      start_time: (int) unix time when test was started
+      end_time: (int) unix time when test completed
+      pass_threshold: (int) percentage required to qualify as successful
+      pass_on_zero: (bool) allow a pass if zero successful iterations
+      name: (str) Name of the test
+      description: (str) Descrption of the test
+      details: [list of str] Additional testing data
+      passed: (bool) true/false if met pass threshold
+      pass_percent: (float) decimal rounded to 2 for the pass rate
+
+    Methods:
+    str(DevTest_Results) - Prints the results of the test as a string
+    bool(DevTest_Results) - returns True/False if the test passed
+    '''
     iterations = None
     iter_success = None
     parameters = {}
@@ -18,6 +42,14 @@ class DevTest_Results:
     details= []
 
     def __init__(self, **kwargs):
+        ''' 
+        All passed kwargs are assigned to the local class fields. The following are used:
+        iterations (number of tests run), iter_success (number of successful runs), parameters
+        (dict of test parameters), start_time (unix start time), end_time (unix end time),
+        pass_threshold (percentage required for test to pass), pass_on_zero (allow a pass if
+        there were zero successful iterations), name (name of test), description (description 
+        of test), details (list of strings, additional test detailed output if needed) 
+        '''
         for key, value in kwargs.items():
             self.__setattr__(key, value)
 
