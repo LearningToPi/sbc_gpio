@@ -1,0 +1,24 @@
+[project]
+name = "sbc_gpio"
+version = "1.0.0"
+description = "Python Library for abstraction GPIO and for SBC testing"
+authors = [{name = "Thomas Dunteman", email= "git@learningtopi.com"}]
+keywords = ["sbc", "gpio"]
+readme = "README.md"
+requires-python =">=3.8"
+classifiers = [
+    "Topic :: System :: Logging",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3"
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://www.learningtopi.com/python-modules-applications/sbc_gpio/"
+"Bug Tracker" = "https://github.com/LearningToPi/sbc_gpio/issues"
+"Source Code" = "https://github.com/LearningToPi/sbc_gpio"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
