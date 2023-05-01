@@ -20,9 +20,13 @@ gpio_tests = {
         'btn': '3B6',
         'dht': '1D7',
         'dht_spi': 0,
+        "dht22": True,
         'bmx': '3B5',
         'bmx_spi': 1,
-        'i2c': 7
+        'i2c': 7,
+        "ir": True,
+        "uart_dev": "ttyS2",
+        "usb_dev": "ttyUSB1"
     },
     'Pi4B': {
         "led": 17,
@@ -87,7 +91,7 @@ class devtesterTest(unittest.TestCase):
     def test_4_dht(self):
         logger.info('===================================== %s', self._testMethodName)
         pin = platform.convert_gpio_tuple(test_vars.get('dht'))
-        dht_tester = DevTest_DHT(int(test_vars.get('dht_spi', 0)), pin, log_level=INFO, dht22=False)
+        dht_tester = DevTest_DHT(int(test_vars.get('dht_spi', 0)), pin, log_level=INFO, dht22=test_vars.get('dht22', False))
         logger.info('----------------- Test 10 iterations blocking')
         dht_tester.start(iterations=10, wait=True)
         logger.info(f'{dht_tester.test_results}')

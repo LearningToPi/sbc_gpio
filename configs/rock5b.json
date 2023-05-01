@@ -7,5 +7,7 @@
     "bmx": "3B5",
     "bmx_spi": 1,
     "i2c": 7,
-    "ir": true
+    "ir": true,
+    "uart_dev": "ttyS2",
+    "usb_dev": "ttyUSB1"
 }
