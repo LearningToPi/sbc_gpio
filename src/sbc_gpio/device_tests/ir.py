@@ -16,7 +16,7 @@ LIRC_REMOTE = namedtuple("LIRC_REMOTE", ('name', 'keys'))
 
 LIRC_DEVICE_PATH = '/tmp/'
 
-LIRC_OPTIONS_FILE = os.path.join(os.path.dirname(__file__), 'lirc', 'lirc-options.conf')
+LIRC_REMOTE_FILE = os.path.join(os.path.dirname(__file__), 'lirc', 'aa59-00741a.lircd.conf')
 LIRC_EXCLUDE_REMOTES = ['devinput-32', 'devinput-64']
 
 
@@ -168,7 +168,7 @@ class DevTest_IR(DevTest_Base):
             if not self._lircd_tx_proc():
                 # start the lircd TX process
                 self._logger.info(f"{self.info_str}: lircd TX process starting...")
-                self._ir_tx_process = subprocess.Popen(f"/sbin/lircd --driver=default --device=/dev/{self.ir_tx_dev} --output={self.lircd_path + self.ir_tx_dev} --pidfile={self.lircd_path + self.ir_tx_dev}.pid --nodaemon --options-file={LIRC_OPTIONS_FILE}".split(),  # type: ignore
+                self._ir_tx_process = subprocess.Popen(f"/sbin/lircd --driver=default --device=/dev/{self.ir_tx_dev} --output={self.lircd_path + self.ir_tx_dev} --pidfile={self.lircd_path + self.ir_tx_dev}.pid --nodaemon {LIRC_REMOTE_FILE}".split(),  # type: ignore
                                                                stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
                 # wait 1 second and make sure the process didn't terminate
                 sleep(1)
@@ -182,7 +182,7 @@ class DevTest_IR(DevTest_Base):
             if not self._lircd_rx_proc():
                 # start the lircd RX process
                 self._logger.info(f"{self.info_str}: lircd RX process starting...")
-                self._ir_rx_process = subprocess.Popen(f"/sbin/lircd --driver=default --device=/dev/{self.ir_rx_dev} --output={self.lircd_path + self.ir_rx_dev} --pidfile={self.lircd_path + self.ir_rx_dev}.pid --nodaemon  --options-file={LIRC_OPTIONS_FILE}".split(),  # type: ignore
+                self._ir_rx_process = subprocess.Popen(f"/sbin/lircd --driver=default --device=/dev/{self.ir_rx_dev} --output={self.lircd_path + self.ir_rx_dev} --pidfile={self.lircd_path + self.ir_rx_dev}.pid --nodaemon {LIRC_REMOTE_FILE}".split(),  # type: ignore
                                                                stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
                 # wait 1 second and make sure the process didn't terminate
                 sleep(1)
