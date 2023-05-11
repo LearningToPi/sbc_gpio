@@ -32,7 +32,7 @@ gpio_tests = {
         "led": 17,
         "btn": 27,
         "dht": 5,
-        "dht22": False,
+        "dht22": True,
         "dht_spi": 0,
         "bmx": 16,
         "bmx_spi": 1,
