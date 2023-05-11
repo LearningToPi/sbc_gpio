@@ -95,13 +95,13 @@ class GpioIn(Generic_GpioIn):
         ''' Background thread to watch for rising or falling edge '''
         triggered = False
 
-        def call_event(event):
+        def call_event(event, triggered):
             if self.callback is not None:
-                self._logger.debug(f"{self.info_str}: {EVENT.RISING.upper() if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING.upper()} state: triggered")
+                self._logger.debug(f"{self.info_str}: {EVENT.RISING.upper() if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING.upper()} state: {triggered}")
                 Thread(target=self.callback, kwargs={'event': EVENT.RISING if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING,
-                      'time': time(), 'state': 'triggered'}).start()
+                      'time': time(), 'state': triggered}).start()
             else:
-                self._logger.info(f"{self.info_str}: {EVENT.RISING.upper() if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING.upper()} state: triggered")
+                self._logger.info(f"{self.info_str}: {EVENT.RISING.upper() if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING.upper()} state: {triggered}")
 
         while True and not self._stop_thread:
             try:
@@ -114,15 +114,16 @@ class GpioIn(Generic_GpioIn):
                         # if monitoring for event rising or event falling ONLY, just send the event
                         if self.event != EVENT.BOTH:
                             if (self.event == EVENT.RISING and event.event_type == gpiod.line_event.RISING_EDGE) or (self.event == EVENT.FALLING and event.event_type == gpiod.line_event.FALLING_EDGE):
-                                call_event(event)
+                                triggered = True
+                                call_event(event, triggered)
                         # otherwise need to track when we are triggered so we don't alert to a release if there was no press!
                         else:
                             if (event.event_type == gpiod.line_event.RISING_EDGE and self.pull == PULL.DOWN) or (event.event_type == gpiod.line_event.FALLING_EDGE and self.pull != PULL.DOWN):
                                 triggered = True
-                                call_event(event)
+                                call_event(event, triggered)
                             elif triggered:
                                 triggered = False
-                                call_event(event)
+                                call_event(event, triggered)
                             
                     event = None
             except Exception as e:

@@ -2,7 +2,7 @@ from collections import namedtuple
 from sbc_gpio import PLATFORM_INFO
 
 # select the gpio library for the platform
-from sbc_gpio.gpio_libs.gpiod import GpioIn, GpioOut
+from sbc_gpio.gpio_libs.rpi_gpio import GpioIn, GpioOut
 
 MODEL_IDENTIFIER = [
     {
