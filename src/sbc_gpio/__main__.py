@@ -83,7 +83,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
-from . import SBCPlatform
 import argparse
 import os
 import json
@@ -97,10 +96,12 @@ from sbc_gpio.device_tests.ir import DevTest_IR
 from sbc_gpio.device_tests.dht_spi import DevTest_DHT
 from sbc_gpio.device_tests.bmx_spi import DevTest_BMX
 from sbc_gpio.device_tests.uart import DevTest_UART
+from . import SBCPlatform
 
 
 def run_test(run_secs=60, led=None, btn=None, dht=None, ir=None, dht_spi=None, dht22=False, bmx=None, bmx_spi=None, i2c=None, log_level=INFO,
              uart_dev=None, usb_dev=None):
+    ''' Run a basic set of tests on the specified devices.  All tests are run in parallel for a number of seconds.'''
     logger = create_logger(console_level=log_level, name='SBC_Tester')
 
     # loop through and start each test
@@ -179,7 +180,7 @@ if __name__ == '__main__':
     if args.get('write_config', False) and args.get('config') is None:
         sys.tracebacklimit=0
         raise ValueError('Parameter "write-config" requires parameter "config"')
-    
+
     if args.get('write_config', False):
         sample_config = {
             'led': '3A7',
@@ -220,4 +221,3 @@ if __name__ == '__main__':
     print('SPI Buses:       ', ', '.join([str(x) for x in platform.spi_buses()]))
     print('I2C Buses:       ', ', '.join([str(x) for x in platform.i2c_buses()]))
     print('#' * 35)
-

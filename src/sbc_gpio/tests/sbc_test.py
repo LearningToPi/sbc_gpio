@@ -46,4 +46,3 @@ class devtesterTest(unittest.TestCase):
         gpio_in.stop()
         del gpio_in
         del gpio_out
-
