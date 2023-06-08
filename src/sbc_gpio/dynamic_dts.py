@@ -44,7 +44,6 @@ using a venv, be sure to active the venv first!)
 '''
 
 import logging
-from . import SBCPlatform
 
 class OverlayParam:
     ''' Represent a parameter in an overlay '''
@@ -144,9 +143,3 @@ class DynamicOverlay:
         for _param in self.params:
             if not _param.ok:
                 raise ValueError(f"Not all required parameters configured. {_param} is required")
-
-
-def run():
-    ''' Initiate a call to start the dynamic overlay generation '''
-    device = SBCPlatform()
-    device.write_dynamic_overlays()

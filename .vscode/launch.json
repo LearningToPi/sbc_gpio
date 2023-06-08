@@ -8,7 +8,7 @@
             "name": "dynamic overlay",
             "type": "python",
             "request": "launch",
-            "program": "src/sbc_gpio/tests/quick.py",
+            "program": "src/sbc_gpio/tests/test_dynamic_overlay.py",
             "console": "integratedTerminal",
             "sudo": true,
             "justMyCode": true

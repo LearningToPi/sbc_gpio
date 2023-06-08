@@ -38,5 +38,5 @@ def set_gpio_flags(*args) -> int:
     for arg in args:
         if arg.upper() not in FLAGS.keys():
             raise ValueError(f'Value {arg} not in list of supported flags: {FLAGS}')
-        ret_value = ret_value & (FLAGS[arg.upper()].get('value', 0b0) << FLAGS[arg.upper()].get('offset', 0))
+        ret_value = ret_value | (FLAGS[arg.upper()].get('value', 0b0) << FLAGS[arg.upper()].get('offset', 0))
     return ret_value
