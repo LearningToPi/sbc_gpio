@@ -1,6 +1,6 @@
 [project]
 name = "sbc_gpio"
-version = "1.0.0"
+version = "1.0.1"
 description = "Python Library for abstraction GPIO and for SBC testing"
 authors = [{name = "Thomas Dunteman", email= "git@learningtopi.com"}]
 keywords = ["sbc", "gpio"]
@@ -20,5 +20,9 @@ dependencies = []
 "Source Code" = "https://github.com/LearningToPi/sbc_gpio"
 
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=61", "gpiod", "bmx280-spi", "dht11-spi", "Jinja2", "lirc",
+            "logging-handler", "pyserial", "RPLCD", "smbus2", "spidev"]
 build-backend = "setuptools.build_meta"
+
+[project.scripts]
+"update_dynamic_overlay.py"="sbc_gpio.dynamic_dts:run"
