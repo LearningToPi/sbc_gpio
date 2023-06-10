@@ -46,7 +46,33 @@ DYNAMIC_OVERLAYS={
         ],
         "template": "gpio-basic.dts"
     },
-    "gpio-ir-recv": {}
+    "gpio-ir-recv": {
+            "driver_alias": "gpio-ir-receiver",
+            "params": [
+            {
+                "name": "gpio",
+                "param_type": "str",
+                "param_help": "String to identify the gpio. i.e. 14, 112, 2A6",
+                "number_as_str": True
+            },
+            {
+                "name": "active",
+                "param_type": "str",
+                "values": ["high", "low"],
+                "param_help": "Set active [high|low]",
+                "default_value": "high"
+
+            },
+            {
+                "name": "pull",
+                "param_type": "str",
+                "values": ["high", "low", "none"],
+                "param_help": "Set internal pull-up/pull-down or no bias [high|low|none]",
+                "default_value": "none"
+            }
+        ],
+        "template": "gpio-basic.dts"
+    }
 }
 
 SERIAL_NUMBER = '/sys/firmware/devicetree/base/serial-number'
@@ -109,6 +135,7 @@ def write_dynamic_overlay(overlay:DynamicOverlay):
 
     with open(os.path.join(PLATFORM_SPECIFIC.dynamic_overlay_dir, f"{overlay.name}-{overlay.get_param('gpio').set_value}.dts"), 'w', encoding='utf-8') as output_file:
         output_file.write(template.render(driver=overlay.name,
+                                          driver_alias=overlay.driver_alias,
                                           gpio_number=convert_gpio(str(overlay.get_param('gpio').set_value)),
                                           gpio_chip=convert_gpio_tuple(str(overlay.get_param('gpio').set_value))[0],
                                           gpio_pin=convert_gpio_tuple(str(overlay.get_param('gpio').set_value))[1],

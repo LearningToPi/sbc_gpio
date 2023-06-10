@@ -92,11 +92,12 @@ class OverlayParam:
 
 class DynamicOverlay:
     ''' Represent an overlay '''
-    def __init__(self, name:str, template='gpio_basic.dts.j2', params=None):
+    def __init__(self, name:str, template='gpio_basic.dts.j2', driver_alias=None, params=None):
         ''' Create overlay instance from the configuration file '''
         self.name = name
         self.template = template
         self.params = []
+        self.driver_alias = name if driver_alias is None else driver_alias
         if isinstance(params, list):
             for _param in params:
                 try:

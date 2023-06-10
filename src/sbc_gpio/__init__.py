@@ -347,7 +347,8 @@ class SBCPlatform:
                         continue
                     if overlay_name not in dynamic_overlays:
                         # we haven't configured the overlay yet, so pull it in and update the parameters
-                        dynamic_overlays[overlay_name] = DynamicOverlay(name=overlay_name, params=self._platform.dynamic_overlays[overlay_name]['params'])
+                        dynamic_overlays[overlay_name] = DynamicOverlay(name=overlay_name, driver_alias=self._platform.dynamic_overlays[overlay_name].get('driver_alias', None),
+                                                                        params=self._platform.dynamic_overlays[overlay_name]['params'])
                     try:
                         dynamic_overlays[overlay_name].set_params(overlay_params)
                     except ValueError as e:

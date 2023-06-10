@@ -6,8 +6,8 @@
 	fragment@0 {
 		target-path = "/";
 		__overlay__ {
-			{{ driver }}-{{ gpio_number }} {
-				compatible = "{{ driver }}";
+			{{ driver_alias }}-{{ gpio_number }} {
+				compatible = "{{ driver_alias }}";
 				status = "okay";
 				gpios = <&gpio{{ gpio_chip|default(0) }} {{ gpio_pin }} {{ gpio_pin_ctrl|default(2) }}>;
 			};
