@@ -21,10 +21,10 @@ PLATFORM_SPECIFIC = PLATFORM_INFO(
 
 MODEL_IDENTIFIER = [
     {
-        'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'Raspberry Pi 4B', 'model': 'Pi4B', 'platform': PLATFORM_SPECIFIC
+        'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'Raspberry Pi 4 B', 'model': 'Pi4B', 'platform': PLATFORM_SPECIFIC
     },
     {
-        'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'Raspberry Pi 3B', 'model': 'Pi3B', 'platform': PLATFORM_SPECIFIC
+        'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'Raspberry Pi 3 B', 'model': 'Pi3B', 'platform': PLATFORM_SPECIFIC
     },
     {
         'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'Raspberry Pi Zero W', 'model': 'PiZeroW', 'paltform': PLATFORM_SPECIFIC
