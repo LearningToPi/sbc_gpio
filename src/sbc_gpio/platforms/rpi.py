@@ -27,10 +27,10 @@ MODEL_IDENTIFIER = [
         'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'Raspberry Pi 3 Model B', 'model': 'Pi3B', 'platform': PLATFORM_SPECIFIC
     },
     {
-        'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'Raspberry Pi Zero W', 'model': 'PiZeroW', 'paltform': PLATFORM_SPECIFIC
+        'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'Raspberry Pi Zero W', 'model': 'PiZeroW', 'platform': PLATFORM_SPECIFIC
     },
     {
-        'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'Raspberry Pi Zero', 'model': 'PiZero', 'paltform': PLATFORM_SPECIFIC
+        'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'Raspberry Pi Zero', 'model': 'PiZero', 'platform': PLATFORM_SPECIFIC
     }
 ]
 
