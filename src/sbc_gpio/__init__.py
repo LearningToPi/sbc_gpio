@@ -110,9 +110,8 @@ from .dynamic_dts import DynamicOverlay
 
 PLATFORM_BASE_DIR = os.path.join(os.path.dirname(__file__), 'platforms')
 
-PLATFORM_INFO = namedtuple('PLATFORM_INFO', ('model', 'description', 'gpio_valid_values',
-                                             'dynamic_overlay_dir', 'dynamic_overlays', 'config_file',
-                                             'update_extlinux_script', 'extlinux_conf', 'local'))
+PLATFORM_INFO = namedtuple('PLATFORM_INFO', ('gpio_valid_values', 'dynamic_overlay_dir', 'dynamic_overlays',
+                                             'config_file', 'update_extlinux_script', 'extlinux_conf', 'local'))
 
 class SBCPlatform:
     ''' Class to handle platform specific commands on SBC '''
@@ -120,6 +119,8 @@ class SBCPlatform:
         self._platform = None
         self._gpio_func = None
         self._logger = create_logger(console_level=log_level, name=self.info_str)
+        self.model = 'n/a'
+        self.description = 'n/a'
         self.serial = 'n/a'
         self.supported_platforms = []
 
@@ -127,17 +128,20 @@ class SBCPlatform:
         self._logger.debug(f"{self.info_str}: Listing platform files from: {PLATFORM_BASE_DIR}")
         platform_files = os.listdir(PLATFORM_BASE_DIR)
         mod = None
+        match_identifier = {}
         for platform_file in platform_files:
             if platform_file.endswith('.py') and not platform_file.startswith('_'):
                 try:
                     mod = import_module(f"sbc_gpio.platforms.{platform_file.split('.py')[0]}")
-                    self.supported_platforms.append(mod.PLATFORM_SPECIFIC.model)
+                    self.supported_platforms.append(mod.SUPPORTED_MODELS)
                     match_found = False
                     # run the platform identifier tests
                     for identifier in mod.MODEL_IDENTIFIER:
                         if identifier.get('type').lower() == 'true':
                             self._logger.debug(f"{self.info_str}: Platform matched in file {platform_file}")
                             # true identifier will always return true.  useful for testing
+                            self.description = 'Force Match'
+                            match_identifier = identifier
                             match_found = True
                             break
 
@@ -147,6 +151,8 @@ class SBCPlatform:
                                 file_contents = input_file.read()
                             if re.search(identifier['contents'], file_contents):
                                 self._logger.debug(f"{self.info_str}: Platform matched in file {platform_file}")
+                                self.description = file_contents
+                                match_identifier = identifier
                                 match_found = True
                                 break
                     # if we found a match, break out
@@ -160,7 +166,8 @@ class SBCPlatform:
 
         # save the platform specific info and functions
         if mod is not None:
-            self._platform = mod.PLATFORM_SPECIFIC
+            self._platform = match_identifier.get('platform', None)
+            self.model = match_identifier.get('model', 'n/a')
             if 'SERIAL_NUMBER' in dir(mod):
                 with open(mod.SERIAL_NUMBER, 'r', encoding='utf-8') as input_file:
                     self.serial = input_file.read()
@@ -173,26 +180,12 @@ class SBCPlatform:
             self._compile_dtbo = mod.compile_dtbo if 'compile_dtbo' in dir(mod) else None
             self._GpioIn_Class = mod.GpioIn
             self._GpioOut_Class = mod.GpioOut
-            self._logger.info(f"{self.info_str}: Platform identified as {self._platform.model} ({self.description})")
+            self._logger.info(f"{self.info_str}: Platform identified as {self.model} ({self.description})")
         else:
             raise ValueError(f"Unable to identify platform.  Supported devices are: {','.join(self.supported_platforms)}")
 
     def __str__(self):
         return self.model
-
-    @property
-    def model(self):
-        ''' Return the model of the device as a string '''
-        if isinstance(self._platform, PLATFORM_INFO):
-            return self._platform.model
-        return ''
-
-    @property
-    def description(self):
-        ''' Return a description of the platform as a string '''
-        if isinstance(self._platform, PLATFORM_INFO):
-            return self._platform.description
-        return ''
 
     @property
     def gpio_valid_values(self):
@@ -254,7 +247,7 @@ class SBCPlatform:
     @property
     def info_str(self):
         """ Returns the info string for the class (used in logging commands) """
-        return f"{self.__class__.__name__}" + (f"({self._platform.model})" if self._platform is not None else '')
+        return f"{self.__class__.__name__}" + (f"({self.model})" if self._platform is not None else '')
 
     def spi_buses(self) -> tuple:
         ''' Returns a tuple listing the spi bus numbers that are available (only applicable on Linux).  I.e. (0,1) or (0,) '''
