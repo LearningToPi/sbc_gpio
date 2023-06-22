@@ -1,0 +1,19 @@
+2023-06-09 23:43:01,375 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.0388degC (86.0698degF), Pressure: 96557.12Pa (14.0039psi) (0.95318atm)
+2023-06-09 23:43:02,478 - DevTest_BMX - INFO - DevTest_BMX: BMP280 reading: Temp: 30.0489degC (86.088degF), Pressure: 96555.79Pa (14.0037psi) (0.953167atm)
+2023-06-09 23:43:03,405 - DevTest_DHT - INFO - DevTest_DHT: DHT22 reading: Temp: 29.0degC (84.2degF), Humidity 23.0%
+2023-06-09 23:43:07,394 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1795 / 1795 iterations successful. 100.0%, pass theshold is 100%
+2023-06-09 23:43:07,395 - SBC_Tester - INFO - Test Button GPIOD PASSED: 0 / 0 iterations successful. 100%, pass theshold is 0%
+2023-06-09 23:43:07,395 - SBC_Tester - INFO - Test DHT11 over SPI PASSED: 1676 / 1701 iterations successful. 99.0%, pass theshold is 75.0%
+2023-06-09 23:43:07,395 - SBC_Tester - INFO - Test BMP280/BME280 over SPI PASSED: 3253 / 3253 iterations successful. 100.0%, pass theshold is 75.0%
+2023-06-09 23:43:07,396 - SBC_Tester - INFO - Test I2C Display PASSED: 3188 / 3188 iterations successful. 100.0%, pass theshold is 100%
+2023-06-09 23:43:07,396 - SBC_Tester - INFO - Test IR GPIO TX/RX FAILED: 1609 / 2545 iterations successful. 63.0%, pass theshold is 75.0%
+2023-06-09 23:43:07,396 - SBC_Tester - INFO - Test UART PASSED: 13155 / 14266 iterations successful. 92.0%, pass theshold is 75.0%
+2023-06-09 23:43:07,397 - SBC_Tester - INFO -     ttyS0: (6989/7133) (baud:recv/sent): 9600:1049/1193, 115200:1188/1188, 230400:1188/1188, 460800:1188/1188, 576000:1188/1188, 921600:1188/1188
+2023-06-09 23:43:07,397 - SBC_Tester - INFO -     ttyUSB0: (6166/7133) (baud:recv/sent): 9600:747/1193, 115200:952/1188, 230400:1091/1188, 460800:1101/1188, 576000:1156/1188, 921600:1119/1188
+2023-06-09 23:43:07,397 - SBC_Tester - INFO -     ttyS0: (6989/7133) (bs:recv/sent): 64:1189/1189, 128:1189/1189, 256:1117/1189, 512:1117/1189, 1024:1189/1189, 2048:1188/1188
+2023-06-09 23:43:07,398 - SBC_Tester - INFO -     ttyUSB0: (6166/7133) (bs:recv/sent): 64:1148/1189, 128:960/1189, 256:1101/1189, 512:1036/1189, 1024:1017/1189, 2048:904/1188
+2023-06-09 23:43:07,398 - SBC_Tester - INFO - Completed test run for 3600 seconds.
+2023-06-09 23:43:07,431 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 4096 stopping...
+2023-06-09 23:43:07,474 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 4100 stopping...
+2023-06-09 23:43:08,550 - DevTest_UART - INFO - DevTest_UART: Closing ttyS0...
+2023-06-09 23:43:08,550 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB0...
