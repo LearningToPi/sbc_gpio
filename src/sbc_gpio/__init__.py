@@ -133,7 +133,7 @@ class SBCPlatform:
             if platform_file.endswith('.py') and not platform_file.startswith('_'):
                 try:
                     mod = import_module(f"sbc_gpio.platforms.{platform_file.split('.py')[0]}")
-                    self.supported_platforms.append(mod.SUPPORTED_MODELS)
+                    self.supported_platforms += mod.SUPPORTED_MODELS
                     match_found = False
                     # run the platform identifier tests
                     for identifier in mod.MODEL_IDENTIFIER:
@@ -182,7 +182,7 @@ class SBCPlatform:
             self._GpioOut_Class = mod.GpioOut
             self._logger.info(f"{self.info_str}: Platform identified as {self.model} ({self.description})")
         else:
-            raise ValueError(f"Unable to identify platform.  Supported devices are: {','.join(self.supported_platforms)}")
+            raise ValueError(f"Unable to identify platform.  Supported devices are: {self.supported_platforms}")
 
     def __str__(self):
         return self.model
