@@ -15,7 +15,7 @@ from sbc_gpio.gpio_libs.gpiod import GpioIn, GpioOut #pylint: disable=W0611,C041
 
 SERIAL_NUMBER = '/sys/firmware/devicetree/base/serial-number'
 
-PLATFORM_LOCAL = namedtuple('PLATFORM_LOCAL', ('gpio_re_format', 'serial_path', 'gpio_prefix'))
+PLATFORM_LOCAL = namedtuple('PLATFORM_LOCAL', ('gpio_re_format', 'gpio_prefix'))
 
 DYNAMIC_OVERLAYS={
     "gpio-ir-tx": {
@@ -82,7 +82,6 @@ PLATFORM_SPECIFIC = PLATFORM_INFO(
               update_extlinux_script='/usr/local/sbin/update_extlinux.sh',
               extlinux_conf='/boot/extlinux/extlinux.conf',
               local=PLATFORM_LOCAL(gpio_re_format="^(?P<chip>[0-4]?)(?P<pinprefix>[ABCD])(?P<pinnum>[0-7])$",
-                                   serial_path='/sys/firmware/devicetree/base/serial-number',
                                    gpio_prefix=('A', 'B', 'C', 'D')))
 
 
