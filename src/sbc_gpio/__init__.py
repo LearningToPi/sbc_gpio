@@ -151,7 +151,7 @@ class SBCPlatform:
                                 file_contents = input_file.read()
                             if re.search(identifier['contents'], file_contents):
                                 self._logger.debug(f"{self.info_str}: Platform matched in file {platform_file}")
-                                self.description = file_contents
+                                self.description = identifier.get('description', file_contents)
                                 match_identifier = identifier
                                 match_found = True
                                 break
@@ -168,10 +168,13 @@ class SBCPlatform:
         if mod is not None:
             self._platform = match_identifier.get('platform', None)
             self.model = match_identifier.get('model', 'n/a')
-            if 'SERIAL_NUMBER' in dir(mod):
-                with open(mod.SERIAL_NUMBER, 'r', encoding='utf-8') as input_file:
-                    self.serial = input_file.read()
-                    self.serial = ''.join([c for c in self.serial if str(c).isprintable()])
+            if 'SERIAL_NUMBER' in dir(mod) and mod.SERIAL_NUMBER is not None:
+                try:
+                    with open(mod.SERIAL_NUMBER, 'r', encoding='utf-8') as input_file:
+                        self.serial = input_file.read()
+                        self.serial = ''.join([c for c in self.serial if str(c).isprintable()])
+                except Exception as e:
+                    self._logger.warning(f"{self.info_str}: Error getting serial number: {e}")
             if 'convert_gpio' in dir(mod):
                 self.convert_gpio = mod.convert_gpio
             if 'convert_gpio_tuple' in dir(mod):
@@ -285,7 +288,7 @@ class SBCPlatform:
         i2c_buses = ()
         for dev_file in dev_files:
             if 'i2c-' in dev_file:
-                match = re.search("^i2c-(?P<i2c_bus>[0-9])$", dev_file)
+                match = re.search("^i2c-(?P<i2c_bus>[0-9]*)$", dev_file)
                 if match:
                     i2c_buses += (int(match.group('i2c_bus')),)
         return i2c_buses
