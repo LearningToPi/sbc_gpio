@@ -130,6 +130,8 @@ def run_test(run_secs=60, led=None, btn=None, dht=None, ir=None, dht_spi=None, d
             logger.error('Unable to run BMX test. %i not a valid GPIO (%s)', bmx, platform.gpio_valid_values)
     if isinstance(i2c, int) and i2c in platform.i2c_buses():
         tests.append(DevTest_I2CDisp(port=i2c, log_level=log_level))
+    elif i2c is not None:
+        logger.error(f'Unable to run i2c test.  {i2c} not in {platform.i2c_buses()}')
     if isinstance(ir, bool) and ir:
         tests.append(DevTest_IR(log_level=log_level))
     if uart_dev is not None and usb_dev is not None:
@@ -156,10 +158,13 @@ def run_test(run_secs=60, led=None, btn=None, dht=None, ir=None, dht_spi=None, d
             if test.is_running:
                 logger.error(f"Test {test.infostr} failed to complete!  Results not available.")
             else:
-                logger.info(test.test_results)
-                if test.test_results.details is not None:
-                    for line in test.test_results.details:
-                        logger.info(f"    {line}")
+                if test.test_results is not None:
+                    logger.info(test.test_results)
+                    if test.test_results.details is not None:
+                        for line in test.test_results.details:
+                            logger.info(f"    {line}")
+                else:
+                    logger.error(f"Test {test.infostr} has no results available.")
 
         logger.info(f'Completed test run for {run_secs} seconds.')
     except KeyboardInterrupt:
