@@ -23,14 +23,18 @@ class GpioOut(Generic_GpioOut):
         pin_config = gpiod.line_request()
         pin_config.consumer = name if name is not None else f'{self.info_str}-OUT'
         pin_config.request_type = gpiod.line_request.DIRECTION_OUTPUT
-        if pull == PULL.UP:
-            pin_config.flags = gpiod.line_request.FLAG_BIAS_PULL_UP
-        elif pull == PULL.DOWN:
-            pin_config.flags = gpiod.line_request.FLAG_BIAS_PULL_DOWN
-        else:
-            pin_config.flags = gpiod.line_request.FLAG_BIAS_DISABLE
         self._logger.info(f"{self.info_str}: Requesting GPIO...")
         self._pin.request(pin_config)
+
+        try:
+            if pull == PULL.UP:
+                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_PULL_UP)
+            elif pull == PULL.DOWN:
+                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_PULL_DOWN)
+            else:
+                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_DISABLE)
+        except Exception as e:
+            self._logger.warning(f"{self.info_str}: Unable to set pull. Platform may not be capable. Error: {e}")
 
         if initial_state == 0:
             self.set_0()
@@ -66,16 +70,20 @@ class GpioIn(Generic_GpioIn):
         pin_config = gpiod.line_request()
         pin_config.consumer = name if name is not None else f'{self.info_str}-IN'
         pin_config.request_type = gpiod.line_request.DIRECTION_INPUT
-        if pull == PULL.UP:
-            pin_config.flags = gpiod.line_request.FLAG_BIAS_PULL_UP
-        elif pull == PULL.DOWN:
-            pin_config.flags = gpiod.line_request.FLAG_BIAS_PULL_DOWN
-        else:
-            pin_config.flags = gpiod.line_request.FLAG_BIAS_DISABLE
         # set edge request - filter in loop
         pin_config.request_type = gpiod.line_request.EVENT_BOTH_EDGES
         self._logger.info(f"{self.info_str}: Requesting GPIO...")
         self._pin.request(pin_config)
+
+        try:
+            if pull == PULL.UP:
+                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_PULL_UP)
+            elif pull == PULL.DOWN:
+                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_PULL_DOWN)
+            else:
+                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_DISABLE)
+        except Exception as e:
+            self._logger.warning(f"{self.info_str}: Unable to set pull. Platform may not be capable. Error: {e}")
         self._stop_thread = False
         self._edge_thread = None
         if start_polling:
