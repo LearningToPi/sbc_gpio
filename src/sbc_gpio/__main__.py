@@ -156,7 +156,7 @@ def run_test(run_secs=60, led=None, btn=None, dht=None, ir=None, dht_spi=None, d
         # print out if any tests failed to complete and results for the completed tests
         for test in tests:
             if test.is_running:
-                logger.error(f"Test {test.infostr} failed to complete!  Results not available.")
+                logger.error(f"Test {test.info_str} failed to complete!  Results not available.")
             else:
                 if test.test_results is not None:
                     logger.info(test.test_results)
@@ -164,7 +164,7 @@ def run_test(run_secs=60, led=None, btn=None, dht=None, ir=None, dht_spi=None, d
                         for line in test.test_results.details:
                             logger.info(f"    {line}")
                 else:
-                    logger.error(f"Test {test.infostr} has no results available.")
+                    logger.error(f"Test {test.info_str} has no results available.")
 
         logger.info(f'Completed test run for {run_secs} seconds.')
     except KeyboardInterrupt:
