@@ -99,10 +99,10 @@ from sbc_gpio.device_tests.uart import DevTest_UART
 from . import SBCPlatform
 
 
-def run_test(run_secs=60, led=None, btn=None, dht=None, ir=None, dht_spi=None, dht22=False, bmx=None, bmx_spi=None, i2c=None, log_level=INFO,
+def run_test(run_secs=60, log_file='', led=None, btn=None, dht=None, ir=None, dht_spi=None, dht22=False, bmx=None, bmx_spi=None, i2c=None, log_level=INFO,
              uart_dev=None, usb_dev=None):
     ''' Run a basic set of tests on the specified devices.  All tests are run in parallel for a number of seconds.'''
-    logger = create_logger(console_level=log_level, name='SBC_Tester')
+    logger = create_logger(console_level=log_level, name='SBC_Tester', log_file=log_file, file_level=log_level)
 
     # loop through and start each test
     platform = SBCPlatform()
@@ -183,7 +183,7 @@ if __name__ == '__main__':
     # setup the argument parser
     parser = argparse.ArgumentParser(description="Execute a sequence of tests on the SBC GPIO's or if no arguments print the SBC system data.")
     parser.add_argument('--time', required=False, type=int, default=60, help="(60) Number of seconds to run the test")
-    parser.add_argument('--config', required=False, type=str, help="Config file to read from or write to")
+    parser.add_argument('--config', required=False, type=str, default='', help="Config file to read from or write to")
     parser.add_argument('--output', required=False, type=str, help="Output file for results of the test run")
     parser.add_argument('--write-config', required=False, action='store_true', default=False, help="(False) Write a sample config file (requires config parameter)")
     parser.add_argument('--log-level', dest='log_level', required=False, type=str, default='INFO', help='(INFO) Specify the logging level for the console (DEBUG, INFO, WARN, CRITICAL)')
@@ -222,7 +222,7 @@ if __name__ == '__main__':
     if args.get('config', None) is not None:
         with open(args.get('config', 'sample-config.json'), 'r', encoding='utf-8') as input_file:
             config = json.loads(input_file.read())
-        run_test(run_secs=args.get('time', 60), **config)
+        run_test(run_secs=args.get('time', 60), log_file=args.get('output', ''), **config)
         quit()
 
     # print the SBC data to the screen
