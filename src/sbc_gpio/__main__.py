@@ -183,8 +183,8 @@ if __name__ == '__main__':
     # setup the argument parser
     parser = argparse.ArgumentParser(description="Execute a sequence of tests on the SBC GPIO's or if no arguments print the SBC system data.")
     parser.add_argument('--time', required=False, type=int, default=60, help="(60) Number of seconds to run the test")
-    parser.add_argument('--config', required=False, type=str, default='', help="Config file to read from or write to")
-    parser.add_argument('--output', required=False, type=str, help="Output file for results of the test run")
+    parser.add_argument('--config', required=False, type=str, default=None, help="Config file to read from or write to")
+    parser.add_argument('--output', required=False, type=str, default='', help="Output file for results of the test run")
     parser.add_argument('--write-config', required=False, action='store_true', default=False, help="(False) Write a sample config file (requires config parameter)")
     parser.add_argument('--log-level', dest='log_level', required=False, type=str, default='INFO', help='(INFO) Specify the logging level for the console (DEBUG, INFO, WARN, CRITICAL)')
 
