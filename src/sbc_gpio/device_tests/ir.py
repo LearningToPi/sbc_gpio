@@ -110,19 +110,30 @@ class DevTest_IR(DevTest_Base):
                 self._logger.warning(f"{self.info_str}: Insufficient lirc devices.  Skipping all IR tests.")
                 self._ir_ok = False
             for lirc_dev in lirc_sys:
-                driver_path = os.path.realpath(f'/sys/class/lirc/{lirc_dev}/device/device')
-                driver_name = driver_path.rsplit('/', 1)[1]
-                device = {'os_driver': driver_name}
-                if 'tx' in driver_name or 'transmit' in driver_name:
-                    device['dir'] = 'out'
-                    self.ir_tx_dev = lirc_dev
-                    self.ir_tx_driver = driver_name
-                elif 'rx' in driver_name or 'recv' in driver_name or 'receiver' in driver_name:
+                #driver_path = os.path.realpath(f'/sys/class/lirc/{lirc_dev}/device/device')
+                #driver_name = driver_path.rsplit('/', 1)[1]
+                #device = {'os_driver': driver_name}
+                #if 'tx' in driver_name or 'transmit' in driver_name:
+                #    device['dir'] = 'out'
+                #    self.ir_tx_dev = lirc_dev
+                #    self.ir_tx_driver = driver_name
+                #elif 'rx' in driver_name or 'recv' in driver_name or 'receiver' in driver_name:
+                #    device['dir'] = 'in'
+                #    self.ir_rx_dev = lirc_dev
+                #    self.ir_rx_driver = driver_name
+                #else:
+                #    raise AttributeError(f'Unable to determine direction of {lirc_dev}')
+                
+                # get list of directories in device folder
+                device = {}
+                if len([_i for _i in os.listdir(f"/sys/class/lirc/{lirc_dev}/device") if 'input' in _i]) == 1:
+                    # IR is an input
                     device['dir'] = 'in'
                     self.ir_rx_dev = lirc_dev
-                    self.ir_rx_driver = driver_name
                 else:
-                    raise AttributeError(f'Unable to determine direction of {lirc_dev}')
+                    # IR is a TX
+                    device['dir'] = 'out'
+                    self.ir_tx_dev = lirc_dev
             
             # make sure there is at least 1 send and 1 recieve device
             if self.ir_tx_dev is not None and self.ir_rx_dev is not None:
