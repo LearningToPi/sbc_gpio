@@ -1,0 +1,12 @@
+{
+    "led": 17,
+    "btn": 27,
+    "dht": 5,
+    "dht22": true,
+    "dht_spi": 0,
+    "bmx": 16,
+    "bmx_spi": 1,
+    "i2c": 1,
+    "uart_dev": "ttyS0",
+    "usb_dev": "ttyUSB0"
+}

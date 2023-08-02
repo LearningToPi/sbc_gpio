@@ -1,0 +1,14 @@
+{
+    "led": "GPIO1 - GREEN LED",
+    "btn": "??",
+    "dht": "??",
+    "dht22": true,
+    "dht_spi": "??",
+    "bmx": "??",
+    "bmx_spi": "??",
+    "i2c": "??",
+    "ir": true,
+    "uart_dev": "ttyS0 - GND RX TX (back right) - VOL2 GND VOL1 - IR RECV / IR TX",
+    "usb_dev": "ttyUSB0"
+}
+

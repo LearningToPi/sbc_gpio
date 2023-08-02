@@ -1,0 +1,13 @@
+2023-06-23 17:10:18,231 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1796 / 1796 iterations successful. 100.0%, pass theshold is 100%
+2023-06-23 17:10:18,236 - SBC_Tester - INFO - Test Button GPIOD PASSED: 0 / 0 iterations successful. 100%, pass theshold is 0%
+2023-06-23 17:10:18,242 - SBC_Tester - INFO - Test DHT11 over SPI PASSED: 1115 / 1260 iterations successful. 88.0%, pass theshold is 75.0%
+2023-06-23 17:10:18,249 - SBC_Tester - INFO - Test BMP280/BME280 over SPI PASSED: 3174 / 3174 iterations successful. 100.0%, pass theshold is 75.0%
+2023-06-23 17:10:18,254 - SBC_Tester - INFO - Test I2C Display PASSED: 2520 / 2520 iterations successful. 100.0%, pass theshold is 100%
+2023-06-23 17:10:18,260 - SBC_Tester - INFO - Test UART PASSED: 14322 / 14328 iterations successful. 100.0%, pass theshold is 75.0%
+2023-06-23 17:10:18,265 - SBC_Tester - INFO -     ttyS0: (7164/7164) (baud:recv/sent): 9600:1194/1194, 115200:1194/1194, 230400:1194/1194, 460800:1194/1194, 576000:1194/1194, 921600:1194/1194
+2023-06-23 17:10:18,269 - SBC_Tester - INFO -     ttyUSB0: (7158/7164) (baud:recv/sent): 9600:1194/1194, 115200:1194/1194, 230400:1194/1194, 460800:1194/1194, 576000:1194/1194, 921600:1188/1194
+2023-06-23 17:10:18,274 - SBC_Tester - INFO -     ttyS0: (7164/7164) (bs:recv/sent): 64:1194/1194, 128:1194/1194, 256:1194/1194, 512:1194/1194, 1024:1194/1194, 2048:1194/1194
+2023-06-23 17:10:18,278 - SBC_Tester - INFO -     ttyUSB0: (7158/7164) (bs:recv/sent): 64:1194/1194, 128:1194/1194, 256:1192/1194, 512:1194/1194, 1024:1194/1194, 2048:1190/1194
+2023-06-23 17:10:18,282 - SBC_Tester - INFO - Completed test run for 3600 seconds.
+2023-06-23 17:10:18,288 - DevTest_UART - INFO - DevTest_UART: Closing ttyS0...
+2023-06-23 17:10:18,293 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB0...

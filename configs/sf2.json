@@ -1,0 +1,13 @@
+{
+    "led": "3A7",
+    "btn": "3B6",
+    "dht": "1D7",
+    "dht22": true,
+    "dht_spi": 0,
+    "bmx": "3B5",
+    "bmx_spi": 1,
+    "i2c": 0,
+    "ir": true,
+    "uart_dev": "ttyS2",
+    "usb_dev": "ttyUSB1"
+}

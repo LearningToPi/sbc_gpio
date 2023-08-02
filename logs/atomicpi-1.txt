@@ -1,0 +1,98 @@
+2023-06-27 22:05:48,986 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 150 / 150 iterations successful. 100.0%, pass theshold is 100%
+2023-06-27 22:05:48,987 - SBC_Tester - INFO - Test Button GPIOD PASSED: 0 / 0 iterations successful. 100%, pass theshold is 0%
+2023-06-27 22:05:48,987 - SBC_Tester - INFO - Test IR GPIO TX/RX FAILED: 2 / 213 iterations successful. 1.0%, pass theshold is 75.0%
+2023-06-27 22:05:48,988 - SBC_Tester - INFO - Test UART PASSED: 1197 / 1232 iterations successful. 97.0%, pass theshold is 75.0%
+2023-06-27 22:05:48,988 - SBC_Tester - INFO -     ttyS4: (616/616) (baud:recv/sent): 9600:106/106, 115200:102/102, 230400:102/102, 460800:102/102, 576000:102/102, 921600:102/102
+2023-06-27 22:05:48,989 - SBC_Tester - INFO -     ttyUSB0: (581/616) (baud:recv/sent): 9600:106/106, 115200:92/102, 230400:95/102, 460800:95/102, 576000:100/102, 921600:93/102
+2023-06-27 22:05:48,989 - SBC_Tester - INFO -     ttyS4: (616/616) (bs:recv/sent): 64:103/103, 128:103/103, 256:103/103, 512:103/103, 1024:102/102, 2048:102/102
+2023-06-27 22:05:48,990 - SBC_Tester - INFO -     ttyUSB0: (581/616) (bs:recv/sent): 64:102/103, 128:101/103, 256:101/103, 512:99/103, 1024:90/102, 2048:88/102
+2023-06-27 22:05:48,990 - SBC_Tester - INFO - Completed test run for 300 seconds.                                                                                                                     
+2023-06-27 22:05:49,036 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 62219 stopping...                                                                                                     
+2023-06-27 22:05:49,089 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 62223 stopping...                                                                                                     
+2023-06-27 22:05:50,213 - GpioOut - INFO - GpioOut (chip:3,pin:18): Releasing GPIO...                                                                                                                 
+2023-06-27 22:05:50,214 - GpioOut - INFO - GpioOut (chip:3,pin:18): Releasing GPIO...                                                                                                                 
+2023-06-27 22:05:50,215 - DevTest_UART - INFO - DevTest_UART: Closing ttyS4...
+2023-06-27 22:05:50,215 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB0...
+
+
+
+
+2023-06-27 22:12:47,886 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 150 / 150 iterations successful. 100.0%, pass theshold is 100%
+2023-06-27 22:12:47,887 - SBC_Tester - INFO - Test Button GPIOD PASSED: 0 / 0 iterations successful. 100%, pass theshold is 0%
+2023-06-27 22:12:47,888 - SBC_Tester - INFO - Test IR GPIO TX/RX FAILED: 10 / 213 iterations successful. 5.0%, pass theshold is 75.0%
+2023-06-27 22:12:47,889 - SBC_Tester - INFO - Test UART PASSED: 1205 / 1232 iterations successful. 98.0%, pass theshold is 75.0%
+2023-06-27 22:12:47,889 - SBC_Tester - INFO -     ttyS4: (616/616) (baud:recv/sent): 9600:106/106, 115200:102/102, 230400:102/102, 460800:102/102, 576000:102/102, 921600:102/102
+2023-06-27 22:12:47,890 - SBC_Tester - INFO -     ttyUSB0: (589/616) (baud:recv/sent): 9600:106/106, 115200:93/102, 230400:98/102, 460800:97/102, 576000:98/102, 921600:97/102
+2023-06-27 22:12:47,890 - SBC_Tester - INFO -     ttyS4: (616/616) (bs:recv/sent): 64:103/103, 128:103/103, 256:103/103, 512:103/103, 1024:102/102, 2048:102/102
+2023-06-27 22:12:47,891 - SBC_Tester - INFO -     ttyUSB0: (589/616) (bs:recv/sent): 64:102/103, 128:101/103, 256:101/103, 512:102/103, 1024:94/102, 2048:89/102
+2023-06-27 22:12:47,891 - SBC_Tester - INFO - Completed test run for 300 seconds.
+2023-06-27 22:12:47,941 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 62714 stopping...
+2023-06-27 22:12:48,004 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 62718 stopping...
+2023-06-27 22:12:49,116 - GpioOut - INFO - GpioOut (chip:3,pin:18): Releasing GPIO...
+2023-06-27 22:12:49,117 - GpioOut - INFO - GpioOut (chip:3,pin:18): Releasing GPIO...
+2023-06-27 22:12:49,117 - DevTest_UART - INFO - DevTest_UART: Closing ttyS4...
+2023-06-27 22:12:49,118 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB0...
+
+
+#### I2C ENABLED, UART ENABLED, SPI DISABLED, IR DISABLED
+
+2023-06-28 07:23:37,652 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1798 / 1798 iterations successful. 100.0%, pass theshold is 100%
+2023-06-28 07:23:37,653 - SBC_Tester - INFO - Test Button GPIOD PASSED: 21 / 21 iterations successful. 100%, pass theshold is 0%
+2023-06-28 07:23:37,653 - SBC_Tester - INFO - Test I2C Display PASSED: 2977 / 2977 iterations successful. 100.0%, pass theshold is 100%
+2023-06-28 07:23:37,654 - SBC_Tester - INFO - Test UART PASSED: 14770 / 14770 iterations successful. 100.0%, pass theshold is 75.0%
+2023-06-28 07:23:37,654 - SBC_Tester - INFO -     ttyS4: (7385/7385) (baud:recv/sent): 9600:1235/1235, 115200:1230/1230, 230400:1230/1230, 460800:1230/1230, 576000:1230/1230, 921600:1230/1230
+2023-06-28 07:23:37,655 - SBC_Tester - INFO -     ttyUSB0: (7385/7385) (baud:recv/sent): 9600:1235/1235, 115200:1230/1230, 230400:1230/1230, 460800:1230/1230, 576000:1230/1230, 921600:1230/1230
+2023-06-28 07:23:37,655 - SBC_Tester - INFO -     ttyS4: (7385/7385) (bs:recv/sent): 64:1231/1231, 128:1231/1231, 256:1231/1231, 512:1231/1231, 1024:1231/1231, 2048:1230/1230
+2023-06-28 07:23:37,656 - SBC_Tester - INFO -     ttyUSB0: (7385/7385) (bs:recv/sent): 64:1231/1231, 128:1231/1231, 256:1231/1231, 512:1231/1231, 1024:1231/1231, 2048:1230/1230
+
+
+#### I2C ENABLED, UART ENABLED, SPI DISABLED, IR ENABLED
+
+2023-06-28 21:27:12,215 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1798 / 1798 iterations successful. 100.0%, pass theshold is 100%
+2023-06-28 21:27:12,216 - SBC_Tester - INFO - Test Button GPIOD PASSED: 0 / 0 iterations successful. 100%, pass theshold is 0%
+2023-06-28 21:27:12,216 - SBC_Tester - INFO - Test I2C Display FAILED: 1575 / 3002 iterations successful. 52.0%, pass theshold is 100%
+2023-06-28 21:27:12,217 - SBC_Tester - INFO - Test IR GPIO TX/RX FAILED: 0 / 2544 iterations successful. 0%, pass theshold is 75.0%
+2023-06-28 21:27:12,217 - SBC_Tester - INFO - Test UART PASSED: 14499 / 14760 iterations successful. 98.0%, pass theshold is 75.0%
+2023-06-28 21:27:12,218 - SBC_Tester - INFO -     ttyS4: (7380/7380) (baud:recv/sent): 9600:1230/1230, 115200:1230/1230, 230400:1230/1230, 460800:1230/1230, 576000:1230/1230, 921600:1230/1230
+2023-06-28 21:27:12,219 - SBC_Tester - INFO -     ttyUSB1: (7119/7380) (baud:recv/sent): 9600:1230/1230, 115200:1156/1230, 230400:1163/1230, 460800:1190/1230, 576000:1208/1230, 921600:1172/1230
+2023-06-28 21:27:12,219 - SBC_Tester - INFO -     ttyS4: (7380/7380) (bs:recv/sent): 64:1230/1230, 128:1230/1230, 256:1230/1230, 512:1230/1230, 1024:1230/1230, 2048:1230/1230
+2023-06-28 21:27:12,219 - SBC_Tester - INFO -     ttyUSB1: (7119/7380) (bs:recv/sent): 64:1213/1230, 128:1219/1230, 256:1218/1230, 512:1197/1230, 1024:1155/1230, 2048:1117/1230
+2023-06-28 21:27:12,220 - SBC_Tester - INFO - Completed test run for 3600 seconds.
+2023-06-28 21:27:12,272 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 156660 stopping...
+2023-06-28 21:27:12,343 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 156664 stopping...
+2023-06-28 21:27:13,459 - GpioOut - INFO - GpioOut (chip:2,pin:18): Releasing GPIO...
+2023-06-28 21:27:13,460 - GpioOut - INFO - GpioOut (chip:2,pin:18): Releasing GPIO...
+2023-06-28 21:27:13,460 - DevTest_UART - INFO - DevTest_UART: Closing ttyS4...
+2023-06-28 21:27:13,461 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB1...
+
+
+#### I2C DISABLED, UART ENABLED, SPI0-BMX, IR ENABLED
+
+2023-06-29 06:30:47,657 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1798 / 1798 iterations successful. 100.0%, pass theshold is 100%
+2023-06-29 06:30:47,658 - SBC_Tester - INFO - Test BMP280/BME280 over SPI PASSED: 3241 / 3241 iterations successful. 100.0%, pass theshold is 75.0%
+2023-06-29 06:30:47,659 - SBC_Tester - INFO - Test IR GPIO TX/RX FAILED: 0 / 2543 iterations successful. 0%, pass theshold is 75.0%
+2023-06-29 06:30:47,660 - SBC_Tester - INFO - Test UART PASSED: 14466 / 14760 iterations successful. 98.0%, pass theshold is 75.0%
+2023-06-29 06:30:47,661 - SBC_Tester - INFO -     ttyS4: (7380/7380) (baud:recv/sent): 9600:1230/1230, 115200:1230/1230, 230400:1230/1230, 460800:1230/1230, 576000:1230/1230, 921600:1230/1230
+2023-06-29 06:30:47,662 - SBC_Tester - INFO -     ttyUSB1: (7086/7380) (baud:recv/sent): 9600:1230/1230, 115200:1147/1230, 230400:1150/1230, 460800:1198/1230, 576000:1208/1230, 921600:1153/1230
+2023-06-29 06:30:47,663 - SBC_Tester - INFO -     ttyS4: (7380/7380) (bs:recv/sent): 64:1230/1230, 128:1230/1230, 256:1230/1230, 512:1230/1230, 1024:1230/1230, 2048:1230/1230
+2023-06-29 06:30:47,664 - SBC_Tester - INFO -     ttyUSB1: (7086/7380) (bs:recv/sent): 64:1218/1230, 128:1217/1230, 256:1205/1230, 512:1190/1230, 1024:1159/1230, 2048:1097/1230
+2023-06-29 06:30:47,665 - SBC_Tester - INFO - Completed test run for 3600 seconds.
+2023-06-29 06:30:47,716 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 30448 stopping...
+2023-06-29 06:30:47,774 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 30452 stopping...
+
+#### I2C DISABLED, UART ENABLED, SPI0-BMX, IR DISABLED
+
+2023-07-06 17:48:23,007 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1798 / 1798 iterations successful. 100.0%, pass theshold is 100%
+2023-07-06 17:48:23,008 - SBC_Tester - INFO - Test BMP280/BME280 over SPI PASSED: 3235 / 3235 iterations successful. 100.0%, pass theshold is 75.0%
+2023-07-06 17:48:23,009 - SBC_Tester - INFO - Test UART PASSED: 14758 / 14764 iterations successful. 100.0%, pass theshold is 75.0%
+2023-07-06 17:48:23,010 - SBC_Tester - INFO -     ttyS4: (7382/7382) (baud:recv/sent): 9600:1232/1232, 115200:1230/1230, 230400:1230/1230, 460800:1230/1230, 576000:1230/1230, 921600:1230/1230
+2023-07-06 17:48:23,011 - SBC_Tester - INFO -     ttyUSB0: (7376/7382) (baud:recv/sent): 9600:1232/1232, 115200:1230/1230, 230400:1230/1230, 460800:1230/1230, 576000:1230/1230, 921600:1224/1230
+2023-07-06 17:48:23,011 - SBC_Tester - INFO -     ttyS4: (7382/7382) (bs:recv/sent): 64:1231/1231, 128:1231/1231, 256:1230/1230, 512:1230/1230, 1024:1230/1230, 2048:1230/1230
+2023-07-06 17:48:23,012 - SBC_Tester - INFO -     ttyUSB0: (7376/7382) (bs:recv/sent): 64:1231/1231, 128:1231/1231, 256:1230/1230, 512:1228/1230, 1024:1228/1230, 2048:1228/1230
+2023-07-06 17:48:23,013 - SBC_Tester - INFO - Completed test run for 3600 seconds.
+2023-07-06 17:48:23,014 - GpioOut - INFO - GpioOut (chip:2,pin:18): Releasing GPIO...
+2023-07-06 17:48:23,014 - GpioOut - INFO - GpioOut (chip:2,pin:18): Releasing GPIO...
+2023-07-06 17:48:23,015 - DevTest_UART - INFO - DevTest_UART: Closing ttyS4...
+2023-07-06 17:48:23,016 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB0...
+
+##### DHT FAIL

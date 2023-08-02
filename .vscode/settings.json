@@ -9,5 +9,9 @@
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true,
     "python.testing.cwd": "",
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    }
 }

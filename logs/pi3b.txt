@@ -1,0 +1,16 @@
+2023-06-26 00:04:04,443 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1794 / 1794 iterations successful. 100.0%, pass theshold is 100%
+2023-06-26 00:04:04,444 - SBC_Tester - INFO - Test Button GPIOD PASSED: 22 / 22 iterations successful. 100%, pass theshold is 0%
+2023-06-26 00:04:04,444 - SBC_Tester - INFO - Test DHT11 over SPI PASSED: 1552 / 1645 iterations successful. 94.0%, pass theshold is 75.0%
+2023-06-26 00:04:04,444 - SBC_Tester - INFO - Test BMP280/BME280 over SPI PASSED: 3247 / 3247 iterations successful. 100.0%, pass theshold is 75.0%
+2023-06-26 00:04:04,445 - SBC_Tester - INFO - Test I2C Display PASSED: 3153 / 3153 iterations successful. 100.0%, pass theshold is 100%
+2023-06-26 00:04:04,445 - SBC_Tester - INFO - Test IR GPIO TX/RX FAILED: 1651 / 2541 iterations successful. 65.0%, pass theshold is 75.0%
+2023-06-26 00:04:04,445 - SBC_Tester - INFO - Test UART PASSED: 12879 / 14048 iterations successful. 92.0%, pass theshold is 75.0%
+2023-06-26 00:04:04,445 - SBC_Tester - INFO -     ttyS0: (6910/7024) (baud:recv/sent): 9600:1060/1174, 115200:1170/1170, 230400:1170/1170, 460800:1170/1170, 576000:1170/1170, 921600:1170/1170
+2023-06-26 00:04:04,447 - SBC_Tester - INFO -     ttyUSB0: (5969/7024) (baud:recv/sent): 9600:709/1174, 115200:951/1170, 230400:1034/1170, 460800:1063/1170, 576000:1109/1170, 921600:1103/1170
+2023-06-26 00:04:04,447 - SBC_Tester - INFO -     ttyS0: (6910/7024) (bs:recv/sent): 64:1171/1171, 128:1171/1171, 256:1114/1171, 512:1114/1171, 1024:1170/1170, 2048:1170/1170
+2023-06-26 00:04:04,447 - SBC_Tester - INFO -     ttyUSB0: (5969/7024) (bs:recv/sent): 64:1117/1171, 128:982/1171, 256:1090/1171, 512:1014/1171, 1024:949/1170, 2048:817/1170
+2023-06-26 00:04:04,447 - SBC_Tester - INFO - Completed test run for 3600 seconds.
+2023-06-26 00:04:04,484 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 3504 stopping...
+2023-06-26 00:04:04,531 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 3518 stopping...
+2023-06-26 00:04:05,612 - DevTest_UART - INFO - DevTest_UART: Closing ttyS0...
+2023-06-26 00:04:05,613 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB0...
