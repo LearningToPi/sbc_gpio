@@ -36,10 +36,15 @@ class GpioOut(Generic_GpioOut):
         ''' Set the pin to on/high '''
         GPIO.output(self.gpio_pin, 1) # type: ignore
 
+    set_1 = set_high
+    set_on = set_high
+
     def set_low(self):
         ''' Set the pin to off/low '''
         GPIO.output(self.gpio_pin, 0) # type: ignore
 
+    set_0 = set_low
+    set_off = set_low
 
 
 class GpioIn(Generic_GpioIn):

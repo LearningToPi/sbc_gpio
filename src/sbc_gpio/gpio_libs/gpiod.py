@@ -18,23 +18,29 @@ class GpioOut(Generic_GpioOut):
         self.name = name if name is not None else f"chip:{gpio_chip},pin:{gpio_pin}"
         self.gpio_pin, self.gpio_chip = gpio_pin, gpio_chip
         # initialize the chip and pin
-        chip = gpiod.chip(int(gpio_chip), gpiod.chip.OPEN_BY_NUMBER)
-        self._pin = chip.get_line(int(self.gpio_pin))
-        pin_config = gpiod.line_request()
-        pin_config.consumer = name if name is not None else f'{self.info_str}-OUT'
-        pin_config.request_type = gpiod.line_request.DIRECTION_OUTPUT
-        self._logger.info(f"{self.info_str}: Requesting GPIO...")
-        self._pin.request(pin_config)
-
         try:
+            chip = gpiod.chip(int(gpio_chip), gpiod.chip.OPEN_BY_NUMBER)
+            self._pin = chip.get_line(int(self.gpio_pin))
+            pin_config = gpiod.line_request()
+            pin_config.consumer = name if name is not None else f'{self.info_str}-OUT'
+            pin_config.request_type = gpiod.line_request.DIRECTION_OUTPUT
             if pull == PULL.UP:
-                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_PULL_UP)
+                pin_config.flags = gpiod.line_request.FLAG_BIAS_PULL_UP
             elif pull == PULL.DOWN:
-                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_PULL_DOWN)
+                pin_config.flags = gpiod.line_request.FLAG_BIAS_PULL_DOWN
             else:
-                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_DISABLE)
+                pin_config.flags = gpiod.line_request.FLAG_BIAS_DISABLE
+            self._logger.info(f"{self.info_str}: Requesting GPIO...")
+            self._pin.request(pin_config)
         except Exception as e:
-            self._logger.warning(f"{self.info_str}: Unable to set pull. Platform may not be capable. Error: {e}")
+            self._logger.warning(f"{self.info_str}: Error aquiring pin, attempting without pull UP/DOWN bias. Error: {e}")
+            chip = gpiod.chip(int(gpio_chip), gpiod.chip.OPEN_BY_NUMBER)
+            self._pin = chip.get_line(int(self.gpio_pin))
+            pin_config = gpiod.line_request()
+            pin_config.consumer = name if name is not None else f'{self.info_str}-OUT'
+            pin_config.request_type = gpiod.line_request.DIRECTION_OUTPUT
+            self._logger.info(f"{self.info_str}: Requesting GPIO without pull UP/DOWN bias...")
+            self._pin.request(pin_config)
 
         if initial_state == 0:
             self.set_0()
@@ -53,10 +59,16 @@ class GpioOut(Generic_GpioOut):
     def set_high(self):
         ''' Set the pin to on/high '''
         self._pin.set_value(1)
+
+    set_1 = set_high
+    set_on = set_high
     
     def set_low(self):
         ''' Set the pin to off/low '''
         self._pin.set_value(0)
+
+    set_0 = set_low
+    set_off = set_low
 
 class GpioIn(Generic_GpioIn):
     ''' Class to represent an abstracted GPIO pin using the gpiod '''
@@ -65,25 +77,34 @@ class GpioIn(Generic_GpioIn):
         self.name = name if name is not None else f"chip:{gpio_chip},pin:{gpio_pin}"
         self.gpio_pin, self.gpio_chip = gpio_pin, gpio_chip
         # initialize the chip and pin
-        chip = gpiod.chip(str(gpio_chip), gpiod.chip.OPEN_BY_NUMBER)
-        self._pin = chip.get_line(int(self.gpio_pin))
-        pin_config = gpiod.line_request()
-        pin_config.consumer = name if name is not None else f'{self.info_str}-IN'
-        pin_config.request_type = gpiod.line_request.DIRECTION_INPUT
-        # set edge request - filter in loop
-        pin_config.request_type = gpiod.line_request.EVENT_BOTH_EDGES
-        self._logger.info(f"{self.info_str}: Requesting GPIO...")
-        self._pin.request(pin_config)
-
         try:
+            chip = gpiod.chip(str(gpio_chip), gpiod.chip.OPEN_BY_NUMBER)
+            self._pin = chip.get_line(int(self.gpio_pin))
+            pin_config = gpiod.line_request()
+            pin_config.consumer = name if name is not None else f'{self.info_str}-IN'
+            pin_config.request_type = gpiod.line_request.DIRECTION_INPUT
+            # set edge request - filter in loop
+            pin_config.request_type = gpiod.line_request.EVENT_BOTH_EDGES
             if pull == PULL.UP:
-                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_PULL_UP)
+                pin_config.flags = gpiod.line_request.FLAG_BIAS_PULL_UP
             elif pull == PULL.DOWN:
-                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_PULL_DOWN)
+                pin_config.flags = gpiod.line_request.FLAG_BIAS_PULL_DOWN
             else:
-                self._pin.set_flags(gpiod.line_request.FLAG_BIAS_DISABLE)
+                pin_config.flags = gpiod.line_request.FLAG_BIAS_DISABLE
+            self._logger.info(f"{self.info_str}: Requesting GPIO...")
+            self._pin.request(pin_config)
         except Exception as e:
-            self._logger.warning(f"{self.info_str}: Unable to set pull. Platform may not be capable. Error: {e}")
+            self._logger.warning(f"{self.info_str}: Error aquiring pin, attempting without pull UP/DOWN bias. Error: {e}")
+            chip = gpiod.chip(str(gpio_chip), gpiod.chip.OPEN_BY_NUMBER)
+            self._pin = chip.get_line(int(self.gpio_pin))
+            pin_config = gpiod.line_request()
+            pin_config.consumer = name if name is not None else f'{self.info_str}-IN'
+            pin_config.request_type = gpiod.line_request.DIRECTION_INPUT
+            # set edge request - filter in loop
+            pin_config.request_type = gpiod.line_request.EVENT_BOTH_EDGES
+            self._logger.info(f"{self.info_str}: Requesting GPIO (without pull UP/DOWN bias)...")
+            self._pin.request(pin_config)
+
         self._stop_thread = False
         self._edge_thread = None
         if start_polling:
