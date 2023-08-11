@@ -1,6 +1,6 @@
 [project]
 name = "sbc_gpio"
-version = "1.0.3"
+version = "1.1.0"
 description = "Python Library for abstraction GPIO and for SBC testing"
 authors = [{name = "Thomas Dunteman", email= "git@learningtopi.com"}]
 keywords = ["sbc", "gpio", "overlays"]

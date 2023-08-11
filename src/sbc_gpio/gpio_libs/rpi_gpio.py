@@ -11,6 +11,10 @@ from time import time, sleep
 from datetime import timedelta
 
 
+NAME = 'RPi.GPIO'
+VERSION = (1,0,0)
+
+
 # initialization
 GPIO.setmode(GPIO.BCM) # type: ignore
 GPIO.setwarnings(False) # type: ignore

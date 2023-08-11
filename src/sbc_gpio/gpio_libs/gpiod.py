@@ -11,6 +11,10 @@ from ._generic_gpio import GpioIn as Generic_GpioIn, GpioOut as Generic_GpioOut
 from logging_handler import INFO
 
 
+NAME = 'gpiod'
+VERSION = (1,0,0)
+
+
 class GpioOut(Generic_GpioOut):
     ''' Class to represent an abstracted GPIO pin using the gpiod '''
     def __init__(self, gpio_pin, gpio_chip, name=None, pull=PULL.NONE, log_level=INFO, initial_state=0):
