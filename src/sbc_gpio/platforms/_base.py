@@ -99,6 +99,7 @@ class SbcPlatform_Base:
             # GPIO (string or int) is valid
             return True
         return False
+    gpio_is_valud = gpio_valid
         
     def gpio_convert(self, gpio) -> int|None:
         ''' Return the GPIO converted to an integer '''
