@@ -95,7 +95,7 @@ class SbcPlatform_Base:
             self._logger.warning(f"{self.info_str}: No list of valid GPIO values available. Assuming '{gpio}' is valid.")
             # No list of valid gpios.  Must assume everything is ok
             return True
-        if self.gpio_convert(gpio) and gpio in self.gpio_valid_values:
+        if self.gpio_convert(gpio) in self.gpio_valid_values:
             # GPIO (string or int) is valid
             return True
         return False
