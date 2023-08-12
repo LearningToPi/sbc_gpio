@@ -90,7 +90,7 @@ class devtesterTest(unittest.TestCase):
 
     def test_4_dht(self):
         logger.info('===================================== %s', self._testMethodName)
-        pin = platform.convert_gpio_tuple(test_vars.get('dht'))
+        pin = platform.gpio_tuple(test_vars.get('dht'))
         dht_tester = DevTest_DHT(int(test_vars.get('dht_spi', 0)), pin, log_level=INFO, dht22=test_vars.get('dht22', False))
         logger.info('----------------- Test 10 iterations blocking')
         dht_tester.start(iterations=10, wait=True)
@@ -103,7 +103,7 @@ class devtesterTest(unittest.TestCase):
 
     def test_5_bmx(self):
         logger.info('===================================== %s', self._testMethodName)
-        pin = platform.convert_gpio_tuple(test_vars.get('bmx'))
+        pin = platform.gpio_tuple(test_vars.get('bmx'))
         bmx_tester = DevTest_BMX(int(test_vars.get('bmx_spi', 1)), pin, log_level=INFO)
         logger.info('----------------- Test 10 iterations blocking')
         bmx_tester.start(iterations=10, wait=True)
@@ -144,9 +144,9 @@ class devtesterTest(unittest.TestCase):
 
     def test_7_threading(self):
         logger.info('===================================== %s', self._testMethodName)
-        bmx_pin = platform.convert_gpio_tuple(test_vars.get('bmx'))
+        bmx_pin = platform.gpio_tuple(test_vars.get('bmx'))
         bmx_tester = DevTest_BMX(1, bmx_pin, log_level=INFO)
-        dht_pin = platform.convert_gpio_tuple(test_vars.get('dht'))
+        dht_pin = platform.gpio_tuple(test_vars.get('dht'))
         dht_tester = DevTest_DHT(0, dht_pin, log_level=INFO, dht22=True)
         btn_pin = platform.get_gpio_in(test_vars.get('btn'), event=EVENT.RISING)
         btn_tester = DevTest_Button(btn_pin, log_level=INFO)
