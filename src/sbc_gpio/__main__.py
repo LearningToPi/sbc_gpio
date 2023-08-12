@@ -100,7 +100,7 @@ from . import SBCPlatform
 
 
 def run_test(run_secs=60, log_file='', led=None, btn=None, dht=None, ir=None, dht_spi=None, dht22=False, bmx=None, bmx_spi=None, i2c=None, log_level=INFO,
-             uart_dev=None, usb_dev=None):
+             uart_dev=None, usb_dev=None, spi_cs=None):
     ''' Run a basic set of tests on the specified devices.  All tests are run in parallel for a number of seconds.'''
     logger = create_logger(console_level=log_level, name='SBC_Tester', log_file=log_file, file_level=log_level)
 
@@ -206,7 +206,8 @@ if __name__ == '__main__':
             'i2c': 7,
             'ir': True,
             "uart_dev": "ttyS0",
-            "usb_dev": "ttyUSB0"
+            "usb_dev": "ttyUSB0",
+            "spi_cs": 0
         }
         if os.path.isfile(args.get('config', 'sample-config.json')):
             print(f"Config file '{args.get('config', 'sample-config.json')}' already exists")
