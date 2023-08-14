@@ -103,7 +103,7 @@ def run_test(run_secs=60, log_file='', led=None, btn=None, dht=None, ir=None, dh
              uart_dev=None, usb_dev=None, spi_cs=None):
     ''' Run a basic set of tests on the specified devices.  All tests are run in parallel for a number of seconds.'''
     logger = create_logger(console_level=log_level, name='SBC_Tester', log_file=log_file, file_level=log_level)
-    logger.debug(f'Running test for {run_secs} with the following-> LED: {led}, BTN: {btn}, DHT: {dht}, DHT_SPI: {dht_spi}, DHT22: {dht22}, IR: {ir}, BMX: {bmx}, BMX_SPI: {bmx_spi}, I2C: {i2c} UART_DEV: {uart_dev}, USB_DEV: {usb_dev}')
+    logger.debug(f'Running test for {run_secs} with the following-> LED: {led}, BTN: {btn}, DHT: {dht}, DHT_SPI: {dht_spi}, DHT22: {dht22}, IR: {ir}, BMX: {bmx}, BMX_SPI: {bmx_spi}, SPI_CS: {spi_cs}, I2C: {i2c} UART_DEV: {uart_dev}, USB_DEV: {usb_dev}')
 
     # loop through and start each test
     platform = SBCPlatform()
