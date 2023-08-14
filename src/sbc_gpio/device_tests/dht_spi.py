@@ -9,13 +9,13 @@ PASS_THRESHOLD = .75
 class DevTest_DHT(DevTest_Base):
     ''' Class for a DHT11 / DHT22 sensor using the dht11_spi library.
         The SPI bus is used to read the signals from the DHT sensor (vastly improved reliability over bit banging gpio library) '''
-    def __init__(self, spi_bus:int, gpio_tuple:tuple, dht22=False, log_level=INFO):
+    def __init__(self, spi_bus:int, gpio_tuple:tuple, dht22=False, log_level=INFO, spi_cs=0):
         super().__init__(log_level)
         self._gpio_tuple = gpio_tuple
         if dht22:
-            self._dht = DHT22_Spi(spiBus=spi_bus, cs_chip=self._gpio_tuple[0], cs_pin=self._gpio_tuple[1])
+            self._dht = DHT22_Spi(spiBus=spi_bus, cs_chip=self._gpio_tuple[0], cs_pin=self._gpio_tuple[1], cs=spi_cs)
         else:
-            self._dht = DHT11_Spi(spiBus=spi_bus, cs_chip=self._gpio_tuple[0], cs_pin=self._gpio_tuple[1])
+            self._dht = DHT11_Spi(spiBus=spi_bus, cs_chip=self._gpio_tuple[0], cs_pin=self._gpio_tuple[1], cs=spi_cs)
 
     def close(self):
         self._dht.close()

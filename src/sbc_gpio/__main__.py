@@ -120,12 +120,12 @@ def run_test(run_secs=60, log_file='', led=None, btn=None, dht=None, ir=None, dh
             logger.error('Unable to run BTN test. %i not a valid GPIO (%s)', btn, platform.gpio_valid_values)
     if dht is not None and dht != '' and isinstance(dht_spi, int):
         if platform.gpio_is_valid(dht):
-            tests.append(DevTest_DHT(spi_bus=dht_spi, dht22=dht22, gpio_tuple=platform.gpio_tuple(dht), log_level=log_level))
+            tests.append(DevTest_DHT(spi_bus=dht_spi, dht22=dht22, gpio_tuple=platform.gpio_tuple(dht), log_level=log_level, spi_cs=spi_cs if spi_cs is not None else 0))
         else:
             logger.error('Unable to run DHT test. %i not a valid GPIO (%s)', dht, platform.gpio_valid_values)
     if bmx is not None and bmx != '' and isinstance(bmx_spi, int):
         if platform.gpio_is_valid(bmx):
-            tests.append(DevTest_BMX(spi_bus=bmx_spi, gpio_tuple=platform.gpio_tuple(bmx), log_level=log_level))
+            tests.append(DevTest_BMX(spi_bus=bmx_spi, gpio_tuple=platform.gpio_tuple(bmx), log_level=log_level, spi_cs=spi_cs if spi_cs is not None else 0))
         else:
             logger.error('Unable to run BMX test. %i not a valid GPIO (%s)', bmx, platform.gpio_valid_values)
     if isinstance(i2c, int) and i2c in platform.i2c_buses():
