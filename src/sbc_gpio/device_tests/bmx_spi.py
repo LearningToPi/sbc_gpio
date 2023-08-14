@@ -12,7 +12,7 @@ class DevTest_BMX(DevTest_Base):
     def __init__(self, spi_bus:int, gpio_tuple:tuple, spi_cs=0, log_level=INFO):
         super().__init__(log_level)
         self._gpio_tuple = gpio_tuple
-        self._bmx = Bmx280Spi(spiBus=spi_bus, cs_chip=self._gpio_tuple[0], cs_pin=self._gpio_tuple[1], cs=0)
+        self._bmx = Bmx280Spi(spiBus=spi_bus, cs_chip=self._gpio_tuple[0], cs_pin=self._gpio_tuple[1], cs=spi_cs)
 
     def close(self):
         pass
