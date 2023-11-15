@@ -52,6 +52,8 @@ class SbcPlatformClass(SbcPlatform_Base):
     
     def gpio_tuple(self, gpio) -> tuple:
         ''' Take a string representing a GPIO and return it as a Tuple -> ([int chip], [int num])'''
+        if str(gpio).isnumeric():
+            return 0, int(gpio)
         match = re.search(self.gpio_re_format, gpio.upper())
         if not match:
             raise ValueError("Value " + gpio + " format did not match =>" + self.gpio_format)
