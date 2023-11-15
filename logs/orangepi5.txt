@@ -1,0 +1,40 @@
+############### BMX, no DHT ######################
+
+2023-08-15 08:10:00,911 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1798 / 1798 iterations successful. 100.0%, pass theshold is 100%
+2023-08-15 08:10:00,912 - SBC_Tester - INFO - Test Button GPIOD PASSED: 18 / 18 iterations successful. 100%, pass theshold is 0%
+2023-08-15 08:10:00,913 - SBC_Tester - INFO - Test BMP280/BME280 over SPI PASSED: 3248 / 3248 iterations successful. 100.0%, pass theshold is 75.0%
+2023-08-15 08:10:00,915 - SBC_Tester - INFO - Test I2C Display PASSED: 3191 / 3191 iterations successful. 100.0%, pass theshold is 100%
+2023-08-15 08:10:00,916 - SBC_Tester - INFO - Test IR GPIO TX/RX PASSED: 2543 / 2543 iterations successful. 100.0%, pass theshold is 75.0%
+2023-08-15 08:10:00,917 - SBC_Tester - INFO - Test UART PASSED: 15183 / 15184 iterations successful. 100.0%, pass theshold is 75.0%
+2023-08-15 08:10:00,918 - SBC_Tester - INFO -     ttyS0: (7592/7592) (baud:recv/sent): 9600:1266/1266, 115200:1266/1266, 230400:1266/1266, 460800:1266/1266, 576000:1266/1266, 921600:1262/1262
+2023-08-15 08:10:00,919 - SBC_Tester - INFO -     ttyUSB0: (7591/7592) (baud:recv/sent): 9600:1265/1266, 115200:1266/1266, 230400:1266/1266, 460800:1266/1266, 576000:1266/1266, 921600:1262/1262
+2023-08-15 08:10:00,919 - SBC_Tester - INFO -     ttyS0: (7592/7592) (bs:recv/sent): 64:1266/1266, 128:1266/1266, 256:1265/1265, 512:1265/1265, 1024:1265/1265, 2048:1265/1265
+2023-08-15 08:10:00,920 - SBC_Tester - INFO -     ttyUSB0: (7591/7592) (bs:recv/sent): 64:1266/1266, 128:1266/1266, 256:1265/1265, 512:1265/1265, 1024:1264/1265, 2048:1265/1265
+2023-08-15 08:10:00,920 - SBC_Tester - INFO - Completed test run for 3600 seconds.
+2023-08-15 08:10:01,040 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 2309 stopping...
+2023-08-15 08:10:01,089 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 2313 stopping...
+2023-08-15 08:10:02,221 - GpioOut - INFO - GpioOut (chip:4,pin:11): Releasing GPIO...
+2023-08-15 08:10:02,221 - GpioOut - INFO - GpioOut (chip:4,pin:11): Releasing GPIO...
+2023-08-15 08:10:02,222 - DevTest_UART - INFO - DevTest_UART: Closing ttyS0...
+2023-08-15 08:10:02,222 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB0...
+
+
+################ DHT, no BMX ######################
+
+2023-08-16 03:20:33,433 - SBC_Tester - INFO - Test LED Flash GPIOD PASSED: 1797 / 1797 iterations successful. 100.0%, pass theshold is 100%
+2023-08-16 03:20:33,434 - SBC_Tester - INFO - Test Button GPIOD PASSED: 0 / 0 iterations successful. 100%, pass theshold is 0%
+2023-08-16 03:20:33,435 - SBC_Tester - INFO - Test DHT11 over SPI PASSED: 1671 / 1676 iterations successful. 100.0%, pass theshold is 75.0%
+2023-08-16 03:20:33,435 - SBC_Tester - INFO - Test I2C Display PASSED: 3178 / 3178 iterations successful. 100.0%, pass theshold is 100%
+2023-08-16 03:20:33,436 - SBC_Tester - INFO - Test IR GPIO TX/RX PASSED: 2541 / 2541 iterations successful. 100.0%, pass theshold is 75.0%
+2023-08-16 03:20:33,437 - SBC_Tester - INFO - Test UART PASSED: 15143 / 15144 iterations successful. 100.0%, pass theshold is 75.0%
+2023-08-16 03:20:33,437 - SBC_Tester - INFO -     ttyS0: (7572/7572) (baud:recv/sent): 9600:1266/1266, 115200:1266/1266, 230400:1260/1260, 460800:1260/1260, 576000:1260/1260, 921600:1260/1260
+2023-08-16 03:20:33,438 - SBC_Tester - INFO -     ttyUSB0: (7571/7572) (baud:recv/sent): 9600:1265/1266, 115200:1266/1266, 230400:1260/1260, 460800:1260/1260, 576000:1260/1260, 921600:1260/1260
+2023-08-16 03:20:33,439 - SBC_Tester - INFO -     ttyS0: (7572/7572) (bs:recv/sent): 64:1262/1262, 128:1262/1262, 256:1262/1262, 512:1262/1262, 1024:1262/1262, 2048:1262/1262
+2023-08-16 03:20:33,439 - SBC_Tester - INFO -     ttyUSB0: (7571/7572) (bs:recv/sent): 64:1262/1262, 128:1262/1262, 256:1262/1262, 512:1262/1262, 1024:1262/1262, 2048:1261/1262
+2023-08-16 03:20:33,440 - SBC_Tester - INFO - Completed test run for 3600 seconds.
+2023-08-16 03:20:33,563 - DevTest_IR - INFO - DevTest_IR: lircd TX process pid: 4105 stopping...
+2023-08-16 03:20:33,601 - DevTest_IR - INFO - DevTest_IR: lircd RX process pid: 4109 stopping...
+2023-08-16 03:20:34,744 - GpioOut - INFO - GpioOut (chip:4,pin:11): Releasing GPIO...
+2023-08-16 03:20:34,744 - GpioOut - INFO - GpioOut (chip:4,pin:11): Releasing GPIO...
+2023-08-16 03:20:34,744 - DevTest_UART - INFO - DevTest_UART: Closing ttyS0...
+2023-08-16 03:20:34,745 - DevTest_UART - INFO - DevTest_UART: Closing ttyUSB0...
