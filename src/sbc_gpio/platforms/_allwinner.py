@@ -17,7 +17,7 @@ from sbc_gpio.dynamic_dts import DynamicOverlay
 from ._generic import set_gpio_flags
 
 # select the gpio library for the platform
-from sbc_gpio.gpio_libs.gpiod import GpioIn, GpioOut #pylint: disable=W0611,C0411
+from sbc_gpio.gpio_libs.lib_gpiod import GpioIn, GpioOut #pylint: disable=W0611,C0411
 
 GPIO_FORMAT = 'GPIO Format for Allwinner is P<group><num>. i.e. PC7, PG7'
 

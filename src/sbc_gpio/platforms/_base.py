@@ -9,7 +9,7 @@ from sbc_gpio import DIR, EVENT, PULL
 from sbc_gpio.gpio_libs._generic_gpio import GpioIn, GpioOut
 
 # select the gpio library for the platform
-import sbc_gpio.gpio_libs.gpiod as gpiod
+import sbc_gpio.gpio_libs.lib_gpiod as lib_gpiod
 
 # List of dict - platforms supported by this definition
 SUPPORTED_PLATFORMS = [
@@ -17,7 +17,7 @@ SUPPORTED_PLATFORMS = [
         'model': 'abc123',
         'description': 'test abc123',
         'gpio_valid_values': [1,2,3,4,5,6,7,8,9,10],
-        'gpio_lib': gpiod,
+        'gpio_lib': lib_gpiod,
         'identifiers': [
             {'type': 'file', 'contents': 'abc123'}
         ],
@@ -161,7 +161,7 @@ class SbcPlatform_Base:
             return self.model is not None
         return True
     
-    def get_gpio_out(self, gpio_id, name=None, pull=PULL.NONE, log_level=INFO, initial_state=0) -> GpioIn:
+    def get_gpio_out(self, gpio_id, name=None, pull=PULL.NONE, log_level=INFO, initial_state=0) -> GpioOut:
         ''' Get a gpio out pin.  Gpio_id can be a string (passed to convert), an int, or a tuple (chip, pin) '''
         if not self.platform_matched:
             raise ValueError(f'{self.info_str}: Platform has not been identified')

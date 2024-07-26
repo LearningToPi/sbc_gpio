@@ -13,7 +13,7 @@ import string
 from ._base import SbcPlatform_Base
 
 # select the gpio library for the platform
-import sbc_gpio.gpio_libs.gpiod as gpiod
+import sbc_gpio.gpio_libs.lib_gpiod as lib_gpiod
 
 # List of dict - platforms supported by this definition
 SUPPORTED_PLATFORMS = [
@@ -21,7 +21,7 @@ SUPPORTED_PLATFORMS = [
         'model': 'CB1',
         'description': 'Bigtree CB1',
         'gpio_valid_values': [71,78,76,74,231,232,230,198,70,79,224,225,77,75,73,200,199,201,234,72],
-        'gpio_lib': gpiod,
+        'gpio_lib': lib_gpiod,
         'identifiers': [
             {'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': '^BQ-H616$'}
         ],

@@ -6,7 +6,7 @@ import re
 from ._base import SbcPlatform_Base
 
 # select the gpio library for the platform
-import sbc_gpio.gpio_libs.gpiod as gpiod
+import sbc_gpio.gpio_libs.lib_gpiod as lib_gpiod
 
 # List of dict - platforms supported by this definition
 SUPPORTED_PLATFORMS = [
@@ -14,7 +14,7 @@ SUPPORTED_PLATFORMS = [
         'model': 'atom-z8350',
         'description': 'Intel Atom x5-Z8350',
         'gpio_valid_values': [335, 332, 338, 329, 336, 330, 348, 346],
-        'gpio_lib': gpiod,
+        'gpio_lib': lib_gpiod,
         'identifiers': [
             {'type': 'file', 'file': '/proc/cpuinfo', 'contents': 'x5-Z8350'}
         ],

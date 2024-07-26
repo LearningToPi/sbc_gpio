@@ -5,7 +5,7 @@ Supported platforms: Most modern SBC devices that support the libgpiod kernel dr
 import gpiod
 from threading import Thread
 from time import time
-from datetime import timedelta
+from datetime import timedelta, datetime
 from sbc_gpio import PULL, EVENT
 from ._generic_gpio import GpioIn as Generic_GpioIn, GpioOut as Generic_GpioOut
 from logging_handler import INFO
@@ -128,13 +128,6 @@ class GpioIn(Generic_GpioIn):
         ''' Background thread to watch for rising or falling edge '''
         triggered = False
 
-        def call_event(event, triggered):
-            if self.callback is not None:
-                self._logger.debug(f"{self.info_str}: {EVENT.RISING.upper() if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING.upper()} state: {triggered}")
-                Thread(target=self.callback, kwargs={'event': EVENT.RISING if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING,
-                      'time': time(), 'state': triggered}).start()
-            else:
-                self._logger.info(f"{self.info_str}: {EVENT.RISING.upper() if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING.upper()} state: {triggered}")
 
         while True and not self._stop_thread:
             try:
@@ -148,15 +141,21 @@ class GpioIn(Generic_GpioIn):
                         if self.event != EVENT.BOTH:
                             if (self.event == EVENT.RISING and event.event_type == gpiod.line_event.RISING_EDGE) or (self.event == EVENT.FALLING and event.event_type == gpiod.line_event.FALLING_EDGE):
                                 triggered = True
-                                call_event(event, triggered)
+                                self._call_event(timestamp=datetime.timestamp(event.timestamp) if event.timestamp is not None else time(),
+                                                 event=EVENT.RISING if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING,
+                                                 triggered=triggered)
                         # otherwise need to track when we are triggered so we don't alert to a release if there was no press!
                         else:
                             if (event.event_type == gpiod.line_event.RISING_EDGE and self.pull == PULL.DOWN) or (event.event_type == gpiod.line_event.FALLING_EDGE and self.pull != PULL.DOWN):
                                 triggered = True
-                                call_event(event, triggered)
+                                self._call_event(timestamp=datetime.timestamp(event.timestamp) if event.timestamp is not None else time(),
+                                                 event=EVENT.RISING if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING,
+                                                 triggered=triggered)
                             elif triggered:
                                 triggered = False
-                                call_event(event, triggered)
+                                self._call_event(timestamp=datetime.timestamp(event.timestamp) if event.timestamp is not None else time(),
+                                                 event=EVENT.RISING if event.event_type == gpiod.line_event.RISING_EDGE else EVENT.FALLING,
+                                                 triggered=triggered)
                             
                     event = None
             except Exception as e:

@@ -7,7 +7,7 @@ from collections import namedtuple
 from sbc_gpio import PLATFORM_INFO
 
 # select the gpio library for the platform
-from sbc_gpio.gpio_libs.gpiod import GpioIn, GpioOut #pylint: disable=W0611,C0411
+from sbc_gpio.gpio_libs.lib_gpiod import GpioIn, GpioOut #pylint: disable=W0611,C0411
 
 SERIAL_NUMBER = None
 

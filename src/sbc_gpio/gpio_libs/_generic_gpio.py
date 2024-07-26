@@ -5,6 +5,7 @@ across all gpio libraries.
 from logging_handler import create_logger
 from threading import Thread, Lock
 from sbc_gpio import EVENT
+from time import time
 
 class Gpio:
     ''' Base GPIO functions that can be used for all input or output GPIO's '''
@@ -72,7 +73,7 @@ class GpioIn(Gpio):
             self._edge_thread.start()
 
     @property
-    def state(self):
+    def state(self) -> int:
         ''' Return current state of the input pin '''
         pass
 
@@ -86,3 +87,11 @@ class GpioIn(Gpio):
     def _event_thread(self):
         ''' Backgroun thread to watch for rising or falling edges '''
         pass
+
+    def _call_event(self, timestamp:float, event:str, triggered:bool):
+        if self.callback is not None:
+            self._logger.debug(f"{self.info_str}: {event.upper()} state: {triggered}")
+            Thread(target=self.callback, kwargs={'event': event,
+                    'timestamp': timestamp, 'state': triggered, 'gpio': self.name}).start()
+        else:
+            self._logger.info(f"{self.info_str}: {event.upper()} state: {triggered}")

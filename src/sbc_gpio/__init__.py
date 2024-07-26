@@ -3,9 +3,17 @@ import os
 from importlib import import_module
 from .platforms._base import SbcPlatform_Base
 
+VERSION = (1,0,5)
+
+#### KEEPING FOR BACKWARDS COMPAT FOR NOW
+from collections import namedtuple
+PLATFORM_INFO = namedtuple('PLATFORM_INFO', ('gpio_valid_values', 'dynamic_overlay_dir', 'dynamic_overlays',
+                                             'config_file', 'update_extlinux_script', 'extlinux_conf', 'local'))
+####
+
 PLATFORM_BASE_DIR = os.path.join(os.path.dirname(__file__), 'platforms')
 
-def SBCPlatform(list_only=False, log_level=INFO):
+def SBCPlatform(list_only=False, log_level=INFO) -> SbcPlatform_Base:
     ''' Identify the platform and return the SbcPlatformClass that matches '''
     logger = create_logger(console_level=log_level, name=__name__)
 

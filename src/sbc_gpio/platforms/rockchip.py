@@ -6,7 +6,7 @@ import re
 from ._base import SbcPlatform_Base
 
 # select the gpio library for the platform
-import sbc_gpio.gpio_libs.gpiod as gpiod
+import sbc_gpio.gpio_libs.lib_gpiod as lib_gpiod
 
 # List of dict - platforms supported by this definition
 SUPPORTED_PLATFORMS = [
@@ -14,7 +14,7 @@ SUPPORTED_PLATFORMS = [
         'model': 'OrangePi5',
         'description': 'Orange Pi 5',
         'gpio_valid_values': [47,46,54,138,139,28,49,48,50,131,132,29,59,58,92,52,35],
-        'gpio_lib': gpiod,
+        'gpio_lib': lib_gpiod,
         'identifiers': [
             {'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': '^Orange Pi 5$'}
         ],
@@ -26,7 +26,7 @@ SUPPORTED_PLATFORMS = [
         'model': 'Rock5B',
         'description': 'Radxa Rock 5B',
         'gpio_valid_values': [139,138,115,113,111,112,42,41,43,150,63,47,103,110,13,14,109,100,148,44,45,149,114,105,106,107],
-        'gpio_lib': gpiod,
+        'gpio_lib': lib_gpiod,
         'identifiers': [
             {'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': '^Radxa ROCK 5B'}
         ],

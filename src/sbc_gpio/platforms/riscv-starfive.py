@@ -6,7 +6,7 @@ import re
 from ._base import SbcPlatform_Base
 
 # select the gpio library for the platform
-import sbc_gpio.gpio_libs.gpiod as gpiod
+import sbc_gpio.gpio_libs.lib_gpiod as lib_gpiod
 
 # List of dict - platforms supported by this definition
 SUPPORTED_PLATFORMS = [
@@ -14,7 +14,7 @@ SUPPORTED_PLATFORMS = [
         'model': 'VisionFive-2',
         'description': 'StarFive VisionFive V2',
         'gpio_valid_values': [58, 57, 55, 42, 43, 47, 52, 53, 48, 45, 37, 39, 59, 63, 60, 5, 6, 38, 54, 51, 50, 49, 56, 40, 46, 36, 61, 44],
-        'gpio_lib': gpiod,
+        'gpio_lib': lib_gpiod,
         'identifiers': [
             {'type': 'file', 'file': '/sys/firmware/devicetree/base/model', 'contents': 'StarFive VisionFive V2'}
         ],
